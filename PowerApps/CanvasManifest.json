@@ -113,6 +113,8 @@
   },
   "ScreenOrder": [
     "HomeScreen",
-    "FromScreen"
+    "BasicFromScreen",
+    "DetailsFromScreen",
+    "AdditionalFromScreen"
   ]
 }
