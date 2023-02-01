@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr73c_projects_forms",
+      "Namespace": "MoProjects (Forms)",
+      "Values": {
+        "Information": "459e825a-f19d-4853-a4c6-8b71038fa8a7"
+      }
+    },
+    {
+      "Kind": "default.cds_cr73c_moaccount_forms",
+      "Namespace": "MoAccounts (Forms)",
+      "Values": {
+        "Information": "1a733d6c-b09e-4136-b0db-f262b4b6076f"
+      }
+    }
+  ]
+}

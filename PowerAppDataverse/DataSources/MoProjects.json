@@ -1,0 +1,107 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr73c_projectses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr73c_projects",
+    "Name": "MoProjects",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr73c_Client": "Client",
+      "cr73c_cost": "Cost",
+      "cr73c_cost_base": "Cost (Base)",
+      "cr73c_coverimage": "Cover Image",
+      "cr73c_coverimageid": "cr73c_CoverImageId",
+      "cr73c_cr73c_moprojectstasks_Project_cr73c_proje": "MoProjectsTasks",
+      "cr73c_enddate": "End Date",
+      "cr73c_name": "Name",
+      "cr73c_projects_AsyncOperations": "System Jobs",
+      "cr73c_projects_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr73c_Projects_cr73c_MoUsers_cr73c_MoUser": "MoUsers",
+      "cr73c_projects_DuplicateBaseRecord": "Duplicate Records (cr73c_projects_DuplicateBaseRecord)",
+      "cr73c_projects_DuplicateMatchingRecord": "Duplicate Records (cr73c_projects_DuplicateMatchingRecord)",
+      "cr73c_projects_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr73c_projects_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr73c_projects_ProcessSession": "Process Sessions",
+      "cr73c_projects_SyncErrors": "Sync Errors",
+      "cr73c_projectsid": "Projects",
+      "cr73c_startdate": "Start Date",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "MoProjects",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "MoProjects (Views)",
+    "Name": "_cr73c_projects_views",
+    "RelatedEntityName": "MoProjects",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "187483cd-b342-4190-b0f7-31c9fa3f7dc7": "Active Projects",
+      "779b4867-c392-454d-ba7a-c895fce86d85": "Projects Advanced Find View",
+      "a5998417-58a1-406a-887c-f14de04a3394": "Inactive Projects",
+      "a991e0ba-8ae8-4495-a29d-1203a10fef20": "Projects Associated View",
+      "f8fb4b25-5cef-4660-a488-ab71426bcbff": "Projects Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (MoProjects)",
+    "Name": "cr73c_projects_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "MoProjects"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "MoProjects",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (MoProjects)",
+    "Name": "cr73c_projects_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "MoProjects"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "MoProjects",
+    "Type": "OptionSetInfo"
+  }
+]

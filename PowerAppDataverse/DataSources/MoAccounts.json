@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr73c_moaccounts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr73c_moaccount",
+    "Name": "MoAccounts",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr73c_company": "Company",
+      "cr73c_cr73c_projects_Client_cr73c_moaccount": "MoProjects",
+      "cr73c_email": "Email",
+      "cr73c_moaccount_AsyncOperations": "System Jobs",
+      "cr73c_moaccount_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr73c_moaccount_DuplicateBaseRecord": "Duplicate Records (cr73c_moaccount_DuplicateBaseRecord)",
+      "cr73c_moaccount_DuplicateMatchingRecord": "Duplicate Records (cr73c_moaccount_DuplicateMatchingRecord)",
+      "cr73c_moaccount_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr73c_moaccount_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr73c_moaccount_ProcessSession": "Process Sessions",
+      "cr73c_moaccount_SyncErrors": "Sync Errors",
+      "cr73c_moaccountid": "MoAccount",
+      "cr73c_name": "Name",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "MoAccounts",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "MoAccounts (Views)",
+    "Name": "_cr73c_moaccount_views",
+    "RelatedEntityName": "MoAccounts",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00d1bcfc-6409-48c9-bce0-7a4c34e3f29d": "MoAccount Associated View",
+      "7b2f069b-da33-4d79-8ab1-735d4fd240f3": "MoAccount Lookup View",
+      "9cda1942-66b7-4932-be96-0d88fc3afca8": "Active MoAccounts",
+      "ed9d15fa-c5bf-4d69-b6ff-8b005be7a815": "MoAccount Advanced Find View",
+      "fe050e99-5fa0-4d07-b929-61aa73c26fda": "Inactive MoAccounts"
+    }
+  },
+  {
+    "DisplayName": "Status (MoAccounts)",
+    "Name": "cr73c_moaccount_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "MoAccounts"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "MoAccounts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (MoAccounts)",
+    "Name": "cr73c_moaccount_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "MoAccounts"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "MoAccounts",
+    "Type": "OptionSetInfo"
+  }
+]
