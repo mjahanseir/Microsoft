@@ -1,5 +1,121 @@
 HomeScreen As screen:
 
+    "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        Height: =911
+        Items: =Contacts
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Y: =225
+        ZIndex: =1
+
+        Title2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Full Name'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Email
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title2.Y + Title2.Height + 2
+            ZIndex: =2
+
+        Body1 As label:
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Business Phone'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Subtitle2.Y + Subtitle2.Height + 4
+            ZIndex: =3
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(246, 88, 16, 1)
+            Height: =60
+            Icon: =Icon.Edit
+            OnSelect: |-
+                =ResetForm(BasicInfoForm);
+                ResetForm(DetailsForm);
+                ResetForm(AdditionalForm);
+                Set(
+                    varFormData,
+                    ThisItem
+                );
+                Set(
+                    varFormMode,
+                    FormMode.Edit
+                );
+                Navigate(BasicInfoForm)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+        NextArrow2_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(246, 88, 16, 1)
+            Height: =60
+            Icon: =Icon.NextArrow
+            OnSelect: |-
+                =ResetForm(BasicInfoForm);
+                ResetForm(DetailsForm);
+                ResetForm(AdditionalForm);
+                Set(
+                    varFormData,
+                    ThisItem
+                );
+                Set(
+                    varFormMode,
+                    FormMode.View
+                );
+                Navigate(BasicInfoForm)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =528
+            Y: =54
+            ZIndex: =6
+
     Rectangle1_4 As rectangle:
         BorderColor: =RGBA(246, 88, 16, 1)
         Fill: =RGBA(166, 58, 8, 1)
@@ -65,7 +181,20 @@ HomeScreen As screen:
     Icon1 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Add
-        OnSelect: =ResetForm(BasicInfoForm); ResetForm(DetailsForm); ResetForm(AdditionalForm); Set(varFormData,Defaults(Contacts));Navigate(BasicInfoForm)
+        OnSelect: |-
+            =ResetForm(BasicInfoForm);
+            ResetForm(DetailsForm);
+            ResetForm(AdditionalForm);
+            Set(
+                varFormData,
+                Defaults(Contacts)
+            );
+            
+            Set(
+                varFormMode,
+                FormMode.Edit
+            );
+            Navigate(BasicInfoForm)
         X: =556
         Y: =115
         ZIndex: =7

@@ -2,6 +2,7 @@ BasicFromScreen As screen:
 
     BasicInfoForm As form:
         DataSource: =Contacts
+        DefaultMode: =varFormMode
         Height: =926
         Item: =varFormData
         Width: =640

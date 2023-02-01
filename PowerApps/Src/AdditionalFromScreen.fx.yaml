@@ -2,6 +2,7 @@ AdditionalFromScreen As screen:
 
     AdditionalForm As form:
         DataSource: =Contacts
+        DefaultMode: =varFormMode
         Height: =963
         Item: =varFormData
         Width: =640
@@ -330,6 +331,7 @@ AdditionalFromScreen As screen:
             )
         Size: =24
         Text: ="Submit"
+        Visible: =varFormMode<>FormMode.View
         Width: =193
         X: =413
         Y: =1052

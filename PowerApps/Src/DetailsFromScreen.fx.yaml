@@ -2,6 +2,7 @@ DetailsFromScreen As screen:
 
     DetailsForm As form:
         DataSource: =Contacts
+        DefaultMode: =varFormMode
         Height: =961
         Item: =varFormData
         Width: =640
