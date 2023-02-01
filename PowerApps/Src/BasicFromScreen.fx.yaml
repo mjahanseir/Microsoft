@@ -414,7 +414,7 @@ BasicFromScreen As screen:
 
     Icon3 As icon.NextArrow:
         Color: =RGBA(246, 88, 16, 1)
-        DisplayMode: =If(BasicInfoForm.Valid,Edit)
+        DisplayMode: =If(BasicInfoForm.Valid,DisplayMode.Edit, Disabled)
         Icon: =Icon.NextArrow
         OnSelect: =Navigate(DetailsForm)
         X: =330

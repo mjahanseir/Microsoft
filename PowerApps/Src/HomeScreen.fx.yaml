@@ -65,7 +65,7 @@ HomeScreen As screen:
     Icon1 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Add
-        OnSelect: =Set(varFormData,Defaults(Contacts));Navigate(BasicInfoForm)
+        OnSelect: =ResetForm(BasicInfoForm); ResetForm(DetailsForm); ResetForm(AdditionalForm); Set(varFormData,Defaults(Contacts));Navigate(BasicInfoForm)
         X: =556
         Y: =115
         ZIndex: =7

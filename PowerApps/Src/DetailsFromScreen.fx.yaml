@@ -524,7 +524,7 @@ DetailsFromScreen As screen:
 
     Icon3_1 As icon.NextArrow:
         Color: =RGBA(246, 88, 16, 1)
-        DisplayMode: =If(DetailsForm.Valid,DisplayMode.Edit)
+        DisplayMode: =If(DetailsForm.Valid,DisplayMode.Edit, Disabled)
         Icon: =Icon.NextArrow
         OnSelect: =Navigate(AdditionalFromScreen)
         X: =328
