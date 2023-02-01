@@ -1,0 +1,60 @@
+FromScreen As screen:
+
+    Form1 As form:
+        Width: =640
+        Y: =40
+        ZIndex: =6
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =6
+
+        Rectangle1 As rectangle:
+            BorderColor: =RGBA(246, 88, 16, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Width: =640
+            ZIndex: =1
+
+        Label1 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =70
+            Size: =28
+            Text: ="Work Item Form"
+            Width: =371
+            X: =132
+            Y: =15
+            ZIndex: =2
+
+        Icon2 As icon.Waffle:
+            Color: =RGBA(128, 128, 128, 1)
+            Icon: =Icon.Waffle
+            X: =51
+            Y: =21
+            ZIndex: =3
+
+        Icon2_1 As icon.Waffle:
+            Color: =RGBA(255, 255, 255, 0.3)
+            Height: =100
+            Icon: =Icon.Waffle
+            Width: =115
+            X: =25
+            ZIndex: =4
+
+        Image1 As image:
+            BorderColor: =RGBA(253, 222, 207, 1)
+            Fill: =RGBA(253, 222, 207, 1)
+            Image: =head
+            PaddingBottom: =
+            PaddingTop: =
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            X: =520
+            ZIndex: =5
+
