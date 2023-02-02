@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr73c_moaccount",
+    "MaxGetRowsCount": 500,
     "Name": "MoAccounts",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

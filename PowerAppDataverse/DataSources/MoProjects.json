@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr73c_projects",
+    "MaxGetRowsCount": 500,
     "Name": "MoProjects",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
