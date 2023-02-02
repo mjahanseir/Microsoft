@@ -15,7 +15,7 @@ Screen1 As screen:
             Image: =ThisItem.Image
             OnSelect: =Select(Parent)
             Width: =96
-            X: =16
+            X: =17
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
