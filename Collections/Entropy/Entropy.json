@@ -4,43 +4,76 @@
   "ControlUniqueIds": {
     "App": 1,
     "CameraDevice": 5,
+    "Gallery1": 8,
+    "galleryTemplate1": 9,
+    "Image5": 17,
+    "NextArrow2": 19,
     "PhotoDescription": 7,
-    "Screen1": 3
+    "Screen1": 3,
+    "Separator2": 20,
+    "Title2": 18
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2023 06:00:01",
+  "HeaderLastSavedDateTimeUTC": "02/02/2023 06:05:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "book_img_esty_01": "359e8389-2bfa-44cd-8cd6-9cda4b0a64d9.png",
+    "book_img_esty_02": "66907293-5e3b-467f-990a-e6ae35678858.png"
+  },
+  "LocalResourceRootPaths": {
+    "book_img_esty_01": "https://docserverpwaprodcca.blob.core.windows.net/fa4fca4b-39a3-4268-90ac-28f7c7d55c64-1/resource/5ee4a491-8d98-4910-a341-547551ecc930.png?sv=2017-04-17&sr=b&sig=XBm%2FYLov6Rz124Y1YHB6QmfIBBvLjPmhlvdNUjI20d4%3D&spr=https&se=2023-02-03T06%3A15%3A58Z&sp=r",
+    "book_img_esty_02": "https://docserverpwaprodcca.blob.core.windows.net/fa4fca4b-39a3-4268-90ac-28f7c7d55c64-1/resource/003c4bea-c386-4b31-9548-b04f54def442.png?sv=2017-04-17&sr=b&sig=mrPYwS1CKHBgjJGNP%2B2d%2BXB%2BQ4pZsoXb9azpdoO57Sg%3D&spr=https&se=2023-02-03T06%3A16%3A01Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "MyColletion": 0
+    "CustomGallerySample": 0,
+    "MyCollection": 2,
+    "MyColletion": 1
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "camera": 1,
+    "gallery": 2,
+    "icon": 4,
+    "image": 3,
+    "label": 5,
+    "rectangle": 6,
     "text": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "CameraDevice": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Image5": {},
+    "NextArrow2": {},
     "PhotoDescription": {},
-    "Screen1": {}
+    "Screen1": {},
+    "Separator2": {},
+    "Title2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "App": 0,
     "CameraDevice": 1,
+    "Gallery1": 2,
+    "galleryTemplate1": 3,
+    "Image5": 4,
+    "NextArrow2": 5,
     "PhotoDescription": 0,
-    "Screen1": 0
+    "Screen1": 0,
+    "Separator2": 7,
+    "Title2": 6
   },
   "ResourcesJsonIndices": {
+    "Image-book_img_esty_01": 1,
+    "Image-book_img_esty_02": 2,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},
