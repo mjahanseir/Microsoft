@@ -3,12 +3,13 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Image1": 4,
+    "CameraDevice": 5,
+    "PhotoDescription": 7,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2023 05:55:24",
+  "HeaderLastSavedDateTimeUTC": "02/02/2023 06:00:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -16,22 +17,27 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "MyColletion": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "image": 0
+    "camera": 1,
+    "text": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Image1": {},
+    "CameraDevice": {},
+    "PhotoDescription": {},
     "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Image1": 0,
+    "CameraDevice": 1,
+    "PhotoDescription": 0,
     "Screen1": 0
   },
   "ResourcesJsonIndices": {

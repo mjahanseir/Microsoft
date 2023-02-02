@@ -1,7 +1,21 @@
 Screen1 As screen:
 
-    Image1 As image:
-        X: =40
-        Y: =40
+    CameraDevice As camera:
+        Camera: =0
+        Height: =600
+        OnSelect: |-
+            =Collect(MyColletion,{Image:CameraDevice.Photo,Text:PhotoDescription.Text})
+        Width: =628
+        X: =64
+        Y: =132
         ZIndex: =1
+
+    PhotoDescription As text:
+        Default: =""
+        Height: =50
+        HintText: ="Type in photo text here"
+        Width: =388
+        X: =64
+        Y: =68
+        ZIndex: =2
 
