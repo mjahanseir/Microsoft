@@ -1,25 +1,16 @@
 Screen1 As screen:
 
-    CameraDevice As camera:
-        Camera: =0
-        Height: =600
-        OnSelect: |-
-            =Collect(MyColletion,{Image:CameraDevice.Photo,Text:PhotoDescription.Text})
-        Width: =628
-        X: =64
-        Y: =132
-        ZIndex: =1
-
-    "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
-        Items: =MyColletion
+    "Gallery2 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
+        Height: =562
+        Items: =MyCollection
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =Min(128, Self.Height - 60)
-        X: =715
-        Y: =132
+        TemplateSize: =74
+        X: =726
+        Y: =118
         ZIndex: =1
 
-        Image5 As image:
+        Image7 As image:
             Height: =96
             Image: =ThisItem.Image
             OnSelect: =Select(Parent)
@@ -28,7 +19,7 @@ Screen1 As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Title2 As label:
+        Title4 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -37,12 +28,12 @@ Screen1 As screen:
             PaddingTop: =0
             Text: =ThisItem.Text
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image5.Width - 104
-            X: =Image5.X + Image5.Width + 24
+            Width: =Parent.TemplateWidth - Image7.Width - 104
+            X: =Image7.X + Image7.Width + 24
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =2
 
-        NextArrow2 As icon.ChevronRight:
+        NextArrow4 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -58,12 +49,22 @@ Screen1 As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =3
 
-        Separator2 As rectangle:
+        Separator4 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
+
+    CameraDevice As camera:
+        Camera: =0
+        Height: =600
+        OnSelect: |-
+            =Collect(MyCollection,{Image:CameraDevice.Photo,Text:PhotoDescription.Text})
+        Width: =628
+        X: =64
+        Y: =132
+        ZIndex: =1
 
     PhotoDescription As text:
         Default: =""
