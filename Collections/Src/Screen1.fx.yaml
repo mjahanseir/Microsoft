@@ -1,5 +1,15 @@
 Screen1 As screen:
 
+    CameraDevice As camera:
+        Camera: =0
+        Height: =600
+        OnSelect: |-
+            =Collect(MyCollection,{Image:CameraDevice.Photo,Text:PhotoDescription.Text})
+        Width: =628
+        X: =64
+        Y: =132
+        ZIndex: =1
+
     "Gallery2 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
         Height: =562
         Items: =MyCollection
@@ -8,7 +18,7 @@ Screen1 As screen:
         TemplateSize: =74
         X: =726
         Y: =118
-        ZIndex: =1
+        ZIndex: =2
 
         Image7 As image:
             Height: =96
@@ -56,16 +66,6 @@ Screen1 As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
 
-    CameraDevice As camera:
-        Camera: =0
-        Height: =600
-        OnSelect: |-
-            =Collect(MyCollection,{Image:CameraDevice.Photo,Text:PhotoDescription.Text})
-        Width: =628
-        X: =64
-        Y: =132
-        ZIndex: =1
-
     PhotoDescription As text:
         Default: =""
         Height: =50
@@ -73,13 +73,56 @@ Screen1 As screen:
         Width: =388
         X: =64
         Y: =68
-        ZIndex: =2
-
-    Button1 As button:
-        OnSelect: =Clear(MyCollection)
-        Text: ="Clear"
-        Width: =388
-        X: =64
-        Y: =692
         ZIndex: =3
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =6
+
+        btn_load As button:
+            Height: =74
+            OnSelect: =LoadData(MyCollection,"MyData")
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: |
+                =45
+            RadiusTopRight: =0
+            Text: ="Load Data"
+            Width: =239
+            X: =61
+            Y: =694
+            ZIndex: =4
+
+        btn_clear As button:
+            Fill: =RGBA(246, 88, 16, 1)
+            Height: =74
+            OnSelect: =Clear(MyCollection)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: |
+                =45
+            RadiusTopRight: =0
+            Text: ="Clear"
+            Width: =239
+            X: =260
+            Y: =694
+            ZIndex: =5
+
+        btn_save As button:
+            Fill: =RGBA(99, 139, 44, 1)
+            Height: =74
+            OnSelect: =SaveData(MyCollection,"MyData")
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: |
+                =45
+            RadiusTopRight: =0
+            Text: ="Save Data"
+            Width: =229
+            X: =470
+            Y: =694
+            ZIndex: =6
 
