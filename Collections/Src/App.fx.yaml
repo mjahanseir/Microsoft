@@ -1,5 +1,5 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |-
-        =Collect(MyCollection, {Image:book_img_esty_01, Text:"Welcome to the App"})
+        =ClearCollect(MyCollection, {Image:book_img_esty_01, Text:"Welcome to the App"},{Image:book_img_esty_02, Text:"Please capture your images"})
 

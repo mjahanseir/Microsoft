@@ -1,0 +1,27 @@
+Screen2 As screen:
+
+    Label1 As label:
+        Align: =Align.Center
+        Height: =47
+        Size: =23
+        Text: =Gallery2.Selected.Text
+        Width: =1220
+        X: =60
+        Y: =60
+        ZIndex: =2
+
+    Image2 As image:
+        Height: =537
+        Image: =Gallery2.Selected.Image
+        Width: =1220
+        X: =60
+        Y: =121
+        ZIndex: =3
+
+    Icon1 As icon.CancelBadge:
+        Icon: =Icon.CancelBadge
+        OnSelect: =Back()
+        X: =28
+        Y: =16
+        ZIndex: =4
+

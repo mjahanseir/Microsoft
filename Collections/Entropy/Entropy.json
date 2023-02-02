@@ -3,19 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "CameraDevice": 5,
-    "Gallery2": 21,
-    "galleryTemplate2": 22,
-    "Image7": 28,
-    "NextArrow4": 30,
-    "PhotoDescription": 7,
+    "CameraDevice": 11,
+    "Gallery2": 5,
+    "galleryTemplate2": 7,
+    "Icon1": 22,
+    "Image2": 21,
+    "Image7": 6,
+    "Label1": 20,
+    "NextArrow4": 8,
+    "PhotoDescription": 4,
     "Screen1": 3,
-    "Separator4": 31,
-    "Title4": 29
+    "Screen2": 12,
+    "Separator4": 10,
+    "Title4": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2023 06:09:42",
+  "HeaderLastSavedDateTimeUTC": "02/02/2023 20:56:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -24,8 +28,8 @@
     "book_img_esty_02": "66907293-5e3b-467f-990a-e6ae35678858.png"
   },
   "LocalResourceRootPaths": {
-    "book_img_esty_01": "https://docserverpwaprodcca.blob.core.windows.net/fa4fca4b-39a3-4268-90ac-28f7c7d55c64-1/resource/5ee4a491-8d98-4910-a341-547551ecc930.png?sv=2017-04-17&sr=b&sig=XBm%2FYLov6Rz124Y1YHB6QmfIBBvLjPmhlvdNUjI20d4%3D&spr=https&se=2023-02-03T06%3A15%3A58Z&sp=r",
-    "book_img_esty_02": "https://docserverpwaprodcca.blob.core.windows.net/fa4fca4b-39a3-4268-90ac-28f7c7d55c64-1/resource/003c4bea-c386-4b31-9548-b04f54def442.png?sv=2017-04-17&sr=b&sig=mrPYwS1CKHBgjJGNP%2B2d%2BXB%2BQ4pZsoXb9azpdoO57Sg%3D&spr=https&se=2023-02-03T06%3A16%3A01Z&sp=r"
+    "book_img_esty_01": "https://docserverpwaprodcca.blob.core.windows.net/8e813ee5-8c92-4bb6-8767-9a7fadd24d0c-1/resource/Assets0Images0359e8389-2bfa-44cd-8cd6-9cda4b0a64d9.png?sv=2017-04-17&sr=b&sig=btddKwH5%2FOIpxRGUjWyhCSEkGr1ANApfwFElD%2BOWEj4%3D&spr=https&se=2023-02-03T21%3A00%3A05Z&sp=r",
+    "book_img_esty_02": "https://docserverpwaprodcca.blob.core.windows.net/8e813ee5-8c92-4bb6-8767-9a7fadd24d0c-1/resource/Assets0Images066907293-5e3b-467f-990a-e6ae35678858.png?sv=2017-04-17&sr=b&sig=NHKPbgFAyrzWIYtTY4QtxT1MAfSje2FTAT2gxFrXfgk%3D&spr=https&se=2023-02-03T21%3A00%3A05Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -50,25 +54,33 @@
     "CameraDevice": {},
     "Gallery2": {},
     "galleryTemplate2": {},
+    "Icon1": {},
+    "Image2": {},
     "Image7": {},
+    "Label1": {},
     "NextArrow4": {},
     "PhotoDescription": {},
     "Screen1": {},
+    "Screen2": {},
     "Separator4": {},
     "Title4": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "CameraDevice": 7,
-    "Gallery2": 1,
-    "galleryTemplate2": 3,
-    "Image7": 2,
-    "NextArrow4": 4,
-    "PhotoDescription": 0,
+    "CameraDevice": 8,
+    "Gallery2": 2,
+    "galleryTemplate2": 4,
+    "Icon1": 9,
+    "Image2": 11,
+    "Image7": 3,
+    "Label1": 10,
+    "NextArrow4": 5,
+    "PhotoDescription": 1,
     "Screen1": 0,
-    "Separator4": 6,
-    "Title4": 5
+    "Screen2": 0,
+    "Separator4": 7,
+    "Title4": 6
   },
   "ResourcesJsonIndices": {
     "Image-book_img_esty_01": 1,
@@ -78,8 +90,19 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0139349,
-    "ControlCount": {},
+    "AnalysisLoadTime": 0.103569,
+    "ControlCount": {
+      "camera": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 1,
+      "rectangle": 1,
+      "screen": 1,
+      "text": 1
+    },
+    "DeserializationLoadTime": 1.3090303,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
