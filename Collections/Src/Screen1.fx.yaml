@@ -75,3 +75,11 @@ Screen1 As screen:
         Y: =68
         ZIndex: =2
 
+    Button1 As button:
+        OnSelect: =Clear(MyCollection)
+        Text: ="Clear"
+        Width: =388
+        X: =64
+        Y: =692
+        ZIndex: =3
+
