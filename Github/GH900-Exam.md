@@ -3,7 +3,7 @@
 
 [	study-guides[gh-900]	](	https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900	)
 
-###### [	GitHub Foundations Part 1 of 2	](	https://learn.microsoft.com/training/paths/github-foundations/	)###### 
+###### [	GitHub Foundations Part 1 of 2	](	https://learn.microsoft.com/training/paths/github-foundations/	) 
 
  [	1-1-Introduction to Git	](	https://learn.microsoft.com/en-us/training/modules/intro-to-git/	)
 
@@ -23,7 +23,7 @@
 
 
         
-###### [	GitHub Foundations Part 2 of 2	](	https://learn.microsoft.com/training/paths/github-foundations-2/	)###### 
+###### [	GitHub Foundations Part 2 of 2	](	https://learn.microsoft.com/training/paths/github-foundations-2/	)  
 
 [	2-1-Contribute to an open-source project on GitHub	](	https://learn.microsoft.com/en-us/training/modules/contribute-open-source/	)
 
