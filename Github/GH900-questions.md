@@ -1,488 +1,488 @@
-\# Microsoft GH-900 Cheat Sheet Exam
+# Microsoft GH-900 Cheat Sheet Exam
 
 
 
-\---
+ ---
 
 
 
-\## Question 1
+ ## Question 1
 
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*What are advantages of GitHub Projects over GitHub Projects Classic?\*\*  
-
-\*(Each answer presents a complete solution. Choose two.)\*
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Options:\*\*
+ * *What are advantages of GitHub Projects over GitHub Projects Classic? * *  
 
-\- A. GitHub Projects has multiple layout views.
-
-\- B. GitHub Projects has Insights.
-
-\- C. GitHub Projects are Copilot enabled.
-
-\- D. GitHub Projects can be connected to third-party tools.
+ *(Each answer presents a complete solution. Choose two.) *
 
 
 
-\*\*Answer:\*\*  
+ * *Options: * *
 
-✅ \*\*A, B\*\*
+ - A. GitHub Projects has multiple layout views.
+
+ - B. GitHub Projects has Insights.
+
+ - C. GitHub Projects are Copilot enabled.
+
+ - D. GitHub Projects can be connected to third-party tools.
 
 
 
-\*\*Explanation:\*\*  
+ * *Answer: * *  
+
+✅  * *A, B * *
+
+
+
+ * *Explanation: * *  
 
 GitHub Projects is a newer, more powerful version of project management within GitHub, offering enhanced features over the classic version.
 
 
 
-\- \*\*Multiple Layout Views:\*\*  
+ -  * *Multiple Layout Views: * *  
 
 &#x20; Option A is correct because GitHub Projects supports multiple views, such as board, table, and timeline views.
 
-\- \*\*Insights:\*\*  
+ -  * *Insights: * *  
 
 &#x20; Option B is correct because GitHub Projects provides insights and analytics for tracking progress.
 
 
 
-\*\*Incorrect Options:\*\*
+ * *Incorrect Options: * *
 
-\- \*\*C:\*\* Copilot is not directly integrated into GitHub Projects as a feature.
+ -  * *C: * * Copilot is not directly integrated into GitHub Projects as a feature.
 
-\- \*\*D:\*\* Both Projects and Projects Classic support third‑party integrations.
-
-
-
-📎 \*GitHub Docs: Managing Projects\*
+ -  * *D: * * Both Projects and Projects Classic support third‑party integrations.
 
 
 
-\---
+📎  *GitHub Docs: Managing Projects *
 
 
 
-\## Question 2
-
-\*\*Question Type:\*\* Multiple Choice  
+ ---
 
 
 
-\*\*Which of the following are advantages of saved replies?\*\*  
+ ## Question 2
 
-\*(Choose two.)\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Saved replies are tied to a GitHub user's personal account.
-
-\- B. Saved replies are allocated at the enterprise level.
-
-\- C. Saved replies allow reusable responses to issues and pull requests.
-
-\- D. Saved replies send auto notifications when a user is tagged.
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Answer:\*\*  
+ * *Which of the following are advantages of saved replies? * *  
 
-✅ \*\*A, C\*\*
+ *(Choose two.) *
 
 
 
-\*\*Explanation:\*\*
+ * *Options: * *
+
+ - A. Saved replies are tied to a GitHub user's personal account.
+
+ - B. Saved replies are allocated at the enterprise level.
+
+ - C. Saved replies allow reusable responses to issues and pull requests.
+
+ - D. Saved replies send auto notifications when a user is tagged.
+
+
+
+ * *Answer: * *  
+
+✅  * *A, C * *
+
+
+
+ * *Explanation: * *
 
 Saved replies help improve productivity and consistency.
 
 
 
-\- \*\*A:\*\* Saved replies belong to individual user accounts.
+ -  * *A: * * Saved replies belong to individual user accounts.
 
-\- \*\*C:\*\* They allow reuse of common responses.
-
-
-
-\*\*Incorrect Options:\*\*
-
-\- \*\*B:\*\* They are not enterprise‑wide.
-
-\- \*\*D:\*\* Saved replies do not trigger notifications.
+ -  * *C: * * They allow reuse of common responses.
 
 
 
-📎 \*GitHub Docs: Using Saved Replies\*
+ * *Incorrect Options: * *
+
+ -  * *B: * * They are not enterprise‑wide.
+
+ -  * *D: * * Saved replies do not trigger notifications.
 
 
 
-\---
+📎  *GitHub Docs: Using Saved Replies *
 
 
 
-\## Question 3
-
-\*\*Question Type:\*\* Multiple Choice  
+ ---
 
 
 
-\*\*What is displayed in the "Pinned Repositories" section of a GitHub profile?\*\*
+ ## Question 3
+
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Options:\*\*
-
-\- A. Most recently active repositories
-
-\- B. Personally selected repositories
-
-\- C. Organization-owned repositories
-
-\- D. Repositories with the most stars
+ * *What is displayed in the "Pinned Repositories" section of a GitHub profile? * *
 
 
 
-\*\*Answer:\*\*  
+ * *Options: * *
 
-✅ \*\*B\*\*
+ - A. Most recently active repositories
+
+ - B. Personally selected repositories
+
+ - C. Organization-owned repositories
+
+ - D. Repositories with the most stars
 
 
 
-\*\*Explanation:\*\*  
+ * *Answer: * *  
+
+✅  * *B * *
+
+
+
+ * *Explanation: * *  
 
 Pinned repositories are manually selected by the user to highlight key projects.
 
 
 
-\---
+ ---
 
 
 
-\## Question 4
+ ## Question 4
 
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*Which best describes GitHub Pages?\*\*
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Options:\*\*
-
-\- A. Webpages hosted and published through GitHub repositories
-
-\- B. Handles pagination for APIs
-
-\- C. Hosts long-form GitHub documentation
-
-\- D. Curated GitHub usage guides
+ * *Which best describes GitHub Pages? * *
 
 
 
-\*\*Answer:\*\*  
+ * *Options: * *
 
-✅ \*\*A\*\*
+ - A. Webpages hosted and published through GitHub repositories
+
+ - B. Handles pagination for APIs
+
+ - C. Hosts long-form GitHub documentation
+
+ - D. Curated GitHub usage guides
 
 
 
-\*\*Explanation:\*\*  
+ * *Answer: * *  
+
+✅  * *A * *
+
+
+
+ * *Explanation: * *  
 
 GitHub Pages allows users to host websites directly from repositories.
 
 
 
-\---
+ ---
 
 
 
-\## Question 5
+ ## Question 5
 
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*What are two main reasons to fork a repository?\*\*  
-
-\*(Choose two.)\*
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Options:\*\*
+ * *What are two main reasons to fork a repository? * *  
 
-\- A. Create an issue or discussion
-
-\- B. Propose changes to the base repository
-
-\- C. Create a new repository based on an existing one
-
-\- D. Create a new branch for a feature
+ *(Choose two.) *
 
 
 
-\*\*Answer:\*\*  
+ * *Options: * *
 
-✅ \*\*B, C\*\*
+ - A. Create an issue or discussion
 
+ - B. Propose changes to the base repository
 
+ - C. Create a new repository based on an existing one
 
-\*\*Explanation:\*\*
-
-\- \*\*B:\*\* Forks allow contribution via pull requests.
-
-\- \*\*C:\*\* Forking enables independent project development.
+ - D. Create a new branch for a feature
 
 
 
-\*\*Incorrect Options:\*\*
+ * *Answer: * *  
 
-\- \*\*A:\*\* Issues don’t require forks.
-
-\- \*\*D:\*\* Branches can be created without forking.
+✅  * *B, C * *
 
 
 
-📎 \*GitHub Docs: Fork a Repo\*  
+ * *Explanation: * *
 
-📎 \*GitHub Docs: About Forks\*
+ -  * *B: * * Forks allow contribution via pull requests.
 
-
-
-\---
+ -  * *C: * * Forking enables independent project development.
 
 
 
-\## Question 6
+ * *Incorrect Options: * *
 
-\*\*Question Type:\*\* Multiple Choice  
+ -  * *A: * * Issues don’t require forks.
 
-
-
-\*\*Which are pre-defined repository roles?\*\*  
-
-\*(Choose three.)\*
+ -  * *D: * * Branches can be created without forking.
 
 
 
-\*\*Options:\*\*
+📎  *GitHub Docs: Fork a Repo *  
 
-\- A. Security
-
-\- B. View
-
-\- C. Triage
-
-\- D. Maintain
-
-\- E. Delete
-
-\- F. Write
+📎  *GitHub Docs: About Forks *
 
 
 
-\*\*Answer:\*\*  
-
-✅ \*\*C, D, F\*\*
+ ---
 
 
 
-\*\*Explanation:\*\*
+ ## Question 6
+
+ * *Question Type: * * Multiple Choice  
+
+
+
+ * *Which are pre-defined repository roles? * *  
+
+ *(Choose three.) *
+
+
+
+ * *Options: * *
+
+ - A. Security
+
+ - B. View
+
+ - C. Triage
+
+ - D. Maintain
+
+ - E. Delete
+
+ - F. Write
+
+
+
+ * *Answer: * *  
+
+✅  * *C, D, F * *
+
+
+
+ * *Explanation: * *
 
 GitHub default roles include:
 
-\- \*\*Triage\*\*
+ -  * *Triage * *
 
-\- \*\*Maintain\*\*
+ -  * *Maintain * *
 
-\- \*\*Write\*\*
-
-
-
-\---
+ -  * *Write * *
 
 
 
-\## Question 7
-
-\*\*Question Type:\*\* Multiple Choice  
+ ---
 
 
 
-\*\*What can be customized for an individual Codespace?\*\*  
+ ## Question 7
 
-\*(Choose three.)\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Shell
-
-\- B. Branch protections
-
-\- C. Name
-
-\- D. Default editor
-
-\- E. Operating system
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Answer:\*\*  
+ * *What can be customized for an individual Codespace? * *  
 
-✅ \*\*A, C, D\*\*
+ *(Choose three.) *
 
 
 
-\*\*Explanation:\*\*
+ * *Options: * *
+
+ - A. Shell
+
+ - B. Branch protections
+
+ - C. Name
+
+ - D. Default editor
+
+ - E. Operating system
+
+
+
+ * *Answer: * *  
+
+✅  * *A, C, D * *
+
+
+
+ * *Explanation: * *
 
 Codespaces allow customization of:
 
-\- Shell
+ - Shell
 
-\- Name
+ - Name
 
-\- Default editor
+ - Default editor
 
 
 
-\---
+ ---
 
 
 
-\## Question 8
+ ## Question 8
 
-\*\*Question Type:\*\* Multiple Choice  
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*How can users receive ongoing updates about GitHub activity?\*\*
+ * *How can users receive ongoing updates about GitHub activity? * *
 
 
 
-\*\*Options:\*\*
+ * *Options: * *
 
-\- A. Automatically watch all repos with push access
+ - A. Automatically watch all repos with push access
 
-\- B. Upgrade to a paid account
+ - B. Upgrade to a paid account
 
-\- C. Subscribe to all activity in a repository
+ - C. Subscribe to all activity in a repository
 
-\- D. Customize future notification types
+ - D. Customize future notification types
 
 
 
-\*\*Answer:\*\*  
+ * *Answer: * *  
 
-✅ \*\*C\*\*
+✅  * *C * *
 
 
 
-\---
+ ---
 
 
 
-\## Question 9
+ ## Question 9
 
-\*\*Question Type:\*\* Multiple Choice  
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Where can you discover, browse, and install tools?\*\*
+ * *Where can you discover, browse, and install tools? * *
 
 
 
-\*\*Options:\*\*
+ * *Options: * *
 
-\- A. GitHub Marketplace
+ - A. GitHub Marketplace
 
-\- B. GitHub Apps
+ - B. GitHub Apps
 
-\- C. Organization settings
+ - C. Organization settings
 
-\- D. Explore
+ - D. Explore
 
 
 
-\*\*Answer:\*\*  
+ * *Answer: * *  
 
-✅ \*\*A\*\*
+✅  * *A * *
 
 
 
-\---
+ ---
 
 
 
-\## Question 10
+ ## Question 10
 
-\*\*Question Type:\*\* Multiple Choice  
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*Which best describes GitHub Copilot?\*\*
+ * *Which best describes GitHub Copilot? * *
 
 
 
-\*\*Options:\*\*
+ * *Options: * *
 
-\- A. VS Code extension for AI solutions
+ - A. VS Code extension for AI solutions
 
-\- B. Replaces software developers
+ - B. Replaces software developers
 
-\- C. AI pair programmer with autocomplete suggestions
+ - C. AI pair programmer with autocomplete suggestions
 
-\- D. Intelligent code search tool
+ - D. Intelligent code search tool
 
 
 
-\*\*Answer:\*\*  
+ * *Answer: * *  
 
-✅ \*\*C\*\*
+✅  * *C * *
 
 
 
-\---
+ ---
 
 
 
-\## Question 11
+ ## Question 11
 
-\*\*Question Type:\*\* Multiple Choice  
+ * *Question Type: * * Multiple Choice  
 
 
 
-\*\*GitHub Teams is better than GitHub Free because it offers:\*\*
+ * *GitHub Teams is better than GitHub Free because it offers: * *
 
 
 
-\*\*Options:\*\*
+ * *Options: * *
 
-\- A. Advanced tools in private repos
+ - A. Advanced tools in private repos
 
-\- B. SAML SSO and more Actions minutes
+ - B. SAML SSO and more Actions minutes
 
-\- C. Expanded storage and support
+ - C. Expanded storage and support
 
-\- D. More Actions minutes and Packages storage
+ - D. More Actions minutes and Packages storage
 
 
 
-\*\*Answer:\*\*  
+ * *Answer: * *  
 
-✅ \*\*B\*\*
+✅  * *B * *
 
 
 
-📎 \*GitHub Docs: About GitHub Teams\*
+📎  *GitHub Docs: About GitHub Teams *
 
 
 
-\-
+ -
 
