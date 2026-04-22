@@ -23,7 +23,7 @@
 
 
         
-###### [	GitHub Foundations Part 2 of 2	](	https://learn.microsoft.com/training/paths/github-foundations-2/	) ###### 
+###### [	GitHub Foundations Part 2 of 2	](	https://learn.microsoft.com/training/paths/github-foundations-2/	)###### 
 
 [	2-1-Contribute to an open-source project on GitHub	](	https://learn.microsoft.com/en-us/training/modules/contribute-open-source/	)
 
