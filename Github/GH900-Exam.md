@@ -1,488 +1,64 @@
-\# Microsoft GH-900 Cheat Sheet Exam
+	https://learn.microsoft.com			
+[	cert[GH-900]	](	https://learn.microsoft.com/en-us/credentials/certifications/github-foundations	)
 
+[	study-guides[gh-900]	](	https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900	)
 
+###### [	GitHub Foundations Part 1 of 2	](	https://learn.microsoft.com/training/paths/github-foundations/	)###### 
 
-\---
+ [	1-1-Introduction to Git	](	https://learn.microsoft.com/en-us/training/modules/intro-to-git/	)
 
+[	1-2-Introduction to GitHub	](	https://learn.microsoft.com/en-us/training/modules/introduction-to-github/	)
 
+[	1-3-Introduction to GitHub's products	](	https://learn.microsoft.com/en-us/training/modules/github-introduction-products/	)
 
-\## Question 1
+[	1-4-Configure code scanning on GitHub	](	https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/	)
 
-\*\*Question Type:\*\* Multiple Choice  
+[	1-5-Introduction to GitHub Copilot	](	https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/	)
 
+[	1-6-Code with GitHub Codespaces	](	https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/	)
 
+[	1-7-Manage your work with GitHub Projects	](	https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/	)
 
-\*\*What are advantages of GitHub Projects over GitHub Projects Classic?\*\*  
+[	1-8-Communicate effectively on GitHub using Markdown	](	https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/	)
 
-\*(Each answer presents a complete solution. Choose two.)\*
 
+        
+###### [	GitHub Foundations Part 2 of 2	](	https://learn.microsoft.com/training/paths/github-foundations-2/	) ###### 
 
+[	2-1-Contribute to an open-source project on GitHub	](	https://learn.microsoft.com/en-us/training/modules/contribute-open-source/	)
 
-\*\*Options:\*\*
+[	2-2-Manage an InnerSource program by using GitHub	](	https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/	)
 
-\- A. GitHub Projects has multiple layout views.
+[	2-3-Maintain a secure repository by using GitHub best practices	](	https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/	)
 
-\- B. GitHub Projects has Insights.
+[	2-4-Introduction to GitHub administration	](	https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/	)
 
-\- C. GitHub Projects are Copilot enabled.
+[	2-5-Authenticate and authorize user identities on GitHub	](	https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/	)
 
-\- D. GitHub Projects can be connected to third-party tools.
+[	2-6-Manage repository changes by using pull requests on GitHub	](	https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/	)
 
+[	2-7-Search and organize repository history by using GitHub	](	https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/	)
 
+[	2-8-Using GitHub Copilot with Python	](	https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/	)
 
-\*\*Answer:\*\*  
 
-✅ \*\*A, B\*\*
 
+#	 GH-900: GitHub Foundations 	#		
+	Microsoft Learn Youtube			
+[	Understanding version control systems  - Episode 1 - 44m	](	https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB	)
 
+[	Introduction to GitHub  - Episode 2 - 45m	](	https://www.youtube.com/watch?v=cCeC1QiQANU&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=2&pp=iAQB	)
 
-\*\*Explanation:\*\*  
+[	Introduction to GitHub products  - Episode 3 - 21m	](	https://www.youtube.com/watch?v=8kXOM4_Gkrw&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=3&pp=iAQB0gcJCaIKAYcqIYzv	)
 
-GitHub Projects is a newer, more powerful version of project management within GitHub, offering enhanced features over the classic version.
+[	Open source projects  - Episode 4 -32m	](	https://www.youtube.com/watch?v=XJ90bUuk7dI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=4&pp=iAQB	)
 
+[	Markdown  - Episode 5 - 21m	](	https://www.youtube.com/watch?v=nQeN4mzK87A&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=5&pp=iAQB	)
 
+[	GitHub Projects  - Episode 6 - 23m	](	https://www.youtube.com/watch?v=JG2yETY-_-U&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=6&pp=iAQB	)
 
-\- \*\*Multiple Layout Views:\*\*  
+[	GitHub Codespaces  - Episode 7 - 21 m	](	https://www.youtube.com/watch?v=KTJIW2WjMBo&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=7&pp=iAQB	)
 
-&#x20; Option A is correct because GitHub Projects supports multiple views, such as board, table, and timeline views.
+[	Security best practices  - Episode 8 - 42m	](	https://www.youtube.com/watch?v=r3mSenRkJsM&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=8&pp=iAQB	)
 
-\- \*\*Insights:\*\*  
-
-&#x20; Option B is correct because GitHub Projects provides insights and analytics for tracking progress.
-
-
-
-\*\*Incorrect Options:\*\*
-
-\- \*\*C:\*\* Copilot is not directly integrated into GitHub Projects as a feature.
-
-\- \*\*D:\*\* Both Projects and Projects Classic support third‑party integrations.
-
-
-
-📎 \*GitHub Docs: Managing Projects\*
-
-
-
-\---
-
-
-
-\## Question 2
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*Which of the following are advantages of saved replies?\*\*  
-
-\*(Choose two.)\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Saved replies are tied to a GitHub user's personal account.
-
-\- B. Saved replies are allocated at the enterprise level.
-
-\- C. Saved replies allow reusable responses to issues and pull requests.
-
-\- D. Saved replies send auto notifications when a user is tagged.
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*A, C\*\*
-
-
-
-\*\*Explanation:\*\*
-
-Saved replies help improve productivity and consistency.
-
-
-
-\- \*\*A:\*\* Saved replies belong to individual user accounts.
-
-\- \*\*C:\*\* They allow reuse of common responses.
-
-
-
-\*\*Incorrect Options:\*\*
-
-\- \*\*B:\*\* They are not enterprise‑wide.
-
-\- \*\*D:\*\* Saved replies do not trigger notifications.
-
-
-
-📎 \*GitHub Docs: Using Saved Replies\*
-
-
-
-\---
-
-
-
-\## Question 3
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*What is displayed in the "Pinned Repositories" section of a GitHub profile?\*\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Most recently active repositories
-
-\- B. Personally selected repositories
-
-\- C. Organization-owned repositories
-
-\- D. Repositories with the most stars
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*B\*\*
-
-
-
-\*\*Explanation:\*\*  
-
-Pinned repositories are manually selected by the user to highlight key projects.
-
-
-
-\---
-
-
-
-\## Question 4
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*Which best describes GitHub Pages?\*\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Webpages hosted and published through GitHub repositories
-
-\- B. Handles pagination for APIs
-
-\- C. Hosts long-form GitHub documentation
-
-\- D. Curated GitHub usage guides
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*A\*\*
-
-
-
-\*\*Explanation:\*\*  
-
-GitHub Pages allows users to host websites directly from repositories.
-
-
-
-\---
-
-
-
-\## Question 5
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*What are two main reasons to fork a repository?\*\*  
-
-\*(Choose two.)\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Create an issue or discussion
-
-\- B. Propose changes to the base repository
-
-\- C. Create a new repository based on an existing one
-
-\- D. Create a new branch for a feature
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*B, C\*\*
-
-
-
-\*\*Explanation:\*\*
-
-\- \*\*B:\*\* Forks allow contribution via pull requests.
-
-\- \*\*C:\*\* Forking enables independent project development.
-
-
-
-\*\*Incorrect Options:\*\*
-
-\- \*\*A:\*\* Issues don’t require forks.
-
-\- \*\*D:\*\* Branches can be created without forking.
-
-
-
-📎 \*GitHub Docs: Fork a Repo\*  
-
-📎 \*GitHub Docs: About Forks\*
-
-
-
-\---
-
-
-
-\## Question 6
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*Which are pre-defined repository roles?\*\*  
-
-\*(Choose three.)\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Security
-
-\- B. View
-
-\- C. Triage
-
-\- D. Maintain
-
-\- E. Delete
-
-\- F. Write
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*C, D, F\*\*
-
-
-
-\*\*Explanation:\*\*
-
-GitHub default roles include:
-
-\- \*\*Triage\*\*
-
-\- \*\*Maintain\*\*
-
-\- \*\*Write\*\*
-
-
-
-\---
-
-
-
-\## Question 7
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*What can be customized for an individual Codespace?\*\*  
-
-\*(Choose three.)\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Shell
-
-\- B. Branch protections
-
-\- C. Name
-
-\- D. Default editor
-
-\- E. Operating system
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*A, C, D\*\*
-
-
-
-\*\*Explanation:\*\*
-
-Codespaces allow customization of:
-
-\- Shell
-
-\- Name
-
-\- Default editor
-
-
-
-\---
-
-
-
-\## Question 8
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*How can users receive ongoing updates about GitHub activity?\*\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Automatically watch all repos with push access
-
-\- B. Upgrade to a paid account
-
-\- C. Subscribe to all activity in a repository
-
-\- D. Customize future notification types
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*C\*\*
-
-
-
-\---
-
-
-
-\## Question 9
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*Where can you discover, browse, and install tools?\*\*
-
-
-
-\*\*Options:\*\*
-
-\- A. GitHub Marketplace
-
-\- B. GitHub Apps
-
-\- C. Organization settings
-
-\- D. Explore
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*A\*\*
-
-
-
-\---
-
-
-
-\## Question 10
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*Which best describes GitHub Copilot?\*\*
-
-
-
-\*\*Options:\*\*
-
-\- A. VS Code extension for AI solutions
-
-\- B. Replaces software developers
-
-\- C. AI pair programmer with autocomplete suggestions
-
-\- D. Intelligent code search tool
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*C\*\*
-
-
-
-\---
-
-
-
-\## Question 11
-
-\*\*Question Type:\*\* Multiple Choice  
-
-
-
-\*\*GitHub Teams is better than GitHub Free because it offers:\*\*
-
-
-
-\*\*Options:\*\*
-
-\- A. Advanced tools in private repos
-
-\- B. SAML SSO and more Actions minutes
-
-\- C. Expanded storage and support
-
-\- D. More Actions minutes and Packages storage
-
-
-
-\*\*Answer:\*\*  
-
-✅ \*\*B\*\*
-
-
-
-📎 \*GitHub Docs: About GitHub Teams\*
-
-
-
-\-
-
+[	GitHub Copilot  - Episode 9 - 31m	](	https://www.youtube.com/watch?v=Nlvq-9--1qA&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=9&pp=iAQB	)
