@@ -44,7 +44,7 @@
 
 
 #	 GH-900: GitHub Foundations 	#		
-	Microsoft Learn Youtube			
+	Microsoft Learn YouTube			
 [	Understanding version control systems  - Episode 1 - 44m	](	https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB	)
 
 [	Introduction to GitHub  - Episode 2 - 45m	](	https://www.youtube.com/watch?v=cCeC1QiQANU&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=2&pp=iAQB	)
