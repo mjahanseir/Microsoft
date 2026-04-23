@@ -5,6 +5,7 @@
     "MinVersionToLoad": "1.326",
     "MSAppStructureVersion": "2.0"
   },
+  
   "Properties": {
     "AppCreationSource": "AppFromScratch",
     "AppDescription": "",
