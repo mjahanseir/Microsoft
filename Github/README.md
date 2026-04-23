@@ -9,5 +9,4 @@
 flowchart LR
     GH-900 --> GH-300 --> GH-100  --> GH-200 --> GH-500
 ```
-https://aka.ms/CertificationsPoster
-
+Pooster : https://aka.ms/CertificationsPoster
