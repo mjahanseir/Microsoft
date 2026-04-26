@@ -35,7 +35,11 @@
 - Summary
   
 [	2-2-Manage an InnerSource program by using GitHub	](	https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/	)
-
+- Introduction
+- How to manage a successful InnerSource program
+- Exercise - InnerSource fundamentals
+- Module assessment
+- Summary
 [	2-3-Maintain a secure repository by using GitHub best practices	](	https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/	)
 
 [	2-4-Introduction to GitHub administration	](	https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/	)
