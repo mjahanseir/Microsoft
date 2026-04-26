@@ -25,13 +25,13 @@
 ## [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
 
 [2-1-Contribute to an open-source project on GitHub](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/)
-- Introduction
-- Identify where you can help
-- Contribute to an open-source repository
-- Exercise - Create your first pull request
-- Next steps
-- Module assessment
-- Summary
+1. Introduction
+2. Identify where you can help
+3. Contribute to an open-source repository
+4. Exercise - Create your first pull request
+5. Next steps
+6. Module assessment
+7. Summary
   
 [2-2-Manage an InnerSource program by using GitHub](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/)
 - Introduction
