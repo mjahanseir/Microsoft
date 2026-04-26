@@ -41,12 +41,12 @@
 5. Summary
   
 [2-3-Maintain a secure repository by using GitHub best practices](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/)
-- Introduction
-- How to maintain a secure GitHub repository
-- Automated security
-- Exercise - Secure your repository's supply chain
-- Module assessment
-- Summary
+1. Introduction
+2. How to maintain a secure GitHub repository
+3. Automated security
+4. Exercise - Secure your repository's supply chain
+5. Module assessment
+6. Summary
   
 [2-4-Introduction to GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/)
 
