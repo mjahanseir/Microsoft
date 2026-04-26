@@ -1,6 +1,11 @@
 # GitHub #
 ### GitHub Roadmap ###
-- [GH-900 : GitHub Foundations](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations)
+- [GH-900] GitHub Foundations : 
+  [Exam-Topics](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Exam.md) | 
+  [Labs](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Labs.md) |
+  [Questions](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-questions.md) 
+
+  
 - [GH-100 : GitHub Administration](https://learn.microsoft.com/en-us/credentials/certifications/github-administration)
 - [GH-200 : GitHub Actions](https://learn.microsoft.com/en-us/credentials/certifications/github-actions)
 - [GH-300 : GitHub Copilot](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot)
