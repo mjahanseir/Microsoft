@@ -1,9 +1,8 @@
-	https://learn.microsoft.com			
-[cert[GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations)
+[Certification [GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations)
 
-[study-guides[gh-900]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
+[study-guides[GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 
-###### [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
+## [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
 
  [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
 
@@ -23,7 +22,7 @@
 
 
         
-###### [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
+## [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
 
 [2-1-Contribute to an open-source project on GitHub](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/)
 - Introduction
@@ -61,7 +60,7 @@
 
 
 
-#	 GH-900: GitHub Foundations 	#		
+# GH-900: GitHub Foundations		
 	Microsoft Learn YouTube			
 [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
 
