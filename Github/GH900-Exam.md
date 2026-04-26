@@ -9,6 +9,15 @@
 [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
 
 [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
+1. Introduction
+2. GitHub accounts and plans
+3. GitHub Mobile and GitHub Desktop
+4. GitHub billing
+5. License Usage Stats
+6. License Usage Stats in Machine and Peripheral Devices
+7. Metered Usage Reports
+8. Module assessment
+9. Summary
 
 [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
 
