@@ -26,7 +26,14 @@
 ###### [	GitHub Foundations Part 2 of 2	](	https://learn.microsoft.com/training/paths/github-foundations-2/	)  
 
 [	2-1-Contribute to an open-source project on GitHub	](	https://learn.microsoft.com/en-us/training/modules/contribute-open-source/	)
-
+- Introduction
+- Identify where you can help
+- Contribute to an open-source repository
+- Exercise - Create your first pull request
+- Next steps
+- Module assessment
+- Summary
+  
 [	2-2-Manage an InnerSource program by using GitHub	](	https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/	)
 
 [	2-3-Maintain a secure repository by using GitHub best practices	](	https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/	)
