@@ -47,6 +47,14 @@
 7. Summary
 
 [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
+1. Introduction
+2. Projects versus Projects Classic
+3. How to create a project
+4. How to organize your project
+5. How to organize and automate your project
+6. Insight and automation with projects
+7. Module assessment
+8. Summary
 
 [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
 
