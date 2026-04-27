@@ -17,4 +17,28 @@
 | Infrastructure as Code (Terraform)      | 3–4 weeks       | Advanced       |
 | Monitoring and Logging (Prometheus)     | 3–4 weeks       | Advanced       |
 | **Total**                               | **10–14 months**|                |
-``
+
+
+## Linux Fundamentals
+## Networking Concepts
+## Version Control (Git)
+## Programming Languages (Python)
+## Cloud Providers (AWS)
+## Containerization (Docker)
+## CI/CD (Jenkins)
+## Container Orchestration (Kubernetes)
+## Networking Services (Nginx)
+This involves setting up and managing services like reverse proxies, forward proxies, caching servers, firewalls, and load balancers. Understanding these services is crucial for optimizing application performance, managing network traffic, and ensuring security. They play a vital role in the architecture and operational stability of your applications. Nginx is a versatile tool for handling reverse proxies and load balancing. 
+Estimated Time: 3-4 weeks 
+Essential Concepts 
+- Setting up and configuring Nginx as a reverse proxy
+- Setting up forward proxies 
+- Implementing caching with Redis or Varnish 
+- Configuring firewalls and security groups (iptables, UFW 
+- Load balancing with HAProxy or AWS ELB 
+- SSL/TLS configuration for secure communications 
+- Troubleshooting network issues
+
+## Configuration Management (Ansible)
+## Infrastructure as Code (Terraform)	3–4 weeks	Advanced
+## Monitoring and Logging (Prometheus)	
