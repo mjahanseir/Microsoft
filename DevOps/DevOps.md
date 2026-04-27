@@ -20,6 +20,15 @@
 
 
 ## Linux Fundamentals
+Linux is an open-source operating system that's super popular for servers and development. As a DevOps engineer, you'll be setting up and maintaining the infrastructure where applications run. Most servers use Linux, so getting comfortable with it, especially the command line, is a must. Start with learning Bash, which is the most commonly used shell and scripting language in Linux. 
+- Estimated Time: 2-3 weeks 
+- Essential Concepts 
+  - Basic Linux commands (ls, cp, mv, rm, etc.) 
+  - File system hierarchy (/, /home, /etc, /var, etc.) 
+  - Permissions and ownership (chmod, chown) 
+  - Processes and signals (ps, top, kill) 
+  - Package management (apt, yum) 
+  - Shell scripting basics (variables, loops, conditionals, functions) 
 ## Networking Concepts
 ## Version Control (Git)
 ## Programming Languages (Python)
