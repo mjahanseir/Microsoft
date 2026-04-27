@@ -20,6 +20,13 @@
 9. Summary
 
 [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
+1. Introduction
+2. What is code scanning?
+3. Enable code scanning with third party tools
+4. Configure code scanning
+5. Configure code scanning exercise
+6. Module assessment
+7. Summary
 
 [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
 
