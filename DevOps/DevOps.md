@@ -53,6 +53,17 @@ Linux is an open-source operating system that's super popular for servers and de
   - Resolving merge conflicts
     
 ## Programming Languages (Python)
+- Programming languages like Python, Ruby, and Go are used to automate tasks and manage configurations. You'll need to write scripts to automate repetitive tasks, handle configurations, and integrate different tools. While there are several popular languages, I recommend Python for its simplicity, powerful libraries, and versatility. 
+- Estimated Time: 4-6 weeks 
+- Essential Concepts 
+  - Python syntax and data structures (lists, dictionaries, sets, tuples) 
+  - Modules and packages (importing and using libraries) 
+  - Writing and executing Python scripts 
+  - File handling (reading from and writing to files) 
+  - Error handling (try, except) 
+  - Automation scripts (using libraries like subprocess, os, sys) 
+  - Basic web scraping (using libraries like BeautifulSoup, requests)
+    
 ## Cloud Providers (AWS)
 ## Containerization (Docker)
 ## CI/CD (Jenkins)
