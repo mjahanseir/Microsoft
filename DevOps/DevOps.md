@@ -27,6 +27,17 @@
 ## Containerization (Docker)
 ## CI/CD (Jenkins)
 ## Container Orchestration (Kubernetes)
+- Orchestration tools like Kubernetes and Helm help automate the deployment, scaling, and management of containerized applications. These tools are essential for managing complex applications in production, ensuring they run smoothly, scale easily, and recover quickly from failures. Kubernetes is the leading orchestration tool you should learn. 
+- Estimated Time: 4-6 weeks 
+- Essential Concepts 
+  - Kubernetes architecture (master and worker nodes) 
+  - Kubernetes components (pods, services, deployments) 
+  - Managing resources in Kubernetes (namespaces, ConfigMaps, Secrets) 
+  - Scaling applications Horizontal Pod Autoscaler) 
+  - Helm basics (charts, repositories, releases) 
+  - Kubernetes networking (services, ingress) 
+  - Security in Kubernetes RBAC, network policies)
+- 
 ## Networking Services (Nginx)
 - This involves setting up and managing services like reverse proxies, forward proxies, caching servers, firewalls, and load balancers. Understanding these services is crucial for optimizing application performance, managing network traffic, and ensuring security. They play a vital role in the architecture and operational stability of your applications. Nginx is a versatile tool for handling reverse proxies and load balancing. 
 - Estimated Time: 3-4 weeks 
