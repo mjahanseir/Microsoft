@@ -57,7 +57,11 @@
 8. Summary
 
 [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
-
+1. Introduction
+2. What is Markdown?
+3. Exercise - Communicate using Markdown
+4. Module assessment
+5. Summary
 
         
 ## [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
