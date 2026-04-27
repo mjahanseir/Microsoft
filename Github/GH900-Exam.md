@@ -91,6 +91,13 @@
 6. Summary
   
 [2-4-Introduction to GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/)
+1. Introduction
+2. What is GitHub administration?
+3. How does GitHub authentication work?
+4. How does GitHub organization and permissions work?
+5. Managing enterprise access, permissions, and governance
+6. Module assessment
+7. Summary
 
 [2-5-Authenticate and authorize user identities on GitHub](https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/)
 
