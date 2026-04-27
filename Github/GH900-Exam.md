@@ -38,6 +38,13 @@
 7. Summary
 
 [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
+1. Introduction
+2. The Codespace lifecycle
+3. Personalize your Codespace
+4. Codespaces versus GitHub.dev editor
+5. Exercise - Code with Codespaces and Visual Studio Code
+6. Module assessment
+7. Summary
 
 [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
 
