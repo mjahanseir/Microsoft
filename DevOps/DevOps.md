@@ -28,8 +28,19 @@ Linux is an open-source operating system that's super popular for servers and de
   - Permissions and ownership (chmod, chown) 
   - Processes and signals (ps, top, kill) 
   - Package management (apt, yum) 
-  - Shell scripting basics (variables, loops, conditionals, functions) 
+  - Shell scripting basics (variables, loops, conditionals, functions)
+    
 ## Networking Concepts
+- Networking is all about how computers talk to each other, covering things like IP addresses and network protocols. You need to understand how data moves around, how to secure it, and how to troubleshoot network issues. This foundation is key to managing your infrastructure effectively. A great tool to get hands-on experience is Wireshark, which lets you analyze network traffic. 
+- Estimated Time: 2 weeks 
+- Essential Concepts 
+  - OSI and TCP/IP models 
+  - IP addressing and subnetting (IPv4, IPv6) 
+  - DNS and DHCP 
+  - Network protocols (HTTP, HTTPS, FTP, SSH, etc.) 
+  - Firewalls and security groups (iptables, UFW) 
+  - Basic network troubleshooting (ping, traceroute, netstat)
+    
 ## Version Control (Git)
 ## Programming Languages (Python)
 ## Cloud Providers (AWS)
