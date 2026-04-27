@@ -29,6 +29,13 @@
 7. Summary
 
 [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+1. Introduction
+2. GitHub Copilot, your AI pair programmer
+3. Interact with Copilot
+4. Set up, configure, and troubleshoot GitHub Copilot
+5. Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code
+6. Module assessment
+7. Summary
 
 [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
 
