@@ -42,6 +42,16 @@ Linux is an open-source operating system that's super popular for servers and de
   - Basic network troubleshooting (ping, traceroute, netstat)
     
 ## Version Control (Git)
+- Git is a version control system that lets you keep track of changes in your code and collaborate with others. It's essential for working on projects with a team, managing your code, tracking changes, and collaborating without overwriting each other's work. 
+- Estimated Time: 1-2 weeks 
+- Essential Concepts 
+  - Git basics and commands (clone, commit, push, pull) 
+  - Branching and merging 
+  - Working with remote repositories (GitHub, GitLab) 
+  - Pull requests and code reviews 
+  - Git workflows Git Flow, GitHub Flow) 
+  - Resolving merge conflicts
+    
 ## Programming Languages (Python)
 ## Cloud Providers (AWS)
 ## Containerization (Docker)
