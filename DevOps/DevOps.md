@@ -37,11 +37,10 @@
   - Helm basics (charts, repositories, releases) 
   - Kubernetes networking (services, ingress) 
   - Security in Kubernetes RBAC, network policies)
-- 
+
 ## Networking and Infrastructure Services 
 - This involves setting up and managing services like reverse proxies, forward proxies, caching servers, firewalls, and load balancers. Understanding these services is crucial for optimizing application performance, managing network traffic, and ensuring security. They play a vital role in the architecture and operational stability of your applications. **Nginx** is a versatile tool for handling reverse proxies and load balancing. 
 - Estimated Time: 3-4 weeks 
-
 - Essential Concepts 
   - Setting up and configuring Nginx as a reverse proxy
   - Setting up forward proxies 
