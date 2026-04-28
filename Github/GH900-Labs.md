@@ -53,19 +53,19 @@
    - [x] Lab 5: [Create your first pull request](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr)
 
 2.2. [Manage an InnerSource program by using GitHub](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/)
-    - [x] Lab 6: [InnerSource fundamentals](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/3-innersource-fundamentals)
+- [x] Lab 6: [InnerSource fundamentals](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/3-innersource-fundamentals)
 
 2.3. [Maintain a secure repository by using GitHub best practices](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/)
-    - [x] Lab 7: [Secure your repository's supply chain](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/3-security-strategy-essentials)
+- [x] Lab 7: [Secure your repository's supply chain](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/3-security-strategy-essentials)
 
 2.4. [Introduction to GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/)
 
 2.5. [Authenticate and authorize user identities on GitHub](https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/)
 
 2.6. [Manage repository changes by using pull requests on GitHub](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/)
-    - [x] Lab 8: [Reviewing pull requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/3-review-pull-requests)
+- [x] Lab 8: [Reviewing pull requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/3-review-pull-requests)
 
 2.7. [Search and organize repository history by using GitHub](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/)
-    - [x] Lab 9: [Connect the dots in a GitHub repository](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/3-connect-dots)
+- [x] Lab 9: [Connect the dots in a GitHub repository](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/3-connect-dots)
 2.8. [Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/)
     - [x] Lab 10: [Update a Python Web API with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api)
