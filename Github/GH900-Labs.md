@@ -69,4 +69,4 @@
 - [x] Lab 9: [Connect the dots in a GitHub repository](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/3-connect-dots)
 
 2.8. [Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/)
-    - [x] Lab 10: [Update a Python Web API with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api)
+- [x] Lab 10: [Update a Python Web API with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api)
