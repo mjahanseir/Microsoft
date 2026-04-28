@@ -1,3 +1,5 @@
+
+## List of Labs
 [	Lab 1: A guided tour of GitHub ](	https://learn.microsoft.com/en-us/training/modules/introduction-to-github/6-guided-tour-of-github	)
 
 [	Lab 2: Develop with AI-powered code suggestions by using GitHub Copilot  | Microsoft Learn	](	https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/5-exercise?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-foundations	)
@@ -17,3 +19,6 @@
 [	Lab 9: Connect the dots in a GitHub repository ](	https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/3-connect-dots	)
 
 [	Lab 10: Update a Python Web API with GitHub Copilot ](	https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api	)
+
+## List of Contents and Labs
+
