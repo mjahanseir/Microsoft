@@ -4,15 +4,224 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft</title>
+        <link rel="stylesheet" href="https://raw.githubusercontent.com/mjahanseir/mjahanseir.github.io/refs/heads/master/css/style.css" />
+
+    <link rel="icon"  href="https://raw.githubusercontent.com/mjahanseir/mjahanseir.github.io/refs/heads/master/learn/computer/Microsoft/pic/microsoft.ico" type="image/x-icon" />
+
+
+    <style>
+        body {
+            background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+            margin: auto auto;
+            width: 85%;
+            font-family: "Times New Roman", Times, serif;
+            background: linear-gradient(135deg, #87d4f0 25%, transparent 25%) -16px 0/ 32px 32px,
+                linear-gradient(225deg, #87d4f0 25%, transparent 25%) -16px 0/ 32px 32px,
+                linear-gradient(315deg, #87d4f0 25%, transparent 25%) 0px 0/ 32px 32px,
+                linear-gradient(45deg, #87d4f0 25%, #ffffff 25%) 0px 0/ 32px 32px;
+        }
+
+        .collapsible:hover {
+            background-image: linear-gradient(hsla(0, 0%, 0%, 0.2) 100%,
+                    transparent 100%);
+        }
+
+        a {
+            box-shadow: inset 0 0 0 0 #049ad2;
+            font-size: 1.2rem;
+            color: #2a12e5;
+            font-size: 1rem;
+            padding: 0 1rem;
+            transition: color 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+        }
+
+        a:hover {
+            box-shadow: inset 1000px 0 0 0 #049ad2;
+            color: white;
+            padding: 0 1rem;
+        }
+
+        .cscontent {
+            padding: 0px 10%;
+        }
+
+        strong:hover {
+            background-color: dodgerblue;
+            color: whitesmoke;
+        }
+
+        .cscontent a {
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        h4 {
+            background-color:#0b83b3;
+            color: whitesmoke;
+            font-family: "Work Sans", sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.3rem;
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+            display: block;
+        }
+
+        h5 {
+
+            font-family: "Work Sans", sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 85%;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .MenuLabel {
+            background-color: black;
+            font-size: 1.8rem;
+            color: whitesmoke;
+            text-align: center;
+            margin: 0;
+            padding: 0.2rem;
+        }
+
+        .pageContent {
+            background-color: whitesmoke;
+            font-size: 1.1rem;
+            text-align: left;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myBtn {
+            background-color: #049ad2;
+        }
+
+        .footerLinks {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footerLinks a {
+            font-size: 0.7rem;
+            font-family: monospace;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            padding: 0.3rem;
+        }
+.foot {
+  margin: 3rem;
+  padding: 3rem;
+  text-align: center;
+  font-family: monospace;
+}
+   
+    </style>
 </head>
 <body>
-    
-    <h1>Microsoft</h1>
- 
-<footer>
-   Mohammad Jahanseir
-</footer>
-    
+    <a href="index.html">Back to Home</a>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top </button>
+
+
+    <div class="navbar">
+        <a style="background-color:dodgerblue" href="index.html">Home</a>
+	</div>
+
+    <div class="MenuLabel"><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png"> Microsoft</div>
+
+
+    <div class="pageContent">
+
+
+
+<h4>Github</h4>
+[GH-900] GitHub Foundations: 
+        <a href="<a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Certification.md" target="_blank">Certification </a>
+        <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Labs.md" target="_blank">Labs </a>
+        <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-questions.md" target="_blank">Questions </a>
+
+
+
+<h4>Microsoft Power Platforms</h4>
+</h4>PowerBI</h4>
+<h4>DevOps</h4>
+<a href="https://github.com/mjahanseir/Microsoft/blob/main/DevOps/DevOps.md" target="_blank">DevOps</a>
+
+
+</div><!-- End of Body -->
+
+    <div class="foot">
+        <a href="#"> Learn Microsoft with ❤ </a>
+    </div>
+    <!--------------------------------------------------    SCRIPT          ------------------------------------>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+        // start   ------------------------------------------ jQuery for top floating menu  ----------------------------------
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        //  end  ------------------------------------------------------------------ jQuery for top floating menu  --------------------------------------------------
+    </script>
 </body>
+
 </html>
