@@ -2,7 +2,7 @@
 
 [study-guides[GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 
-## [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
+## ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
 
  [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
 
@@ -64,7 +64,7 @@
 5. Summary
 
         
-## [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
+## ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
 
 [2-1-Contribute to an open-source project on GitHub](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/)
 1. Introduction
@@ -113,26 +113,26 @@
 	Microsoft Learn YouTube			
 ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png)
 [Introduction to GitHub  - Episode 2 - 45m](https://www.youtube.com/watch?v=cCeC1QiQANU&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=2&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) 
 [Introduction to GitHub products  - Episode 3 - 21m](https://www.youtube.com/watch?v=8kXOM4_Gkrw&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=3&pp=iAQB0gcJCaIKAYcqIYzv)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png)
 [Open source projects  - Episode 4 -32m](https://www.youtube.com/watch?v=XJ90bUuk7dI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=4&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) 
 [Markdown  - Episode 5 - 21m](https://www.youtube.com/watch?v=nQeN4mzK87A&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=5&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png)
 [GitHub Projects  - Episode 6 - 23m](https://www.youtube.com/watch?v=JG2yETY-_-U&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=6&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png)
 [GitHub Codespaces  - Episode 7 - 21 m](https://www.youtube.com/watch?v=KTJIW2WjMBo&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=7&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) 
 [Security best practices  - Episode 8 - 42m](https://www.youtube.com/watch?v=r3mSenRkJsM&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=8&pp=iAQB)
 
-![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) [Understanding version control systems  - Episode 1 - 44m](https://www.youtube.com/watch?v=c3SSx9tevCI&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=1&pp=iAQB)
+![](https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png) 
 [GitHub Copilot  - Episode 9 - 31m](https://www.youtube.com/watch?v=Nlvq-9--1qA&list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy&index=9&pp=iAQB)
