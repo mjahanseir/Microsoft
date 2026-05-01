@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>DevOps</title> <link rel="stylesheet" href="https://raw.githubusercontent.com/mjahanseir/mjahanseir.github.io/refs/heads/master/css/style.css" /> <link rel="icon"  href="https://raw.githubusercontent.com/mjahanseir/mjahanseir.github.io/refs/heads/master/learn/computer/pic/dev.ico" type="image/x-icon" />
+    <style> body { background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px; margin: auto auto; width: 85%; font-family: "Times New Roman", Times, serif; background: linear-gradient(135deg, #87d4f0 25%, transparent 25%) -16px 0/ 32px 32px, linear-gradient(225deg, #87d4f0 25%, transparent 25%) -16px 0/ 32px 32px, linear-gradient(315deg, #87d4f0 25%, transparent 25%) 0px 0/ 32px 32px, linear-gradient(45deg, #87d4f0 25%, #ffffff 25%) 0px 0/ 32px 32px; } .collapsible:hover { background-image: linear-gradient(hsla(0, 0%, 0%, 0.2) 100%, transparent 100%); } a { box-shadow: inset 0 0 0 0 #049ad2; font-size: 1.2rem; color: #2a12e5; font-size: 1rem; padding: 0 1rem; transition: color 0.6s ease-in-out, box-shadow 0.6s ease-in-out; } a:hover { box-shadow: inset 1000px 0 0 0 #049ad2; color: white; padding: 0 1rem; } .cscontent { padding: 0px 10%; } strong:hover { background-color: dodgerblue; color: whitesmoke; } .cscontent a { text-align: center; font-size: 1.2rem; font-weight: bold; } h4 { background-color:#0b83b3; color: whitesmoke; font-family: "Work Sans", sans-serif; text-transform: uppercase; text-align: center; font-size: 1.3rem; margin: 0; padding: 15px; text-align: center; display: block; } h5 { font-family: "Work Sans", sans-serif; text-transform: uppercase; text-align: center; } .navbar { overflow: hidden; background-color: #333; position: fixed; top: 0; width: 85%; } .navbar a { float: left; display: block; color: white; text-align: center; text-decoration: none; font-size: 17px; } .MenuLabel { background-color: black; font-size: 1.8rem; color: whitesmoke; text-align: center; margin: 0; padding: 0.2rem; } .pageContent { background-color: whitesmoke; font-size: 1.1rem; text-align: left; padding: 0; margin: 0; } #myBtn { background-color: #049ad2; } .footerLinks { background-color: white; margin: 0; padding: 0; } .footerLinks a { font-size: 0.7rem; font-family: monospace; } ul { list-style-type: none; } li { padding: 0.3rem; } .foot { margin: 3rem; padding: 3rem; text-align: center; font-family: monospace; } 
+.collapsible { cursor: pointer; padding: 18px; } .collapsible:hover { background-image: linear-gradient(hsla(0, 0%, 0%, .1) 100%, transparent 100%) } .content { background-color: ivory; text-align: justify; font-family: "Times New Roman", Times, serif, Geneva, monospace; color: #2d2c2c; font-size: 1.2rem; display: none; overflow: hidden; }p{margin:1rem;}
+</style>
+</head>
+<body>
+      <a href="index.html">Back to Home</a>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top </button>
+
+
+    <div class="navbar">
+        <a style="background-color:dodgerblue" href="index.html">Home</a>
+	<a href="https://mjahanseir.github.io/learn/devops.html" target="_blank" >Devops</a>
+	<a href="https://mjahanseir.github.io/learn/data.html" target="_blank"> Data  </a>
+        <a href="https://mjahanseir.github.io/learn/powerplatform.html" target="_blank"> Power Platform </a>
+        <a href="https://mjahanseir.github.io/learn/microsoft.html" target="_blank">Microsoft Learn </a>
+         <a href="https://mjahanseir.github.io/learn/computer/Microsoft/azure.html" target="_blank">Azure </a>
+	</div>
+    <div class="MenuLabel"> DevOps</div>
+<div class="pageContent">
+<!--------------------------------------------------    Part1          ------------------------------------>
+
+<h4 class="collapsible">RoadMap</h4>
+    <div class="content">
+<pre>
+
+| Skill                                   | Est. Time       | Learning Phase |
+|-----------------------------------------|-----------------|----------------|
+| Linux Fundamentals                      | 2–3 weeks       | Beginner       |
+| Networking Concepts                     | 2 weeks         | Beginner       |
+| Version Control (Git)                   | 1–2 weeks       | Beginner       |
+| Programming Languages (Python)          | 4–6 weeks       | Beginner       |
+| Cloud Providers (AWS)                   | 4–6 weeks       | Intermediate   |
+| Containerization (Docker)               | 3–4 weeks       | Intermediate   |
+| CI/CD (Jenkins)                         | 3–4 weeks       | Intermediate   |
+| Container Orchestration (Kubernetes)    | 4–6 weeks       | Intermediate   |
+| Networking Services (Nginx)             | 3–4 weeks       | Intermediate   |
+| Configuration Management (Ansible)      | 3–4 weeks       | Advanced       |
+| Infrastructure as Code (Terraform)      | 3–4 weeks       | Advanced       |
+| Monitoring and Logging (Prometheus)     | 3–4 weeks       | Advanced       |
+| **Total**                               | **10–14 months**|                |
+</pre>
+ 
+<h5> Linux Fundamentals</h5>
+<p>
+Linux is an open-source operating system that's super popular for servers and development. As a DevOps engineer, you'll be setting up and maintaining the infrastructure where applications run. Most servers use Linux, so getting comfortable with it, especially the command line, is a must. Start with learning Bash, which is the most commonly used shell and scripting language in Linux. 
+ <br>- Estimated Time: 2-3 weeks 
+ <br>- Essential Concepts 
+ <br> - Basic Linux commands (ls, cp, mv, rm, etc.) 
+ <br> - File system hierarchy (/, /home, /etc, /var, etc.) 
+ <br> - Permissions and ownership (chmod, chown) 
+ <br> - Processes and signals (ps, top, kill) 
+ <br> - Package management (apt, yum) 
+ <br> - Shell scripting basics (variables, loops, conditionals, functions)
+</p>    
+<h5> Networking Concepts</h5>
+<p>
+Networking is all about how computers talk to each other, covering things like IP addresses and network protocols. You need to understand how data moves around, how to secure it, and how to troubleshoot network issues. This foundation is key to managing your infrastructure effectively. A great tool to get hands-on experience is Wireshark, which lets you analyze network traffic. 
+ <br>- Estimated Time: 2 weeks 
+ <br>- Essential Concepts 
+ <br> - OSI and TCP/IP models 
+ <br> - IP addressing and subnetting (IPv4, IPv6) 
+ <br> - DNS and DHCP 
+ <br> - Network protocols (HTTP, HTTPS, FTP, SSH, etc.) 
+ <br> - Firewalls and security groups (iptables, UFW) 
+ <br> - Basic network troubleshooting (ping, traceroute, netstat)
+</p> 
+<h5> Version Control (Git)</h5>
+<p>
+Git is a version control system that lets you keep track of changes in your code and collaborate with others. It's essential for working on projects with a team, managing your code, tracking changes, and collaborating without overwriting each other's work. 
+ <br>- Estimated Time: 1-2 weeks 
+ <br>- Essential Concepts 
+ <br> - Git basics and commands (clone, commit, push, pull) 
+ <br> - Branching and merging 
+ <br> - Working with remote repositories (GitHub, GitLab) 
+ <br> - Pull requests and code reviews 
+ <br> - Git workflows Git Flow, GitHub Flow) 
+ <br> - Resolving merge conflicts
+</p>    
+<h5> Programming Languages (Python)</h5>
+<p>
+Programming languages like Python, Ruby, and Go are used to automate tasks and manage configurations. You'll need to write scripts to automate repetitive tasks, handle configurations, and integrate different tools. While there are several popular languages, I recommend Python for its simplicity, powerful libraries, and versatility. 
+ <br>- Estimated Time: 4-6 weeks 
+ <br>- Essential Concepts 
+ <br> - Python syntax and data structures (lists, dictionaries, sets, tuples) 
+ <br> - Modules and packages (importing and using libraries) 
+ <br> - Writing and executing Python scripts 
+ <br> - File handling (reading from and writing to files) 
+ <br> - Error handling (try, except) 
+ <br> - Automation scripts (using libraries like subprocess, os, sys) 
+ <br> - Basic web scraping (using libraries like BeautifulSoup, requests)  
+</p>    
+<h5> Cloud Providers (AWS)</h5>
+<p>
+</p>    
+<h5>Containerization (Docker)</h5>
+<p>
+</p>    
+<h5>CI/CD (Jenkins)</h5>
+<p>
+</p>    
+<h5> Container Orchestration</h5>
+<p>
+Orchestration tools like Kubernetes and Helm help automate the deployment, scaling, and management of containerized applications. These tools are essential for managing complex applications in production, ensuring they run smoothly, scale easily, and recover quickly from failures. **Kubernetes** is the leading orchestration tool you should learn. 
+ <br>- Estimated Time: 4-6 weeks 
+ <br>- Essential Concepts 
+ <br> - Kubernetes architecture (master and worker nodes) 
+ <br> - Kubernetes components (pods, services, deployments) 
+ <br> - Managing resources in Kubernetes (namespaces, ConfigMaps, Secrets) 
+ <br> - Scaling applications Horizontal Pod Autoscaler) 
+ <br> - Helm basics (charts, repositories, releases) 
+ <br> - Kubernetes networking (services, ingress) 
+ <br> - Security in Kubernetes RBAC, network policies)
+</p>    
+<h5> Networking and Infrastructure Services </h5>
+<p>
+This involves setting up and managing services like reverse proxies, forward proxies, caching servers, firewalls, and load balancers. Understanding these services is crucial for optimizing application performance, managing network traffic, and ensuring security. They play a vital role in the architecture and operational stability of your applications. **Nginx** is a versatile tool for handling reverse proxies and load balancing. 
+ <br>- Estimated Time: 3-4 weeks 
+ <br>- Essential Concepts 
+ <br> - Setting up and configuring Nginx as a reverse proxy
+ <br> - Setting up forward proxies 
+ <br> - Implementing caching with Redis or Varnish 
+ <br> - Configuring firewalls and security groups (iptables, UFW 
+ <br> - Load balancing with HAProxy or AWS ELB 
+ <br> - SSL/TLS configuration for secure communications 
+ <br> - Troubleshooting network issues
+
+</p>    
+<h5> Configuration Management (Ansible)</h5>
+<p>
+</p>    
+<h5><p>
+</p>    
+<h5>Monitoring and Logging (Prometheus)	</h5>
+</p>
+<h5>links</h5>
+<p>
+<a href="https://github.com/mjahanseir/Microsoft/blob/main/DevOps/DevOps%20Roadmap/%5BDevOps-Mosh%5D%20Roadmap.pdf" target="_blank" > Mosh-Roadmap</a> 
+<a href="https://github.com/mjahanseir/Microsoft/blob/main/DevOps/DevOps%20Roadmap/Falah.md" target="_blank" > Falah-Roadmap</a>
+</p>
+</div><!-- end of part -->
+
+<!--------------------------------------------------    Part2          ------------------------------------>
+    <h4 class="collapsible">Videos</h4>
+    <div class="content">
+  	 <h5><a href="https://www.youtube.com/playlist?list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj"> DevOps Explained-IBM </a></h5>
+    	 <ol> 	
+	<li><a href="https://www.youtube.com/watch?v=UbtB4sMaaNM&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=1&pp=iAQB" target="_blank" >What is DevOps?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=7aSe1HQ2lXo&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=2&pp=iAQB" target="_blank" >Tekton vs. Jenkins: What's the difference?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=KCzNd3StIoU&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=3&pp=iAQB" target="_blank" >DevOps vs. SRE: What's the difference?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=ztIIcXNzMN4&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=4&pp=iAQB0gcJCd4KAYcqIYzv" target="_blank" >What is Site Reliability Engineering (SRE)?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=zWw2wuiKd5o&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=5&pp=iAQB" target="_blank" >What is Infrastructure as Code?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=1er2cjUq1UI&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=6&pp=iAQB" target="_blank" >What is Continuous Integration?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=J73MELGF6u0&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=7&pp=iAQB" target="_blank" >What is DevSecOps?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=iITmoI0s1DQ&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=8&pp=iAQB" target="_blank" >What is Continuous Improvement?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=2TTU5BB-k9U&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=9&pp=iAQB" target="_blank" >What is Continuous Delivery?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=LNLKZ4Rvk8w&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=10&pp=iAQB" target="_blank" >Continuous Deployment vs. Continuous Delivery</a></li>
+	<li><a href="https://www.youtube.com/watch?v=RYQbmjLgubM&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=11&pp=iAQB" target="_blank" >What is Continuous Testing?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=Yto8nUeki-s&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=12&pp=iAQB" target="_blank" >What is Value Stream Management?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=RJ3UQSxwGFY&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=13&pp=iAQB" target="_blank" >Application Modernization: Three Transformations at Once</a></li>
+	<li><a href="https://www.youtube.com/watch?v=TWxKD9dLpmk&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=14&pp=iAQB" target="_blank" >What is Tekton?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=HmxkYNv1ksg&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=15&pp=iAQB" target="_blank" >Terraform Explained</a></li>
+	<li><a href="https://www.youtube.com/watch?v=rx4Uh3jv1cA&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=16&pp=iAQB" target="_blank" >Ansible vs. Terraform: What's the difference?</a></li>
+	<li><a href="https://www.youtube.com/watch?v=tQtni2st3xo&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=17&pp=iAQB" target="_blank" >GitOps on Multicloud Explained</a></li>
+	<li><a href="https://www.youtube.com/watch?v=-U9E1PhrM3o&list=PLOspHqNVtKAAm1dmyiR9WMmw1UBoOwZVj&index=18&pp=iAQB" target="_blank" >SRE Golden Signals Explained</a></li>
+   </ol>	
+  </div><!-- end of part -->
+
+								
+</div><!--  END OF MAIN PAGE  -->
+
+
+
+<!--------------------------------------------------    footer          ------------------------------------>
+    <div class="foot"> <a href="#"> Learn DevOps with ❤ </a> </div>
+
+
+
+
+<!--------------------------------------------------    Script          ------------------------------------>
+       <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+
+
+           //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        //  end  ------------------------------------------------------------------ jQuery for top floating menu  --------------------------------------------------
+    </script>
+</body>
+</html>
