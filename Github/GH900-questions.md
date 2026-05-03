@@ -18,7 +18,7 @@ Select only one answer.
 
 - Centralized systems provide stronger security measures compared to distributed systems.
 
-
+<br><hr><br>
 - [x] aCentralized version control systems rely on a central server for code storage and collaboration, while distributed systems allow each contributor to have their own local repository and synchronize directly.
 
 
@@ -38,7 +38,7 @@ Select only one answer.
 
 
 - Personal/ user accounts have more access than organization accounts.
-
+<br><hr><br>
 - [x] aOrganizations are shared accounts where an unlimited number of people can collaborate across many projects at once and with tiered permissions.
 
 ## Question 3 of 50
@@ -58,7 +58,7 @@ Select only one answer.
 
 - Because you want to use the team pull request reviewers feature.
 
-
+<br><hr><br>
 
 - [x] cGitHub Enterprise is required for managing multiple organizations along with their users and repositories
 
@@ -81,7 +81,7 @@ Select only one answer.
 - A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
 
  
-
+<br><hr><br>
 
 - [x] -dA team is intended to reflect a company or project’s structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
 
@@ -101,7 +101,7 @@ Select only one answer.
 
 
 - Manage, triage, and clear notifications from github.com.
-
+<br><hr><br>
 - [x] -dOn GitHub Mobile, you can manage, triage, and clear notifications from github.com.
 
 
@@ -121,14 +121,180 @@ Select only one answer.
 
 
 - #### Hello, world!
+<br><hr><br>
+- [x] -cA single asterisk italicizes the wrapped text. Double asterisks bold the wrapped text. In this example they are combined to.
 
+## Question 7 of 50
+
+How do you display certain reserved characters in Markdown, like asterisks (*) and underscores (_)?
+
+Select only one answer.
+
+- Use three in a row, like *** or ___.
+
+
+- Escape them with a backslash, like \\* or \\_.
+
+- This answer is correct.
+
+- Unfortunately, this is not supported at this time.
+
+
+- Just implement the asterisk and underscore, they will show automatically.
+
+<br><hr><br>
+- [x] -b https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+## Question 8 of 50
+
+You would like to include an HTML snippet to your GitHub Pages website, but Markdown doesn't offer a way to render it. What should you do?
+
+Select only one answer.
+
+- Just add the HTML inline.
+
+
+- Cut the content. If it's not supported in Markdown, then it's probably not worth including.
+
+
+- Open an issue that requests Markdown support for your very specialized scenario.
+
+
+- Implement a separate md file in the same branch and link it to your original content.
+<br><hr><br>
+- [x] -aMarkdown is not a complete replacement for HTML, so it's understood that you may need to add HTML in to get the desired results. There are however different Markdown renders and there are sometimes limitations.
+
+## Question 9 of 50
+
+What slash command inserts a code block in Markdown?
+
+Select only one answer.
+
+- /markdown
+
+
+- /code
+
+
+- /insertcode
+
+
+- /md
+
+
+<br><hr><br>
+- [x] - bThe /code command is used for adding a code block.
+
+
+## Question 10 of 50
+
+How can you link a Pull Request (PR) to a GitHub Issue?
+
+Select only one answer.
+
+- Mention the PR number in the issue description.
+
+
+- Add a comment with the PR link in the issue conversation thread.
+
+
+- Select the related PR in the "Development" area.
+
+
+- All of the above.
+<br><hr><br>
+- [x] -a Issue and pull request numbers can be mentioned in the description or a comment.
+
+
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
 - [x] -
 
 
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
 - [x] -
 
 
+
+<br><hr><br>
 - [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
+
+
+<br><hr><br>
+- [x] -
+
+<br><hr><br>
+- [x] -
+
 
 
 
