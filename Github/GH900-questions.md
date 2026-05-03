@@ -19,7 +19,7 @@ Select only one answer.
 - Centralized systems provide stronger security measures compared to distributed systems.
 
 
--[x] A-Centralized version control systems rely on a central server for code storage and collaboration, while distributed systems allow each contributor to have their own local repository and synchronize directly.
+- [x] aCentralized version control systems rely on a central server for code storage and collaboration, while distributed systems allow each contributor to have their own local repository and synchronize directly.
 
 
 ## Question 2 of 50
@@ -39,7 +39,7 @@ Select only one answer.
 
 - Personal/ user accounts have more access than organization accounts.
 
--[x] A-Organizations are shared accounts where an unlimited number of people can collaborate across many projects at once and with tiered permissions.
+- [x] aOrganizations are shared accounts where an unlimited number of people can collaborate across many projects at once and with tiered permissions.
 
 ## Question 3 of 50
 
@@ -60,23 +60,75 @@ Select only one answer.
 
 
 
--[x] C-GitHub Enterprise is required for managing multiple organizations along with their users and repositories
+- [x] cGitHub Enterprise is required for managing multiple organizations along with their users and repositories
 
 
+## Question 4 of 50
+
+What is the purpose of a team?
+
+Select only one answer.
+
+- A team allows you to manage an organization account.
 
 
--[x] -
-
--[x] -
+- A team allows you to control permission levels for an enterprise.
 
 
--[x] -
+- A team allows a single user to sign in using different accounts credentials.
 
 
--[x] -
+- A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
+
+ 
 
 
--[x] -
+- [x] -dA team is intended to reflect a company or project’s structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
+
+Question 5 of 50
+
+What is a function you can execute on GitHub Mobile?
+
+Select only one answer.
+
+- Create branches and pull requests.
+
+
+- Attach and remove release artifacts.
+
+
+- Add and clone repositories.
+
+
+- Manage, triage, and clear notifications from github.com.
+
+- [x] -dOn GitHub Mobile, you can manage, triage, and clear notifications from github.com.
+
+
+## Question 6 of 50
+
+Please select the Markdown snippets that would produce this text: Hello, world!
+
+Select only one answer.
+
+- *Hello, *world*!*
+
+
+- **Hello, *world*!**
+
+
+- *Hello, **world**!*
+
+
+- #### Hello, world!
+
+- [x] -
+
+
+- [x] -
+
+
+- [x] -
 
 
 
