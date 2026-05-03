@@ -545,12 +545,187 @@ A steady decline in new issues.
 
 
 ## [2-3-Maintain a secure repository by using GitHub best practices](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/)
+1. What's the best way to make sure you're integrating the most secure versions of your project dependencies?
+
+Configure your package files to always use the latest versions of dependencies.
+
+Check each project's security details closely before adding it to your dependencies by confirming its version status across multiple advisory sites.
+
+Enable Dependabot for your repository.
+<hr>
+2. Suppose one of your source projects relies on secrets kept in a folder called .secrets. You would like to make sure that the files kept in this folder on development machines aren't inadvertently committed to the repository. Which of these files best helps enforce this policy?
+
+SECURITY.md
+
+.gitignore
+
+CONTRIBUTING.md
+<hr>
+3. What does secret scanning do?
+
+Looks for known secrets or credentials committed within the repository.
+
+Analyzes and finds security vulnerabilities and errors in the code in a GitHub repository.
+
+Secret scanning uses CodeQL to query your code as data.
+
+1. 3
+2. 2
+3. 1
 
   
 ## [2-4-Introduction to GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/)
 
+1. You want to grant a user the permissions required to add and remove organization members to and from a team. Which permission would you need to grant that user?
 
+The admin permission on a repository
+
+The maintain permission on a repository
+
+Organization billing manager
+
+Team maintainer
+<hr>
+2. As an organization owner, you want to ensure that everyone who is signed in to your corporate network can access the GitHub website without requiring a second sign-in. Which technology would you enable to accomplish this?
+
+Single sign-on
+
+Two-factor authentication
+
+Personal Access Tokens
+
+SSH keys
+<hr>
+3. What's the appropriate repository permission level for contributors who need to actively push changes to your repository?
+
+Admin
+
+Write
+
+Triage
+
+Maintain
+<hr>
+
+4. Which role within a team can add or remove team members?
+
+Team Maintainer
+
+Team Member
+
+Organization Owner
+
+Billing Manager
+<hr>
+5. What permission level is best for project managers who need to triage and organize issues without contributing code?
+
+Triage
+
+Read
+
+Write
+
+Maintain
+<hr>
+6. What is a benefit of integrating Active Directory (AD) for team synchronization?
+
+Centralized Identity Management
+
+Increased administrative overhead
+
+Decentralized administration
+
+Enhanced isolation
+<hr>
+
+7. Which of the following actions is exclusive to Organization Owners in GitHub?
+
+Collaborate on repositories based on assigned roles or team memberships
+
+Contribute code and participate in discussions
+
+Manage organization settings, including security and billing
+
+Access resources as defined by team or repository-specific permissions
+<hr>
+
+8. What is a key difference between an organization member and an outside collaborator?
+
+Organization members are included in the organization’s internal directory.
+
+Outside collaborators have access to all repositories.
+
+Organization members do not appear in the organization’s internal member list.
+
+Outside collaborators inherit organization-wide settings.
+<hr>
+
+9. Which permission level allows users to manage repository settings but not delete or transfer the repository?
+
+Maintain
+
+Write
+
+Admin
+
+Triage
+
+
+1. 4
+2. 1
+3. 2
+4. 1
+5. 1
+6. 1
+7. 3
+8. 1
+9. 1
+
+   
 ## [2-5-Authenticate and authorize user identities on GitHub](https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/)
+
+1. What type of user authentication is used to verify a user identity against a known identity provider?
+
+Two-factor authentication (2FA)
+
+Time-based One-time Password (TOTP)
+
+SAML Single Sign-on (SAML SSO)
+
+Short Message Service (SMS)
+<hr>
+2. You're an admin and want to enable team synchronization for your organization. What installation permissions do you need to configure team synchronization for Microsoft Entra ID?
+
+Provide the tenant URL
+
+Read all users' full profiles
+
+Generate a valid Single Sign-on for Web Systems (SSWS) token
+
+Enable SAML Single Sign-on (SSO)
+<hr>
+3. Where does a user authenticate after enabling SAML Single sign-on?
+
+With a GitHub login
+
+With the organization credentials
+
+With the Identity Provider (IdP)
+
+<hr>
+4. What two-factor authentication method supports the secure backup of your authentication codes in the cloud?
+
+Time-based One-time Password (TOTP)
+
+Short Message Service (SMS)
+
+Security Key
+
+1. 3
+2. 2
+3. 3
+4. 1
+
 
 ## [2-6-Manage repository changes by using pull requests on GitHub](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/)
 
