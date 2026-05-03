@@ -1,15 +1,15 @@
 
 # [study-guides[GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 #####	Skills at a glance as of January 2026	
--	Understand Git and GitHub basics (25–30%)	
--	Work with GitHub repositories (10–15%)	
--	Collaborate using GitHub (10–15%)	
--	Apply modern development practices (10–15%)	
--	Manage projects with GitHub (5–10%)	
--	Understand privacy, security, and administration (10–15%)	
--	Explore the GitHub community (5–10%)	
+1.	Understand Git and GitHub basics (25–30%)	
+2.	Work with GitHub repositories (10–15%)	
+3.	Collaborate using GitHub (10–15%)	
+4.	Apply modern development practices (10–15%)	
+5.	Manage projects with GitHub (5–10%)	
+6.	Understand privacy, security, and administration (10–15%)	
+7.	Explore the GitHub community (5–10%)	
 		
-<ol>	Understand Git and GitHub basics (25–30%)	
+<ol>	1. Understand Git and GitHub basics (25–30%)	
 <li>	Version control fundamentals	</li>
 <li>	Describe the purpose and benefits of version control	</li>
 <li>	Explain the difference between Git and GitHub	</li>
@@ -19,27 +19,27 @@
 <li>	Explain the GitHub Flow for collaboration	</li>
 <li>	Identify uses of Markdown for clear communication in issues and pull requests	</li>
 <li>	Recognize when to use GitHub Desktop and GitHub Mobile	</li>
-</ol><ol>	Work with GitHub repositories (10–15%)	</li>
+</ol><ol>	2. Work with GitHub repositories (10–15%)	</li>
 <li>	Repository management	</li>
 <li>	Describe the structure and key files of a GitHub repository (README, LICENSE, CONTRIBUTING, CODEOWNERS, SECURITY)	</li>
 <li>	Identify how to create, organize, and maintain repositories using templates and branches.	</li>
 <li>	Explain how to add and manage files within a repository	</li>
 <li>	Describe repository insights, stars, feature previews, repository metrics dashboards, and dependency insights for improved visibility	</li>
 <li>	Recognize best practices for repository maintenance and collaboration	</li>
-</ol><ol>	Collaborate using GitHub (10–15%)	</li>
+</ol><ol>	3. Collaborate using GitHub (10–15%)	</li>
 <li>	Collaboration tools	</li>
 <li>	Describe how to use issues, pull requests, and discussions for collaboration	</li>
 <li>	Explain how to link pull requests to issues and manage templates, filters, and assignments	</li>
 <li>	Identify the purpose of notifications and how to configure them for workflow management	</li>
 <li>	Describe how to use Gists, Wikis, and GitHub Pages to document and share information	</li>
-</ol><ol>	Apply modern development practices (10–15%)	</li>
+</ol><ol>	4. Apply modern development practices (10–15%)	</li>
 <li>	Automation and AI tools	</li>
 <li>	Describe the purpose and capabilities of GitHub Actions	</li>
 <li>	Identify how GitHub Copilot assists with AI-powered code suggestions, including Copilot agents, Agent Mode, and multi‑model support	</li>
 <li>	Explain the differences between GitHub Copilot for Individuals, Business, and Enterprise	</li>
 <li>	Describe GitHub Codespaces and how to set up, customize, and use dev containers	</li>
 <li>	Explain when to use the github.dev editor and how it differs from Codespaces	</li>
-</ol><ol>	Manage projects with GitHub (5–10%)	</li>
+</ol><ol>	5. Manage projects with GitHub (5–10%)	</li>
 <li>	Project Tracking and organization	</li>
 <li>	Describe GitHub Projects and layout options	</li>
 <li>	Explain how to configure projects, labels, milestones, and workflows	</li>
@@ -52,7 +52,7 @@
 <li>	Explain the purpose of Enterprise Managed Users (EMUs) and organization-wide Copilot policy management	</li>
 <li>	Describe repository privacy options, visibility settings, and branch protection rules	</li>
 <li>	Recognize how to manage organization settings, teams, and roles	</li>
-</ol><ol>	Explore the GitHub community (5–10%)	</li>
+</ol><ol>	6. Explore the GitHub community (5–10%)	</li>
 <li>	Open-source engagement	</li>
 <li>	Describe the benefits of open source and GitHub Sponsors	</li>
 <li>	Explain how GitHub supports and advances open-source projects.	</li>
@@ -61,7 +61,6 @@
 <li>	Explain how InnerSource applies open-source principles within organizations.	</li>
 <li>	Recognize when to use forks, templates, and discoverable repositories to promote collaboration.	</li>
 </ol>		
-<img width="860" height="1770" alt="image" src="https://github.com/user-attachments/assets/7044c8a2-9308-43b8-8e69-458263680a29" />
 
 
 # [Certification [GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations)
