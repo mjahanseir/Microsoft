@@ -638,59 +638,240 @@ Select only one answer.
 		
 			
 ## 	Question	31	of 50
+What's the appropriate repository permission role for contributors who need to actively push changes to your repository?
+
+Select only one answer.
+
+- Admin
+
+
+- Write
+
+
+- Triage
+
+
+- Maintain
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	b The write permission is the appropriate permission level for collaborators that need to create branches, push changes, and create pull requests.
+
+		
 			
 ## 	Question	32	of 50
+On the GitHub platform how can you stay up to date and notified with a user’s public activity?
+
+Select only one answer.
+
+- By following an organization
+
+
+- By following the user
+
+
+- By subscribing to the user’s feed
+
+
+- By subscribing to an organization’s feed
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	b Each user has a profile where they can share work publicly. Other users can follow these users to be informed about their latest work.
+
+		
 			
 ## 	Question	33	of 50
+What is the purpose of forking a repository?
+
+Select only one answer.
+
+- It creates a duplicate of the upstream repo and allows you to make changes directly to the original repo.
+
+
+- It automatically creates an issue allowing people to see how the original repo can be improved.
+
+
+- Forking lets you make changes to a project without affecting the original repository.
+
+
+- It creates a pull request to show your team what you are changing.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -		c After you fork a repository, you can fetch updates from the upstream repository to keep your fork up to date, and you can propose changes from your fork to the upstream repository with pull requests.https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+
+	
 			
 ## 	Question	34	of 50
+What steps are required to create a pull request if you only have read access?
+
+Select only one answer.
+
+- Send a patch file to maintainers via email.
+
+
+- Clone a repo, commit changes, and force push.
+
+
+- Get accepted as a team member.
+
+
+- Fork a repo, clone it, commit changes, and push to your fork.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	d Unless you are a project contributor, you don't have access to directly push modifications. In this case, fork the repository to create your own copy, then you can make changes and submit a pull request.
+
+		
 			
 ## 	Question	35	of 50
+What is the GitHub Marketplace?
+
+Select only one answer.
+
+- A place where you can purchase more GitHub seats for your organization.
+
+
+- A place to upgrade your GitHub plan.
+
+
+- A place where you can meet Sponsors to help sponsor your project.
+
+
+- A place for discovering and installing additional functionality for GitHub.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	d The GitHub Marketplace offers various community developed resources such as applications, Actions, and extensions to add additional functionality to GitHub.
+
+		
 			
 ## 	Question	36	of 50
+How can you ensure that pull requests for a given area of the repository are not merged unless certain users or teams have approved?
+
+Select only one answer.
+
+- Clearly explain the pull request policy in CONTRIBUTING.md.
+
+
+- Use a CODEOWNERS file and enable required reviews.
+
+
+- Add a table mapping directory paths to required users in SECURITY.md.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -			b A CODEOWNERS file specifies users or teams as required reviewers if certain files are modified. It uses the same syntax as .gitingore files.
+
+
 			
 ## 	Question	37	of 50
+You have been requested to review a pull request. As you read through it, you notice several minor coding errors and typos. How should you handle the review?
+
+Select only one answer.
+
+- Start a review and fix obvious typos inline. Add comments in places that require further discussion or offer educational value. Complete the review with changes requested.
+
+
+- Leave single comments for each issue you come across, but do not change the code. For typos, include the correct spelling of the word as a reference. Approve the pull request if you trust the author to implement your suggestions.
+
+
+- Reject the pull request. We can't risk any bugs accidentally being merged into an important branch.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	a Contributors always appreciate when reviewers show an interest in getting their code merged. While every project has its own contribution procedures, it is typically a best practice to provide clear communication and collaboration opportunities. Simply rejecting a request without clarification will discourage future submissions.
+
+		
 			
 ## 	Question	38	of 50
+What are some supported integrated development environments for GitHub Copilot?
+
+Select only one answer.
+
+- Only Visual Studio Code and Visual Studio
+
+
+- Visual Studio Code, Visual Studio, Xcode, JetBrains, and Neovim
+
+
+- Visual Studio Code, Visual Studio, Spyder, Eclipse
+
+
+- Visual Studio Code, Visual Studio, Jupyter, NetBeans, Notepad++
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -		c GitHub Copilot is supported in many IDEs such as VS Code, Visual Studio, Xcode, JetBrains IDEs, Neovim and even has an SDK for build support for other interfaces. own extensions.
+
+	
 			
 ## 	Question	39	of 50
+Which of the below is a valid way to prompt GitHub Copilot for a suggestion in the IDE?
+
+Select only one answer.
+
+- Type a code comment or text in a markdown file. Wait for a suggestion to appear. Press the ‘Tab’ key to accept the suggestion.
+
+
+- Navigate to github.com, select the Copilot Chat window and enter a question.
+
+
+- Highlight the code with your mouse. Open the command palette, select the ‘GitHub Copilot’ option, and enter your prompt into the chat box.
+
+
+- Copilot cannot be prompted for suggestions. It automatically provides suggestions.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -			a Copilot uses several context areas for prompting for a suggestion. One of them is pauses in code editing activity in the IDE. There are also options for inline chat and in a side chat panel.https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide
+
+
 			
 ## 	Question	40	of 50
+Which directory is the cloned repository placed after creating a Codespace?
+
+Select only one answer.
+
+- /workspaces directory
+
+
+- /temp directory
+
+
+- ~/.bashrc directory
+
+
+- Linux directory
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	a Persistent storage is mapped to the /workspaces directory to enable rebuilding of these environment without loss of work.
+
+		
 			
 ## 	Question	41	of 50
+What's the maximum number of Codespaces that you can create per repository or branch?
+
+Select only one answer.
+
+- You can only create two Codespaces.
+
+
+- You can create a total of ten Codespaces.
+
+
+- You can create a total of thirty Codespaces.
+
+
+- You can create an unlimited number of Codespaces.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -		d You can create an unlimited number of Codespaces per repository or branch assuming there is available storage.
+
+	
 			
 ## 	Question	42	of 50
 			
