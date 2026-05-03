@@ -526,32 +526,143 @@ Select only one answer.
 
 
 
-<br><hr><br>
-- [x] -
 
 
 
-<br><hr><br>
-- [x] -
+## 	Question	26	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+## 	Question	27	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+## 	Question	28	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+## 	Question	29	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+## 	 Question	30	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	31	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	32	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	33	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	34	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	35	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	36	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	37	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	38	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	39	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	40	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	41	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	42	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	43	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	44	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	45	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	46	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	47	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	48	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	49	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+##	Question	50	of 50
+			
+<br><hr><br>			
+- [x] -			
+			
+<img width="1384" height="3626" alt="image" src="https://github.com/user-attachments/assets/9963934e-7b90-48d7-868c-ead4fff46ba7" />
 
-<br><hr><br>
-- [x] -
 
 
 
-<br><hr><br>
-- [x] -
-
-<br><hr><br>
-- [x] -
 
 
 
-<br><hr><br>
-- [x] -
 
-<br><hr><br>
-- [x] -
 
 
 
