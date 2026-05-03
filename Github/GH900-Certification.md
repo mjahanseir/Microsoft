@@ -1,5 +1,5 @@
 
-#[study-guides[GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
+# [study-guides[GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 #####	Skills at a glance as of January 2026	
 -	Understand Git and GitHub basics (25–30%)	
 -	Work with GitHub repositories (10–15%)	
@@ -64,7 +64,7 @@
 <img width="860" height="1770" alt="image" src="https://github.com/user-attachments/assets/7044c8a2-9308-43b8-8e69-458263680a29" />
 
 
-#[Certification [GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations)
+# [Certification [GH-900]](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations)
 
 ## ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
 
