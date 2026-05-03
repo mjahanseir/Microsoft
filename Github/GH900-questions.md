@@ -1,421 +1,470 @@
 
 ##### [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
-
+	
 1- Which of the following scenarios is a common use case for a version control system?
-
+	
 1. Deleting earlier versions of a project or file, so you know you are working only with the most current file or data.
-
+	
 2. Making experimental changes to your project in an isolated branch.
-
+	
 3. Gathering feature requirements for a large project and communicating them to stakeholders.
-
-
+	
+<hr>	
 2-Which broader discipline commonly includes version control?
-
-Version management software (VMS)
-
-Software control management (SCM) system
-
-Software configuration management (SCM) system
-
+	
+1.  Version management software (VMS)
+	
+2.  Software control management (SCM) system
+	
+3.  Software configuration management (SCM) system
+<hr>		
 3-What’s the difference between Git and GitHub?
-
-Git lets you work with one or more local branches and push changes to a remote repository. GitHub acts as the remote repository, which is accessed through a website or command-line tools.
-
-Git is a distributed version control system (DVCS) that runs in the cloud. GitHub is an interface layer that provides access to Git technology.
-
-Git is used by an individual contributor. GitHub is used by multiple contributors to simplify group development work.
-
+	
+1.  Git lets you work with one or more local branches and push changes to a remote repository. GitHub acts as the remote repository, which is accessed through a website or command-line tools.
+	
+2.  Git is a distributed version control system (DVCS) that runs in the cloud. GitHub is an interface layer that provides access to Git technology.
+	
+3.  Git is used by an individual contributor. GitHub is used by multiple contributors to simplify group development work.
+<hr>		
 4- What Git command gives information about how to use Git?
-
-git init
-
-git status
-
-git help
-
-1 __ 2
-2 __ 3
-3 __ 1
-4 __ 3
-
-
-
-##### [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
-
+	
+1.  git init
+	
+2.  git status
+	
+3.  git help
+	
+1.  1 __ 2
+2.  2 __ 3
+3.  3 __ 1
+4.  4 __ 3
+	
+	
+	
+	##### [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
+	
 1. Imagine you are working on a new feature for a project on GitHub. To ensure your changes do not affect the main codebase immediately, what should you do first?
-
-
-Directly commit changes to the main branch.
-Create a new branch from the main branch.
-Submit a pull request.
-
-
+	
+	
+1.  Directly commit changes to the main branch.
+2.  Create a new branch from the main branch.
+3.  Submit a pull request.
+	
+<hr>		
 2. Your organization wants to host an open forum for developers to discuss project improvements and share feedback. Which GitHub feature would be most suitable for this purpose?
+	
+	
+1.  GitHub Issues
+2.  GitHub Actions
+3.  GitHub Discussions
+	
+	
+	3. Which method ensures that changes made to a file in a repository are properly tracked?
+<hr>		
+	
+1.  Upload the file without committing.
+2.  Create a new branch without making a commit.
+3.  Commit the changes with a meaningful commit message.
+	
+<hr>		
+	4. Your organization has multiple repositories and you need to manage notifications effectively. What strategy should you adopt to ensure you are informed about critical updates without being overwhelmed?
+	
+	
+1.  Ignore notifications and periodically review repositories manually.
+2.  Subscribe to all activity from all repositories.
+3.  Use custom notification settings to receive alerts for critical issues, pull requests, and discussions.
+	
+<hr>		
+	5. A project manager wants to set up a space for the team to brainstorm and vote on new ideas for a project. Which feature should they enable in GitHub to best facilitate this?
+	
+	
+1.  GitHub Pages
+2.  GitHub Discussions with Polls category
+3.  GitHub Issues with labels
+	
+<hr>		
+	6. Your team is working on a project with frequent updates and changes. Which GitHub feature should you utilize to ensure effective collaboration and version control?
+	
+	
+1.  Use pull requests to review and merge changes.
+2.  Use secret gists to share code snippets with the team.
+3.  Directly commit all changes to the main branch.
+	
+	<hr>	
+	7. You are tasked with adding a new feature to your company's software using GitHub. What is the recommended workflow for this task using GitHub flow?
+	
+	
+1.  Create a new branch, commit changes, merge directly into the main branch, open a pull request.
+2.  Create a new branch, develop the feature, commit changes, open a pull request, merge after approval.
+3.  Develop the feature directly in the main branch, commit changes, open a pull request, merge after approval.
+	
+	<hr>	
+	8. Which of the following steps correctly describes the GitHub flow for implementing a new feature from start to finish?
+	
+	
+1.  Open a pull request, add commits, create a branch, review, merge.
+2.  Create a branch, add commits, open a pull request, review, merge, delete the branch.
+3.  Create a branch, open a pull request, add commits, review, merge, delete the branch.
+	<hr>	
+	
+	9. Which GitHub feature is most suitable for tracking and managing bug reports?
+	
+	
+1.  GitHub Issues
+2.  GitHub Pages
+3.  GitHub Discussions
+	
+	
+	
+1.  1 __ 2
+	
+2.  2 __ 3
+	
+3.  3 __ 3
+	
+4.  4 __ 3
+	
+5.  5 __ 2
+	
+6.  6 __ 1
+	
+7.  7 __ 2
+	
+8.  8 __ 2
+	
+9.  9 __ 1
+	
+	##### [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
+	1-What's the difference between GitHub organization accounts and GitHub personal/user accounts?
+	
+1.  Organizational accounts are shared accounts, while personal/user accounts are for individuals.
+	
+2.  You pay more for organization accounts versus personal/user accounts.
+	
+3.  They're exactly the same.
+	
+4.  Personal/user accounts have more access than organization accounts.
+<hr>		
+	2-What's the best reason to decide to upgrade to the GitHub Enterprise product?
+	
+1.  Because you want to use GitHub Actions and Codespaces.
+	
+2.  Because your VP needs to use GitHub Insights.
+	
+3.  Because you want to centrally manage users and repositories across multiple organizations.
+	
+4.  Because you want to use the team pull request reviewers feature.
+<hr>		
+	3-What's the purpose of a team?
+	
+1.  A team allows you to manage an organization account.
+	
+2.  A team allows you to control permission levels for an enterprise.
+	
+3.  A team allows a single user to sign in using different accounts credentials.
+	
+4.  A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
+<hr>		
+	4-What's a function you can execute on GitHub Mobile?
+	
+1.  Check out branches with pull requests and view CI statuses.
+	
+2.  Compare changed images.
+	
+3.  Add and clone repositories.
+	
+4.  Manage, triage, and clear notifications from github.com.
+<hr>		
+	5- Which of these features is unique to GitHub Enterprise Cloud (GHEC)?
+	
+1.  Requires on-premises deployment and infrastructure management
+	
+2.  Provides centralized user management with identity provider integration
+	
+3.  Must be installed and maintained by the organization's IT team
+	
+4.  Operates entirely within a private cloud environment
+<hr>		
+	6- What actions can you take at enterprise level to manage the use of GitHub Actions in your enterprise instance?
+	
+1.  Create workflow templates
+	
+2.  Configure a GitHub Actions use policy
+	
+3.  Manually sync public actions in Enterprise Cloud
+	
+<hr>		
+	7-What actions can you take to configure self-hosted runners for your enterprise use?
+	
+1.  Create and add custom labels to your runners
+	
+2.  Add proxy configurations to your runners after they start.
+	
+3.  Add the IP address or IP address range of your runners at repository level.
+<hr>		
+	8-What are encrypted secrets?
+	
+1.  Encrypted secrets are authentication tokens you can generate in your account settings.
+	
+2.  Encrypted secrets are the equivalent of SSH keys in GitHub.
+	
+3.  Encrypted secrets are encrypted environment variables you can create to store sensitive information.
+	
+1.  1 __ 1
+	
+2.  2 __ 3
+	
+3.  3 __ 4
+	
+4.  4 __ 4
+	
+5.  5 __ 2
+	
+6.  6 __ 2
+	
+7.  7 __ 1
+	
+8.  8 __ 3
+	
+	
+	##### [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
+	
+<hr>		
+	1.When code scanning is enabled, what is one default event that triggers a scan?
+	
+1.  Creating a new branch.
+	
+2.  Pushing a change.
+	
+3.  Deleting a branch.
+	
+<hr>		
+	2.Which of the following are the tools used to upload a SARIF file?
+	
+1.  The tools used are GitHub Actions, the code scanning API, and the CodeQL CLI.
+	
+2.  The tools used are GitHub Actions, the ESLint analysis tool, the code scanning API, and the CodeQL CLI.
+	
+3.  The tools used are the partialFingerprints property, GitHub Actions, the code scanning API, and the CodeQL CLI.
+	
+<hr>		
+	
+	3.What is the difference between scheduled versus triggered events in code scanning?
+	
+1.  Scheduled events are more difficult to configure than triggered events.
+	
+2.  Scheduled events run based on a specified schedule and triggered events run on code events such as a push.
+	
+3.  Triggered events run less frequently than scheduled events.
+	
+1.  1 __ 2
+	
+2.  2 __ 1
+	
+3.  3 __ 2
+	
+	##### [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+	1. What is GitHub Copilot?
+	
+1.  GitHub Copilot is an AI pair programmer that you can use to get code suggestions.
+	
+2.  GitHub Copilot is OpenAI Codex, a new AI system that OpenAI created.
+	
+3.  GitHub Copilot is a JavaScript public repository and is one of the best-supported languages.
+	
+4.  GitHub Copilot can write a comment that describes logic, and you can add your suggested code to implement the solution.
+	
+<hr>		
+1.  2. What are the supported IDE extensions for GitHub Copilot?
+	
+2.  VS Code and Visual Studio
+	
+3.  GitHub.com, VS Code, Visual Studio, Neovim, and JetBrains
+	
+4.  VS Code, Visual Studio, Neovim, and JetBrains
+	
+<hr>		
+	3. What is the difference between GitHub Copilot Business and GitHub Copilot Enterprise?
+	
+1.  GitHub Copilot Enterprise has code completions, whereas GitHub Copilot Business doesn't.
+	
+2.  GitHub Copilot Enterprise has chat in IDE and mobile, whereas GitHub Copilot Business doesn't.
+	
+3.  GitHub Copilot Enterprise has an extra layer of personalization. Organizations use their own codebase to train GitHub Copilot.
+	
+4.  GitHub Copilot Enterprise has an extra layer of security, with IP indemnity and enterprise-grade security, safety, and privacy.
+	
+	
+<hr>		
+	4. Which plan includes all Pro features plus additional premium usage and priority infrastructure access?
+	
+1.  GitHub Copilot Free
+	
+2.  GitHub Copilot Pro
+	
+3.  GitHub Copilot Pro+
+<hr>		
+4.  GitHub Copilot Enterprise
+	
+1.  1. 1
+2.  2. 3
+3.  3. 3
+4.  4. 3
+	
+	##### [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
+	1. Which directory is the clone placed in after creating a Codespace?
+	
+1.  /workspaces directory
+	
+2.  /temp directory
+	
+3.  ~/.bashrc directory
+	
+4.  Linux directory
+<hr>		
+	2. What's the maximum number of Codespaces that you can create per repository or branch?
+	
+1.  You can only create two Codespaces.
+	
+2.  You can create a total of 10 Codespaces.
+	
+3.  You can create a total of 30 Codespaces.
+	
+4.  You can create an unlimited number of Codespaces per repository or branch, depending upon available space. When you reach an upper amount of resources, a message displays that an existing Codespace needs to removed/deleted before a new Codespace can be created.
+	
+<hr>		
+	3. What happens when Codespace loses internet connectivity?
+	
+1.  If the connection to the internet is lost while working in a Codespace, you aren't able to access your Codespace.
+	
+2.  Codespace doesn't require an internet connection. I can access my Codespace regardless if I lose connectivity.
+	
+3.  If you lose internet connection while working on your Codespace, your changes aren't saved.
+	
+	<hr>	
+ 4. What defines the beginning of a Codespace's lifecycle?
+	
+1.  A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.
+	
+2.  A Codespace's lifecycle begins immediately when GitHub is opened and ends when the software is closed.
+	
+3.  A Codespace's lifecycle begins when a repository is created and ends when you delete it.
+	
+	1. 1
+	2. 4
+	3. 1
+	4. 1
+	
+	
+	##### [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
+	1. What Project descriptor automatically saves when you change it?
+	
+1.  Project name
+	
+2.  Project description
+	
+3.  Project README
+
+<hr>	
+	2. What does an iteration field help you do in Projects?
+	
+1.  Allows you to keep track of the various changes made to an issue or pull request.
+	
+2.  Allows you to reverse the changes you made to your Project.
+	
+3.  Allows you to create sequential phases of your project and group issues and pull requests based on the phase.
+<hr>	
+	3. What field can you use in order to make a Priority grouping like High, Medium, and Low in your Project?
+	
+1.  Date
+	
+2.  Single select
+	
+3.  Iteration field
+<hr>	
 
 
-GitHub Issues
-GitHub Actions
-GitHub Discussions
-
-
-3. Which method ensures that changes made to a file in a repository are properly tracked?
-
-
-Upload the file without committing.
-Create a new branch without making a commit.
-Commit the changes with a meaningful commit message.
-
-
-4. Your organization has multiple repositories and you need to manage notifications effectively. What strategy should you adopt to ensure you are informed about critical updates without being overwhelmed?
-
-
-Ignore notifications and periodically review repositories manually.
-Subscribe to all activity from all repositories.
-Use custom notification settings to receive alerts for critical issues, pull requests, and discussions.
-
-
-5. A project manager wants to set up a space for the team to brainstorm and vote on new ideas for a project. Which feature should they enable in GitHub to best facilitate this?
-
-
-GitHub Pages
-GitHub Discussions with Polls category
-GitHub Issues with labels
-
-
-6. Your team is working on a project with frequent updates and changes. Which GitHub feature should you utilize to ensure effective collaboration and version control?
-
-
-Use pull requests to review and merge changes.
-Use secret gists to share code snippets with the team.
-Directly commit all changes to the main branch.
-
-
-7. You are tasked with adding a new feature to your company's software using GitHub. What is the recommended workflow for this task using GitHub flow?
-
-
-Create a new branch, commit changes, merge directly into the main branch, open a pull request.
-Create a new branch, develop the feature, commit changes, open a pull request, merge after approval.
-Develop the feature directly in the main branch, commit changes, open a pull request, merge after approval.
-
-
-8. Which of the following steps correctly describes the GitHub flow for implementing a new feature from start to finish?
-
-
-Open a pull request, add commits, create a branch, review, merge.
-Create a branch, add commits, open a pull request, review, merge, delete the branch.
-Create a branch, open a pull request, add commits, review, merge, delete the branch.
-
-
-9. Which GitHub feature is most suitable for tracking and managing bug reports?
-
-
-GitHub Issues
-GitHub Pages
-GitHub Discussions
-
-
-
-1 __ 2
-
-2 __ 3
-
-3 __ 3
-
-4 __ 3
-
-5 __ 2
-
-6 __ 1
-
-7 __ 2
-
-8 __ 2
-
-9 __ 1
-
-##### [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
-1-What's the difference between GitHub organization accounts and GitHub personal/user accounts?
-
-Organizational accounts are shared accounts, while personal/user accounts are for individuals.
-
-You pay more for organization accounts versus personal/user accounts.
-
-They're exactly the same.
-
-Personal/user accounts have more access than organization accounts.
-
-2-What's the best reason to decide to upgrade to the GitHub Enterprise product?
-
-Because you want to use GitHub Actions and Codespaces.
-
-Because your VP needs to use GitHub Insights.
-
-Because you want to centrally manage users and repositories across multiple organizations.
-
-Because you want to use the team pull request reviewers feature.
-
-3-What's the purpose of a team?
-
-A team allows you to manage an organization account.
-
-A team allows you to control permission levels for an enterprise.
-
-A team allows a single user to sign in using different accounts credentials.
-
-A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
-
-4-What's a function you can execute on GitHub Mobile?
-
-Check out branches with pull requests and view CI statuses.
-
-Compare changed images.
-
-Add and clone repositories.
-
-Manage, triage, and clear notifications from github.com.
-
-5- Which of these features is unique to GitHub Enterprise Cloud (GHEC)?
-
-Requires on-premises deployment and infrastructure management
-
-Provides centralized user management with identity provider integration
-
-Must be installed and maintained by the organization's IT team
-
-Operates entirely within a private cloud environment
-
-6- What actions can you take at enterprise level to manage the use of GitHub Actions in your enterprise instance?
-
-Create workflow templates
-
-Configure a GitHub Actions use policy
-
-Manually sync public actions in Enterprise Cloud
-
-
-7-What actions can you take to configure self-hosted runners for your enterprise use?
-
-Create and add custom labels to your runners
-
-Add proxy configurations to your runners after they start.
-
-Add the IP address or IP address range of your runners at repository level.
-
-8-What are encrypted secrets?
-
-Encrypted secrets are authentication tokens you can generate in your account settings.
-
-Encrypted secrets are the equivalent of SSH keys in GitHub.
-
-Encrypted secrets are encrypted environment variables you can create to store sensitive information.
-
-1 __ 1
-
-2 __ 3
-
-3 __ 4
-
-4 __ 4
-
-5 __ 2
-
-6 __ 2
-
-7 __ 1
-
-8 __ 3
-
-
-##### [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
-
-
-1.When code scanning is enabled, what is one default event that triggers a scan?
-
-Creating a new branch.
-
-Pushing a change.
-
-Deleting a branch.
-
-
-2.Which of the following are the tools used to upload a SARIF file?
-
-The tools used are GitHub Actions, the code scanning API, and the CodeQL CLI.
-
-The tools used are GitHub Actions, the ESLint analysis tool, the code scanning API, and the CodeQL CLI.
-
-The tools used are the partialFingerprints property, GitHub Actions, the code scanning API, and the CodeQL CLI.
-
-
-
-3.What is the difference between scheduled versus triggered events in code scanning?
-
-Scheduled events are more difficult to configure than triggered events.
-
-Scheduled events run based on a specified schedule and triggered events run on code events such as a push.
-
-Triggered events run less frequently than scheduled events.
-
-1 __ 2
-
-2 __ 1
-
-3 __ 2
-
-##### [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
-1. What is GitHub Copilot?
-
-GitHub Copilot is an AI pair programmer that you can use to get code suggestions.
-
-GitHub Copilot is OpenAI Codex, a new AI system that OpenAI created.
-
-GitHub Copilot is a JavaScript public repository and is one of the best-supported languages.
-
-GitHub Copilot can write a comment that describes logic, and you can add your suggested code to implement the solution.
-
-
-2. What are the supported IDE extensions for GitHub Copilot?
-
-VS Code and Visual Studio
-
-GitHub.com, VS Code, Visual Studio, Neovim, and JetBrains
-
-VS Code, Visual Studio, Neovim, and JetBrains
-
-
-3. What is the difference between GitHub Copilot Business and GitHub Copilot Enterprise?
-
-GitHub Copilot Enterprise has code completions, whereas GitHub Copilot Business doesn't.
-
-GitHub Copilot Enterprise has chat in IDE and mobile, whereas GitHub Copilot Business doesn't.
-
-GitHub Copilot Enterprise has an extra layer of personalization. Organizations use their own codebase to train GitHub Copilot.
-
-GitHub Copilot Enterprise has an extra layer of security, with IP indemnity and enterprise-grade security, safety, and privacy.
-
-
-
-4. Which plan includes all Pro features plus additional premium usage and priority infrastructure access?
-
-GitHub Copilot Free
-
-GitHub Copilot Pro
-
-GitHub Copilot Pro+
-
-GitHub Copilot Enterprise
-
-1. 1
-2. 3
-3. 3
-4. 3
-
-##### [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
-1. Which directory is the clone placed in after creating a Codespace?
-
-/workspaces directory
-
-/temp directory
-
-~/.bashrc directory
-
-Linux directory
-
-2. What's the maximum number of Codespaces that you can create per repository or branch?
-
-You can only create two Codespaces.
-
-You can create a total of 10 Codespaces.
-
-You can create a total of 30 Codespaces.
-
-You can create an unlimited number of Codespaces per repository or branch, depending upon available space. When you reach an upper amount of resources, a message displays that an existing Codespace needs to removed/deleted before a new Codespace can be created.
-
-
-3. What happens when Codespace loses internet connectivity?
-
-If the connection to the internet is lost while working in a Codespace, you aren't able to access your Codespace.
-
-Codespace doesn't require an internet connection. I can access my Codespace regardless if I lose connectivity.
-
-If you lose internet connection while working on your Codespace, your changes aren't saved.
-
-
-4. What defines the beginning of a Codespace's lifecycle?
-
-A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.
-
-A Codespace's lifecycle begins immediately when GitHub is opened and ends when the software is closed.
-
-A Codespace's lifecycle begins when a repository is created and ends when you delete it.
-
-1. 1
-2. 4
-3. 1
-4. 1
-
-
-##### [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
-1. What Project descriptor automatically saves when you change it?
-
-Project name
-
-Project description
-
-Project README
-2. What does an iteration field help you do in Projects?
-
-Allows you to keep track of the various changes made to an issue or pull request.
-
-Allows you to reverse the changes you made to your Project.
-
-Allows you to create sequential phases of your project and group issues and pull requests based on the phase.
-3. What field can you use in order to make a Priority grouping like High, Medium, and Low in your Project?
-
-Date
-
-Single select
-
-Iteration field
 4. What is the easiest way to add automation to your Project?
+	
+1.  GraphQL API
+	
+2.  Built-in Automation
+	
+3.  GitHub Actions
+<hr>	
 
-GraphQL API
-
-Built-in Automation
-
-GitHub Actions
 5. What is the name of the section where you can change the visibility of your Project, close your Project, or delete your Project?
+	
+1.  Red zone
+	
+2.  Visibility and Access
+	
+3.  Danger zone
+<hr>	
 
-Red zone
-
-Visibility and Access
-
-Danger zone
 6. What is the benefit of converting checklist items into sub-issues?
+	
+1.  It allows you to embed a checklist within an issue.
+	
+2.  It turns checklist items into standalone issues with status and metadata.
+	
+3.  It automatically resolves the parent issue.
+<hr>	
 
-It allows you to embed a checklist within an issue.
-
-It turns checklist items into standalone issues with status and metadata.
-
-It automatically resolves the parent issue.
 7. Where can you go to enable default workflows for a Project?
-
-In the Project's README editor
-
-From the three-dot menu in the top-right of your Project
-
-Under repository settings
-
-
-1. 1
-2. 3
-3. 2
-4. 2
-5. 3
-6. 2
-7. 2
+	
+1.  In the Project's README editor
+	
+2.  From the three-dot menu in the top-right of your Project
+	
+3.  Under repository settings
+	
+	
+	1. 1
+	2. 3
+	3. 2
+	4. 2
+	5. 3
+	6. 2
+	7. 2
+	
+	
 ##### [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
+	
+	
+	
+	1. Which of the following Markdown snippets produces the text Hello, world! in bold italics?
+	
+1.  *Hello, *world*!*
+	
+2.  **Hello, *world*!**
+	
+3.  ***Hello, world!***
+	
+4.  ### Hello, world!
+	
+<hr>		
+	2. How do you print certain characters, like asterisks (*) and underscores (_), literally on your output?
+	
+1.  Use three in a row, like *** or ___.
+	
+2.  Escape them with a backslash, like \* or \_.
+	
+3.  Unfortunately, this isn't supported at this time.
+	
+<hr>		
+	3. Suppose there's an HTML snippet that you want to include on your GitHub Pages web site, but Markdown doesn't offer a way to render it. What should you do?
+	
+1.  Just add the HTML inline.
+	
+2.  Cut the content. If it's not supported in Markdown, then it's probably not worth including.
+	
+3.  Open an issue that requests Markdown support for your specialized scenario.
+	
+	1. 3
+	2. 2
+	3. 1
+
 
 
 
