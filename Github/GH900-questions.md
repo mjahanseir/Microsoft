@@ -1,4 +1,153 @@
 
+##### [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
+
+1- Which of the following scenarios is a common use case for a version control system?
+
+1. Deleting earlier versions of a project or file, so you know you are working only with the most current file or data.
+
+2. Making experimental changes to your project in an isolated branch.
+
+3. Gathering feature requirements for a large project and communicating them to stakeholders.
+
+
+2-Which broader discipline commonly includes version control?
+
+Version management software (VMS)
+
+Software control management (SCM) system
+
+Software configuration management (SCM) system
+
+3-What’s the difference between Git and GitHub?
+
+Git lets you work with one or more local branches and push changes to a remote repository. GitHub acts as the remote repository, which is accessed through a website or command-line tools.
+
+Git is a distributed version control system (DVCS) that runs in the cloud. GitHub is an interface layer that provides access to Git technology.
+
+Git is used by an individual contributor. GitHub is used by multiple contributors to simplify group development work.
+
+4- What Git command gives information about how to use Git?
+
+git init
+
+git status
+
+git help
+
+1 __ 2
+2 __ 3
+3 __ 1
+4 __ 3
+
+
+
+##### [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
+
+1. Imagine you are working on a new feature for a project on GitHub. To ensure your changes do not affect the main codebase immediately, what should you do first?
+
+
+Directly commit changes to the main branch.
+Create a new branch from the main branch.
+Submit a pull request.
+
+
+2. Your organization wants to host an open forum for developers to discuss project improvements and share feedback. Which GitHub feature would be most suitable for this purpose?
+
+
+GitHub Issues
+GitHub Actions
+GitHub Discussions
+
+
+3. Which method ensures that changes made to a file in a repository are properly tracked?
+
+
+Upload the file without committing.
+Create a new branch without making a commit.
+Commit the changes with a meaningful commit message.
+
+
+4. Your organization has multiple repositories and you need to manage notifications effectively. What strategy should you adopt to ensure you are informed about critical updates without being overwhelmed?
+
+
+Ignore notifications and periodically review repositories manually.
+Subscribe to all activity from all repositories.
+Use custom notification settings to receive alerts for critical issues, pull requests, and discussions.
+
+
+5. A project manager wants to set up a space for the team to brainstorm and vote on new ideas for a project. Which feature should they enable in GitHub to best facilitate this?
+
+
+GitHub Pages
+GitHub Discussions with Polls category
+GitHub Issues with labels
+
+
+6. Your team is working on a project with frequent updates and changes. Which GitHub feature should you utilize to ensure effective collaboration and version control?
+
+
+Use pull requests to review and merge changes.
+Use secret gists to share code snippets with the team.
+Directly commit all changes to the main branch.
+
+
+7. You are tasked with adding a new feature to your company's software using GitHub. What is the recommended workflow for this task using GitHub flow?
+
+
+Create a new branch, commit changes, merge directly into the main branch, open a pull request.
+Create a new branch, develop the feature, commit changes, open a pull request, merge after approval.
+Develop the feature directly in the main branch, commit changes, open a pull request, merge after approval.
+
+
+8. Which of the following steps correctly describes the GitHub flow for implementing a new feature from start to finish?
+
+
+Open a pull request, add commits, create a branch, review, merge.
+Create a branch, add commits, open a pull request, review, merge, delete the branch.
+Create a branch, open a pull request, add commits, review, merge, delete the branch.
+
+
+9. Which GitHub feature is most suitable for tracking and managing bug reports?
+
+
+GitHub Issues
+GitHub Pages
+GitHub Discussions
+
+
+
+1 __ 2
+
+2 __ 3
+
+3 __ 3
+
+4 __ 3
+
+5 __ 2
+
+6 __ 1
+
+7 __ 2
+
+8 __ 2
+
+9 __ 1
+
+##### [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
+
+##### [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
+
+##### [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+
+##### [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
+
+##### [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
+
+##### [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
+
+
+
 # Practice Assessment for GH-900: GitHub Foundations
 
 ## Question 1 of 50
