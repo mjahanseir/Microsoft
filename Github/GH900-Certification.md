@@ -68,8 +68,22 @@
 ## ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
 
  [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
+1. Introduction
+2. What is version control?
+3. Exercise - Try out Git
+4. Basic Git commands
+5. Module assessment
+6. Summary
 
 [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
+1. Introduction
+2. What is GitHub?
+3. Components of the GitHub flow
+4. GitHub is a collaborative platform
+5. GitHub platform management
+6. Exercise - A guided tour of GitHub
+7. Module assessment
+8. Summary
 
 [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
 1. Introduction
