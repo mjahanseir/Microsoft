@@ -728,13 +728,156 @@ Security Key
 
 
 ## [2-6-Manage repository changes by using pull requests on GitHub](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/)
+1. You notice a pull request in your repository marked as 'closed'. What action should you take if you want the proposed changes to be included in the base branch? 
+Directly merge the pull request from the closed state.
+Create a new pull request from the same branch and merge it.
+Reopen the pull request and review it again if necessary.
+2. During a code review, a reviewer requests changes before the pull request can be merged. What status does the pull request maintain until changes are made? 
+Closed pull request
+Open pull request
+Draft pull request
+3. What is the function of the 'Confirm merge' button in the pull request process? 
+To finalize the merging of the pull request into the base branch.
+To delete the feature branch after merging.
+To open a new issue related to the pull request.
+4. If a pull request is labeled as 'open', what does this imply about the current state and next steps for the pull request? 
+The pull request has been merged into the base branch and is complete.
+The pull request is closed and cannot accept any further changes.
+The pull request is still active and open for review, discussion, and further commits.
+5. A pull request in your project is marked as 'open'. What does this status indicate regarding its current activity and possible actions? 
+The pull request has been merged and all changes are finalized.
+The pull request has been closed and cannot be merged into the base branch.
+The pull request is currently active and can be reviewed, discussed, and modified if needed.
+6. During a pull request review, it is noted that several commits need to be combined for clarity. Which merging strategy should be used to achieve this? 
+Use 'Squash and merge' to combine all commits into one.
+Use 'Rebase and merge' to apply changes without a merge commit.
+Use 'Merge pull request' to merge all commits as they are.
+7. Your organization uses GitHub for version control. A developer has completed a new feature on a separate branch and needs to propose these changes to the main branch. What is the first step they should take to create a pull request on GitHub? 
+Merge the feature branch directly into the main branch without review.
+Navigate to the main page of the repository and select the feature branch from the Branch menu.
+Request a code review from another developer before creating a pull request.
+8. After reviewing the changes in a pull request, you decide to combine all commits into a single commit before merging. Which option should you select? 
+Squash and merge
+Create a merge commit
+Rebase and merge
+9. In your project, all pull requests must undergo a security scan before merging. Where can you see the status of these checks? 
+In the email notifications sent to the repository owner
+In the repository settings under branch protection rules
+At the bottom of the pull request page
+
+1. 3
+2. 2
+3. 1
+4. 3
+5. 3
+6. 1
+7. 2
+8. 1
+
 
 ## [2-7-Search and organize repository history by using GitHub](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/)
+1. How does GitHub's top-level search bar differ from the search options available on repository tabs?
 
+Other than being located in different parts of the user interface, they're otherwise the same.
+
+They support different filter syntax options.
+
+The top-level search bar supports searching everything across all of GitHub, whereas the repository tab searches are scoped to cover specific types in the current repository.
+2. What does git blame do?
+
+It creates a bug assigned to the last person who committed changes to the specified file.
+
+It displays the commit history of the file.
+
+It reverts the effects of a git praise command.
+3. Suppose a bug issue is reported on your project, and you know which pull request introduced the problem. Which of the following options is not a cross-linking best practice?
+
+Don't create cross-links when the root cause of the issue is already known.
+
+Add a comment to the bug report that includes the pull request's author by using an @mention.
+
+Add a comment to the bug report that links the pull request to it using the #ID syntax.
+4. What is a benefit of assigning a milestone to issues or pull requests?
+
+It prevents other users from editing the issue or PR.
+
+It helps track progress toward a shared goal, such as a release.
+
+It sends email notifications to the entire repository.
+5. Which query shows all open issues labeled as bugs in a specific milestone?
+
+is: open is: issue label: bug milestone:"Sprint 1"
+
+Label: bug milestone: closed
+
+Is: pr label: bug
+6. How do you insert a saved reply in an issue or pull request comment?
+
+Click the saved reply icon in the comment field and select from your saved replies.
+
+Type @saved and select from the reply dropdown.
+
+Use the slash command /reply to open your saved replies.
+7. What does assigning someone to an issue or pull request indicate?
+
+That person is responsible for working on it.
+
+That person is the original author.
+
+That person will automatically receive a badge.
+
+
+1. 3
+2. 2
+3. 1
+4. 2
+5. 1
+6. 1
+7. 1
 ## [2-8-Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/)
 
+1. How does GitHub Copilot work?
+
+GitHub Copilot uses prompts and natural language text that you type to provide coding suggestions.
+
+GitHub Copilot uses highlights, that you select, and it provides suggestions based on what you highlight.
+
+GitHub Copilot uses radio language, that you type, and it provides suggestions based on what you type.
+2. What are some GitHub Copilot Free features?
+
+It's a free unrestricted AI tool that works independent of code editors.
+
+It provides several suggestions and chats per month directly in your IDE and on github.com.
+
+An option to enable slower responses, preserving your Copilot Pro quota.
+3. How can you accept GitHub Copilot's suggestions?
+
+Press the Tab key.
+
+Press the F1 key.
+
+Press the F4 key.
+4. Identify which statement is valid and select the correct answer:
+
+A prompt, which is our output, is a collection of songs that tells our copilot what to generate.
+
+A prompt, which is our input, is a collection of instructions or guidelines that tell our copilot what to generate.
+
+A prompt, which is our document, is a collection of laptops that tells our Copilot what to generate.
+5. What does the quality of the output from GitHub Copilot depend on?
+
+Your code editor.
+
+How well your extensions were installed.
+
+How well you craft your prompt.
 
 
+1. 1
+2. 2
+3. 1
+4. 2
+5. 3
 
 
 
