@@ -874,26 +874,109 @@ Select only one answer.
 	
 			
 ## 	Question	42	of 50
+What happens if you lose internet connectivity while using a Codespace?
+
+Select only one answer.
+
+- If the connection to the internet is lost while working in a Codespace, edit access is lost until connectivity is recovered.
+
+
+- Codespaces don't require an internet connection. You can access your Codespace regardless of connectivity.
+
+
+- If you lose internet connection while working on your Codespace, your unsaved changes are lost.
+
+
+- Nothing happens. Everything is always saved regardless of internet access.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -		a A Codespace is a remote development environment and requires an active internet connection to interact with it. If the internet connection is lost, the environment remains until a connection is reestablished. Changes are stored within the remote environment until committed and pushed or the Codespace is deleted.
+
+	
 			
 ## 	Question	43	of 50
+What defines the lifecycle of a Codespace?
+
+Select only one answer.
+
+- It is completely manual. It begins when you create a Codespace and ends when you delete it.
+
+
+- It is automated and exists as long a repository as a Codespace configuration file.
+
+
+- Every new repository comes with a default Codespace. If not used within 30days, it is automatically deleted.
+
+
+- Codespace lifecycles are associated to creating and closing pull requests.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -			a Codespace configurations are defined in a repository within the “.devcontainer” folder. The creation of a Codespace is initiated by a user and remains until the user or policy settings explicitly delete it.
+
+
 			
 ## 	Question	44	of 50
+What is the primary function of a GitHub Action?
+
+Select only one answer.
+
+- To automate software development tasks.
+
+
+- To facilitate continuous integration and continuous delivery (CI/CD).
+
+
+- Integrate infrastructure as code within your project's context.
+
+
+- All of the above
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	d The GitHub Actions platform provides an ecosystem for running very triggerable workflows. Developers can create custom workflows and shareable Actions to enable many common tasks such as continuous integration/delivery, administrative tasks, and infrastructure as code.
+
+		
 			
 ## 	Question	45	of 50
+Which of the following cannot be used as an event trigger (‘on: xyz’)?
+
+Select only one answer.
+
+- Making a commit to a branch
+
+
+- A user visits a specified page on the repository
+
+
+- Merging a branch
+
+
+- Opening an issue
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -		b GitHub Actions supports many types of workflow triggers, including several events related to Git activity and Issue management, for example pushing a commit, starting a pull request, merging, creating an issue, or adding comments
+
+	
 			
 ## 	Question	46	of 50
+In a GitHub Project, what types of views can be created?
+
+Select only one answer.
+
+- Table, Board, Roadmap
+
+
+- Gantt, Kanban, Spreadsheet
+
+
+- Simple List, Tree List, Linked Nodes
+
+
+- Timeline, Calendar, Gantt, Board
+
 			
 <br><hr><br>			
 - [x] -			
