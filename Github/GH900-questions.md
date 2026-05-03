@@ -312,9 +312,109 @@ GitHub Copilot Enterprise
 4. 3
 
 ##### [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
+1. Which directory is the clone placed in after creating a Codespace?
+
+/workspaces directory
+
+/temp directory
+
+~/.bashrc directory
+
+Linux directory
+
+2. What's the maximum number of Codespaces that you can create per repository or branch?
+
+You can only create two Codespaces.
+
+You can create a total of 10 Codespaces.
+
+You can create a total of 30 Codespaces.
+
+You can create an unlimited number of Codespaces per repository or branch, depending upon available space. When you reach an upper amount of resources, a message displays that an existing Codespace needs to removed/deleted before a new Codespace can be created.
+
+
+3. What happens when Codespace loses internet connectivity?
+
+If the connection to the internet is lost while working in a Codespace, you aren't able to access your Codespace.
+
+Codespace doesn't require an internet connection. I can access my Codespace regardless if I lose connectivity.
+
+If you lose internet connection while working on your Codespace, your changes aren't saved.
+
+
+4. What defines the beginning of a Codespace's lifecycle?
+
+A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.
+
+A Codespace's lifecycle begins immediately when GitHub is opened and ends when the software is closed.
+
+A Codespace's lifecycle begins when a repository is created and ends when you delete it.
+
+1. 1
+2. 4
+3. 1
+4. 1
+
 
 ##### [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
+1. What Project descriptor automatically saves when you change it?
 
+Project name
+
+Project description
+
+Project README
+2. What does an iteration field help you do in Projects?
+
+Allows you to keep track of the various changes made to an issue or pull request.
+
+Allows you to reverse the changes you made to your Project.
+
+Allows you to create sequential phases of your project and group issues and pull requests based on the phase.
+3. What field can you use in order to make a Priority grouping like High, Medium, and Low in your Project?
+
+Date
+
+Single select
+
+Iteration field
+4. What is the easiest way to add automation to your Project?
+
+GraphQL API
+
+Built-in Automation
+
+GitHub Actions
+5. What is the name of the section where you can change the visibility of your Project, close your Project, or delete your Project?
+
+Red zone
+
+Visibility and Access
+
+Danger zone
+6. What is the benefit of converting checklist items into sub-issues?
+
+It allows you to embed a checklist within an issue.
+
+It turns checklist items into standalone issues with status and metadata.
+
+It automatically resolves the parent issue.
+7. Where can you go to enable default workflows for a Project?
+
+In the Project's README editor
+
+From the three-dot menu in the top-right of your Project
+
+Under repository settings
+
+
+1. 1
+2. 3
+3. 2
+4. 2
+5. 3
+6. 2
+7. 2
 ##### [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
 
 
