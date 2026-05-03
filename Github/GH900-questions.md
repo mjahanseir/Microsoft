@@ -1,5 +1,6 @@
+# ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/training/paths/github-foundations/) 
 
-##### [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
+## [1-1-Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
 	
 1- Which of the following scenarios is a common use case for a version control system?
 	
@@ -41,7 +42,7 @@
 	
 	
 	
-	##### [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
+	## [1-2-Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
 	
 1. Imagine you are working on a new feature for a project on GitHub. To ensure your changes do not affect the main codebase immediately, what should you do first?
 	
@@ -134,7 +135,7 @@
 	
 9.  9 __ 1
 	
-	##### [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
+## [1-3-Introduction to GitHub's products](https://learn.microsoft.com/en-us/training/modules/github-introduction-products/)
 	1-What's the difference between GitHub organization accounts and GitHub personal/user accounts?
 	
 1.  Organizational accounts are shared accounts, while personal/user accounts are for individuals.
@@ -227,7 +228,7 @@
 8.  8 __ 3
 	
 	
-	##### [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
+## [1-4-Configure code scanning on GitHub](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/)
 	
 <hr>		
 	1.When code scanning is enabled, what is one default event that triggers a scan?
@@ -263,7 +264,7 @@
 	
 3.  3 __ 2
 	
-	##### [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
+## [1-5-Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/)
 	1. What is GitHub Copilot?
 	
 1.  GitHub Copilot is an AI pair programmer that you can use to get code suggestions.
@@ -311,7 +312,7 @@
 3.  3. 3
 4.  4. 3
 	
-	##### [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
+## [1-6-Code with GitHub Codespaces](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/)
 	1. Which directory is the clone placed in after creating a Codespace?
 	
 1.  /workspaces directory
@@ -356,7 +357,7 @@
 	4. 1
 	
 	
-	##### [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
+## [1-7-Manage your work with GitHub Projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/)
 	1. What Project descriptor automatically saves when you change it?
 	
 1.  Project name
@@ -429,7 +430,7 @@
 	7. 2
 	
 	
-##### [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
+## [1-8-Communicate effectively on GitHub using Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/)
 	
 	
 	
@@ -453,20 +454,116 @@
 3.  Unfortunately, this isn't supported at this time.
 	
 <hr>		
-	3. Suppose there's an HTML snippet that you want to include on your GitHub Pages web site, but Markdown doesn't offer a way to render it. What should you do?
+3. Suppose there's an HTML snippet that you want to include on your GitHub Pages web site, but Markdown doesn't offer a way to render it. What should you do?
 	
 1.  Just add the HTML inline.
 	
 2.  Cut the content. If it's not supported in Markdown, then it's probably not worth including.
 	
 3.  Open an issue that requests Markdown support for your specialized scenario.
-	
+<hr>
 	1. 3
 	2. 2
 	3. 1
 
+# ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GitHub Foundations Part 2 of 2](https://learn.microsoft.com/training/paths/github-foundations-2/)  
+
+## [2-1-Contribute to an open-source project on GitHub](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/)
+1. What is the best place on a GitHub repository to find where you can help a project?
+
+The README file
+
+The issues list
+
+The search bar
+
+The LICENSE file
+
+<hr>
 
 
+2. What is the preferred way to ask for help or reviews on a pull request?
+
+Send a negative or disrespectful comment to the project's maintainers via social media.
+
+Create an issue
+
+Add comment in the pull request
+
+Send an email to a random committer on the project
+
+<hr>
+
+3. What is needed before you can create a pull request on GitHub?
+
+Send a patch file to maintainers via email
+
+Clone a repo, commit changes, and force push
+
+Get accepted as a team member
+
+Fork a repo, clone it, commit changes, and push to your fork
+
+- 1-2
+- 2-3
+- 3-4
+  
+## [2-2-Manage an InnerSource program by using GitHub](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/)
+1. Which of the following choices best describes the relationship between open source and InnerSource programs?
+
+Anyone can offer a contribution to an open source program, whereas InnerSource programs only accept contributions from members of the team that owns the repository.
+
+InnerSource programs are forked from open source programs by organizations that only use and maintain them privately moving forward.
+
+InnerSource programs are fundamentally the same as open source programs, except that their access is limited to people within their organization.
+
+<hr>
+
+2. Suppose your team has been receiving some low-quality bug reports without enough information to properly diagnose. Which of the following choices is the best way to address the issue?
+
+Use GitHub Script to add a workflow action that automatically rejects any issues with a description fewer than 200 characters long.
+
+Add an ISSUE_TEMPLATE.md file that includes fields for reproduction steps, system properties, and instructions for generating and including important logs.
+
+Add a CONTRIBUTING.md file that clearly explains what to include in a bug report. For example, reproduction steps, system properties, and instructions for generating and including important logs.
+
+<hr>
+
+3. Suppose your team has been tracking data of all kinds since your InnerSource program went live three months ago. Which of the following metrics indicates your program is a great success?
+
+A dramatic rise in pull requests that address bugs in your software.
+
+A growing rate of bug reports that are quickly closed because they can't be reproduced.
+
+A steady decline in new issues.
+
+
+
+- 1-3
+- 2-2
+- 3-1
+
+
+## [2-3-Maintain a secure repository by using GitHub best practices](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/)
+
+  
+## [2-4-Introduction to GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/)
+
+
+## [2-5-Authenticate and authorize user identities on GitHub](https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/)
+
+## [2-6-Manage repository changes by using pull requests on GitHub](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/)
+
+## [2-7-Search and organize repository history by using GitHub](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/)
+
+## [2-8-Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/)
+
+
+
+
+
+
+<br><hr><br>
 
 # Practice Assessment for GH-900: GitHub Foundations
 
