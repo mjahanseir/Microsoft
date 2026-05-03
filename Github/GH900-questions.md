@@ -206,67 +206,325 @@ Select only one answer.
 - [x] -a Issue and pull request numbers can be mentioned in the description or a comment.
 
 
+## Question 11 of 50
+
+How can you search for specific issues within a GitHub repository?
+
+Select only one answer.
+
+- Use the repository's README.md file to search for issues.
+
+
+- Search for issue titles using the global GitHub search bar.
+
+
+- Manually browse through each issue in the repository.
+
+
+- Open each milestone to find related issues.
+
+
+<br><hr><br>
+- [x] -b You can use the global GitHub search bar to search for issue titles, labels, and keywords within a specific repository. This is a powerful way to find relevant issues.
+
+## Question 12 of 50
+
+What does a "Pull Request" (PR) in GitHub refer to?
+
+Select only one answer.
+
+- A request to delete a repository permanently.
+
+
+- A request to merge changes from one branch into another.
+
+
+- A request for adding a new developer to the project.
+
+
+- A request to download the latest version of a repository.
+
+<br><hr><br>
+- [x] - b A "Pull Request" (PR) is a process collect peer feedback and to merge changes made in one branch, usually a feature branch, into another branch, usually the main or default branch.
+
+## Question 13 of 50
+
+How can you make commits to a Pull Request after it has been opened?
+
+Select only one answer.
+
+- You cannot make any commits to a Pull Request after it's opened.
+
+
+- You must close the Pull Request and open a new one with the changes.
+
+
+- Commits can be made directly to the "compare" branch in the Pull Request.
+
+
+- Commits are made on the "base" branch and are automatically reflected in the Pull Request.
 
 
 
 <br><hr><br>
-- [x] -
+- [x] -c You can continue to make commits to the "compare" branch of the Pull Request even after it has been opened. This is very common and addressing feedback from the reviews.
+
+## Question 14 of 50
+
+What is the purpose of the various tabs (Files changed, Conversation, Commits, etc.) in a GitHub Pull Request?
+
+Select only one answer.
+
+- They are decorative elements that enhance the Pull Request interface.
+
+
+- They provide additional information about the author's profile.
+
+
+- They display the repository's documentation and README content.
+
+
+- They offer context, changes, and discussions related to the Pull Request.
 
 <br><hr><br>
-- [x] -
+- [x] -d The various tabs on a Pull Request provide information for supporting a code review: "Files changed" shows the proposed changes, "Conversation" enables peer commentary and review feedback, "Commits" lists the changes from the branch. They are not about the author or any specific content in the repository.https://github.com/skills/review-pull-requests
 
 
+## Question 15 of 50
 
-<br><hr><br>
-- [x] -
+Which of the following statements about GitHub Gists is true?
 
-<br><hr><br>
-- [x] -
+Select only one answer.
 
-
-
-<br><hr><br>
-- [x] -
-
-<br><hr><br>
-- [x] -
+- Gists can only contain code and programming-related content.
 
 
-
-<br><hr><br>
-- [x] -
-
-<br><hr><br>
-- [x] -
+- Gists are always public and cannot be made private.
 
 
-
-<br><hr><br>
-- [x] -
-
-<br><hr><br>
-- [x] -
+- Gists can include both code snippets and markdown-formatted text.
 
 
-
-<br><hr><br>
-- [x] -
-
-<br><hr><br>
-- [x] -
-
+- Gists have the same access controls as regular GitHub repositories.
 
 
 <br><hr><br>
-- [x] -
+- [x] - c Gists are commonly made of code snippets, markdown formatted text, and small files, making them versatile for various simple uses.
+
+## Question 16 of 50
+
+What is the primary purpose of GitHub Wiki pages?
+
+Select only one answer.
+
+- Storing and managing large binary files.
+
+
+- Tracking issues and bugs within a repository.
+
+
+- Hosting a collaborative documentation space for a project.
+
+
+- Showcasing code snippets and examples for public viewing.
+
+ 
 
 <br><hr><br>
-- [x] -
+- [x] - c GitHub Wiki pages provide a more open space for collaborative documentation separate from the versioned repository content. It can be a space for the community to collaborate, build guides, or share other useful information.
+
+
+## Question 17 of 50
+
+Which of the following statements accurately describes GitHub Pages?
+
+Select only one answer.
+
+- It is a feature exclusively available to GitHub Enterprise users.
+
+
+- GitHub Pages supports dynamic server-side scripting and databases.
+
+
+- GitHub Pages allows users to host and publish static websites directly from GitHub repositories.
+
+
+- GitHub Pages provides unlimited free hosting of all types of web applications.
+
+<br><hr><br>
+- [x] - c GitHub Pages is a service that allows any user to create and host static websites directly from their GitHub repositories, making it easy to share information, project documentation, and more.
+
+## Question 18 of 50
+
+What type of user authentication is used to verify a user identity against a known identity provider?
+
+Select only one answer.
+
+- Two-factor authentication (2FA)
+
+
+- Time-based One-time Password (TOTP)
+
+
+- SAML Single Sign-on (SAML SSO)
+
+
+- Short Message Service (SMS)
+
+<br><hr><br>
+- [x] - c SAML authentication is an industry standard process used to verify user identity and credentials against a known identity provider. It is supported by GitHub.
+
+
+## Question 19 of 50
+
+Where does a user authenticate after enabling SAML Single sign-on?
+
+Select only one answer.
+
+- With a GitHub login.
+
+- With the organization credentials.
+
+
+- With the Identity Provider (IdP).
+
+
+- With a personal login.
+
+ 
+
+
+<br><hr><br>
+- [x] - c When a member attempts to access resources within an organization that uses SAML SSO, GitHub redirects the member to the IdP to authenticate.
+
+
+## Question 20 of 50
+
+You are an admin and want to enable team synchronization for your organization. What installation permissions do you need to configure team synchronization for Azure AD?
+
+Select only one answer.
+
+- Provide the tenant URL
+
+
+- Read all users’ full profiles
+
+
+- Generate a valid Single Sign-on for Web Systems (SSWS) token
+
+
+- Enable SAML Single Sign-on (SSO)
+
+<br><hr><br>
+- [x] - b To enable team synchronization for Azure AD, the installation needs the following permissions: read all users’ full profiles, Sign in and read user profile, and read directory data.
+
+
+## Question 21 of 50
+
+What are GitHub Enterprise Managed Users?
+
+Select only one answer.
+
+- Users who are responsible for managing GitHub Enterprise servers.
+
+
+- Individuals with access to public repositories on GitHub.
+
+
+- Users managed by SSO (single sign on) with restricted permissions.
+
+
+- Developers who exclusively use GitHub for personal projects.
+
+
+<br><hr><br>
+- [x] - c GitHub Enterprise Managed Users are individuals who have access to internal repositories hosted on GitHub Enterprise and restricted public access. They are centrally managed by administrators, allowing for controlled collaboration and access permissions.
+
+
+## Question 22 of 50
+
+What is a good way to make sure you're integrating the most secure versions of your project dependencies?
+
+Select only one answer.
+
+- Configure your package files to always use the latest versions of dependencies.
+
+- Check each project's security details closely before adding it to your dependencies by confirming its version status across multiple advisory sites.
+
+
+- Enable **Dependabot** for your repository.
+
+
+- Enable repository dependency graph alerts.
+
+<br><hr><br>
+- [x] -cDependabot scans your repository's dependency manifests and notifies you via an alert and pull request whenever a utilized version or upstream dependency is discovered as insecure.
+
+##  Question 23 of 50
+
+One of your source projects relies on secrets kept in a folder called .secrets. You would like to make sure that the files kept in this folder on development machines are not inadvertently committed to the repository. Which of these files will best help enforce this policy?
+
+Select only one answer.
+
+- SECURITY.md
+
+
+- .gitignore
+
+
+- CONTRIBUTING.md
+
+
+- README.md
 
 
 
 <br><hr><br>
-- [x] -
+- [x] -b The .gitignore can be used to help enforce which files are included in commits by tools that respect it. However, note that this policy is enforced by the client and does not necessarily prevent users from committing files that violate policy.
+
+## Question 24 of 50
+
+Someone has inadvertently committed a sensitive API key, triggering an alert. Where can you find the open alerts?
+
+Select only one answer.
+
+- The files and line numbers will show a red exclamation mark next to them on github.com.
+
+
+- Selecting the “Security” tab at the top of a repository’s page.
+
+
+- The alert is only shared to the repository owner with an email. For security reasons, it is not visible any other places.
+
+
+- Selecting the “Open Security Alerts” warning at the top of the repository’s page.
+
+<br><hr><br>
+- [x] -b If the user has appropriate permissions, they will have access to the “Security” tab, which displays all known alerts and references to affected code. Alerts are not displayed next to the files or text. For timely awareness, an email is sent at discovery time.
+
+
+## Question 25 of 50
+
+As an organization owner, you want to ensure that everyone who is signed in to your corporate network can access the GitHub website without requiring a additional credentials. Which technology would you enable to accomplish this?
+
+Select only one answer.
+
+- Single sign-on
+
+
+- Two-factor authentication
+
+
+- Personal Access Tokens
+
+
+- SSH keys
+
+
+<br><hr><br>
+- [x] -a Single sign-on is the right technology to allow network users to access the GitHub website without extra credentials.
+
+
 
 <br><hr><br>
 - [x] -
