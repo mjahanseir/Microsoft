@@ -479,10 +479,114 @@ Codespaces allow customization of:
 ✅  * *B * *
 
 
+ ## Question 12
+Which of the following keywords are used to link a pull request to an issue? (Choose three.)
+- A. fix
+- B. resolves
+- C. merge
+- D. join
+- E. closed
+- F. connects
 
-📎  *GitHub Docs: About GitHub Teams *
+ * *Answer: * *  
+
+✅ A,B,E
 
 
 
- -
+## Question 13
+Which syntax is used for authoring saved replies?
+
+A. HTML
+B. YAML
+C. Markup
+D. Markdown
+ * *Answer: * *  
+
+✅ D
+
+## Question 14
+As a user, what feature can you use to merge proposed changes in a repository on GitHub?
+
+A. discussions
+B. projects
+C. pull requests
+D. issues
+  * *Answer: * *  
+
+✅    C
+    
+## Question 15
+If there are multiple README files, which of the following locations will be displayed first?
+
+A. docs
+B. root
+C. src
+D. .gitHub
+
+ * *Answer: * *  
+
+✅ D
+
+## Question #5
+Why is branching a core concept in Git?
+
+A. Branching helps in automatically merging changes from different branches into the main branch.
+B. Branching creates physical copies of the project on disk, ensuring data redundancy and backup.
+C. Branching creates an isolated environment to try new ideas and make changes without affecting other branches.
+D. Branching is necessary for organizing files and folders within a Git repository.
+ 
+ * *Answer: * *  
+
+✅ C
+
+
+## Question #6
+What is the difference between Git and GitHub?
+
+A. Git is a command-line tool for tracking file changes, while GitHub is a platform for collaborating on Git repositories.
+B. Git and GitHub are different names for the same tool that is used for version control and collaboration.
+C. Git is a cloud-based hosting service, while GitHub is a distributed version control system.
+D. Git is a centralized version control system, while GitHub is a cloud-based collaboration platform
+ 
+ * *Answer: * *  
+
+✅ A
+
+
+## Question #7
+What type of operations has Git been optimized for?
+
+A. local file manipulation and offline work
+B. remote collaboration and real-time editing
+C. cloud-based operations and synchronization
+D. web development and browser-based coding
+ 
+ * *Answer: * *  
+
+✅ A
+
+
+## Question #8
+Which version control system is GitHub built on top of?
+
+A. Subversion
+B. Mercurial
+C. Git
+D. Perforce
+
+
+
+ * *Answer: * *  
+
+✅ C
+
+
+## Question 17
+
+ * *Answer: * *  
+
+✅ 
+
+
 
