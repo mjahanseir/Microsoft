@@ -1,3 +1,85 @@
+
+# Practice Assessment for GH-900: GitHub Foundations
+
+## Question 1 of 50
+
+What is the main difference between centralized and distributed version control systems?
+
+Select only one answer.
+
+- Centralized systems use a centralized server for code storage, while distributed systems do not require a server.
+
+
+- Centralized systems are faster than distributed systems in handling large projects.
+
+
+- Distributed systems rely on cloud-based storage, while centralized systems use local repositories.
+
+
+- Centralized systems provide stronger security measures compared to distributed systems.
+
+
+-[x] A-Centralized version control systems rely on a central server for code storage and collaboration, while distributed systems allow each contributor to have their own local repository and synchronize directly.
+
+
+## Question 2 of 50
+
+What is the difference between a GitHub organization account and a GitHub personal/user account?
+
+Select only one answer.
+
+- An organization account is intended for multiple people and teams, while personal/user accounts are typically for individuals.
+
+
+- You pay more for organization accounts versus personal/user accounts.
+
+
+- They are exactly the same.
+
+
+- Personal/ user accounts have more access than organization accounts.
+
+-[x] A-Organizations are shared accounts where an unlimited number of people can collaborate across many projects at once and with tiered permissions.
+
+## Question 3 of 50
+
+What is the best reason to decide to upgrade to the GitHub Enterprise product?
+
+Select only one answer.
+
+- Because you want to use GitHub Actions and Codespaces.
+
+
+- Because your VP needs to use GitHub Insights.
+
+
+- Because you want to centrally manage users and repositories across multiple organizations.
+
+
+- Because you want to use the team pull request reviewers feature.
+
+
+
+-[x] C-GitHub Enterprise is required for managing multiple organizations along with their users and repositories
+
+
+
+
+-[x] -
+
+-[x] -
+
+
+-[x] -
+
+
+-[x] -
+
+
+-[x] -
+
+
+
 # Microsoft GH-900 Cheat Sheet Exam
 
 
