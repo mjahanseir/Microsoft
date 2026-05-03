@@ -979,27 +979,97 @@ Select only one answer.
 
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	a GitHub projects allows creating customized views by combining multiple view types such as Table, Board and Roadmap with filters on your fields.
+
+		
 			
 ## 	Question	47	of 50
+What does an iteration field help you do in Projects?
+
+Select only one answer.
+
+- Allows you to keep track of the various changes made to an issue or pull request.
+
+
+- Allows you to reverse the changes you made to your Project.
+
+
+- Allows you to create sequential phases of your project and group issues and pull requests based on the phase.
+
+
+- Allows you to edit, reiterate, and automate your project as changes are made to issues and pull requests.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	 c Iteration fields enable organizing issues and pull requests into repeating blocks of time. They are an organizational tool but do not directly impact changes or history.
+
+		
 			
 ## 	Question	48	of 50
+What field can you use to create a Priority grouping like High, Medium, and Low in your Project?
+
+Select only one answer.
+
+- Date
+
+
+- Single select
+
+
+- Iteration field
+
+
+- Issue
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	b The Single select field allows you to create multiple groups like Priority grouping in order to help you organize and prioritize your Project.https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields
+
+		
 			
 ## 	Question	49	of 50
+What is the easiest way to add automation to your Project?
+
+Select only one answer.
+
+- GraphQL API
+
+
+- Built-in Automation
+
+
+- GitHub Actions
+
+
+- GitHub Copilot
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	b GitHub Projects include built-in automation to allow easily setup of common tasks like adding issues to the project or updating status.
+
+		
 			
 ## 	Question	50	of 50
+What is the name of the settings section for changing a project’s visibility, deleting a project, or closing a project?
+
+Select only one answer.
+
+- Red Zone
+
+
+- Visibility and Access
+
+
+- Danger Zone
+
+
+- More options
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	c Each Project contains a “Danger Zone” settings area, typically stylized in red, that provides critical configuration options such as visibility, closing, and deleting the project.
+
+		
 			
 
 
