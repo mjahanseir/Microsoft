@@ -530,131 +530,213 @@ Select only one answer.
 
 
 ## 	Question	26	of 50
+Which of the following choices best describes the relationship between open-source and InnerSource programs?
+
+Select only one answer.
+- Anyone can offer a contribution to an open-source program, whereas InnerSource programs only accept contributions from members of the team that owns the repository.
+
+
+- InnerSource programs are forked from open-source programs by organizations that only use and maintain them privately moving forward.
+
+
+- InnerSource programs are fundamentally the same as open-source programs, except that their access is limited to people within their organization.
+
+
+- Anyone can use InnerSource programs and can also view, modify, and distribute a project for any purpose.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	c Both InnerSource and open-source programs are designed to accept contributions from people outside the team that owns the repository. However, with open-source, the scope is expanded to anyone in the world.
+
+		
 			
 ## 	Question	27	of 50
-			
+		Your team has been receiving some low-quality bug reports without enough information to properly diagnose. Which of the following choices is the **best** way to address the issue?
+
+Select only one answer.
+
+- Use GitHub Script to add a workflow action that automatically rejects any issues with a description fewer than 200 characters long.
+
+
+- Add an ISSUE_TEMPLATE.md file that includes fields for reproduction steps, system properties, and instructions for generating and including important logs.
+
+
+- Add a CONTRIBUTING.md file that clearly explains what's expected in bug reports, such as reproduction steps, system properties, and instructions for generating and including important logs.
+
+
+- Add a issues.md file that clearly explains what's expected in bug reports, such as reproduction steps, system properties, and instructions for generating and including important logs.
+
+	
 <br><hr><br>			
-- [x] -			
+- [x] -	b An action may ensure length but doesn't necessarily mean that your team will receive the desired the information to diagnose and fix bugs.
+
+		
 			
 ## 	Question	28	of 50
+Your team has been tracking data of all kinds since your InnerSource program went live three months ago. Which of the following metrics indicates your program is great and improving?
+
+Select only one answer.
+
+- A dramatic rise in pull requests that address bugs in your software.
+
+
+- A growing rate of bug reports that are quickly closed because they cannot be reproduced.
+
+
+- A steady decline in new issues.
+
+
+- Time to open.
+
 			
 <br><hr><br>			
-- [x] -			
+- [x] -	a The number of impactful pull requests indicates is definitely useful, and could mean more people are motivated to improve the quality of your software and are making the investment themselves. Be careful with single metrics though!
+
+		
 			
 ## 	Question	29	of 50
+What is a "branch" in Git?
+
+Select only one answer.
+
+- A specific release version of a project.
+
+
+- A copy of the entire repository on a different server.
+
+
+- A separate timeline of commits for a specific feature or task.
+
+
+- A list of contributors to a repository.
+
 			
 <br><hr><br>			
 - [x] -			
 			
 ## 	 Question	30	of 50
+How do you create a new issue in a GitHub repository?
+
+Select only one answer.
+
+- By sending an email to the repository owner.
+
+
+- By writing a comment on an existing issue.
+
+
+- By clicking the "New Issue" button and providing details.
+
+
+- By modifying the "master" branch of the repository.
+
+ 
+			
+<br><hr><br>			
+- [x] -	c To create a new issue, you click the "New Issue" button within the repository and provide a title, description, and other relevant information.
+
+		
+			
+## 	Question	31	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	31	of 50
+## 	Question	32	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	32	of 50
+## 	Question	33	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	33	of 50
+## 	Question	34	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	34	of 50
+## 	Question	35	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	35	of 50
+## 	Question	36	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	36	of 50
+## 	Question	37	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	37	of 50
+## 	Question	38	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	38	of 50
+## 	Question	39	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	39	of 50
+## 	Question	40	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	40	of 50
+## 	Question	41	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	41	of 50
+## 	Question	42	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	42	of 50
+## 	Question	43	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	43	of 50
+## 	Question	44	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	44	of 50
+## 	Question	45	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	45	of 50
+## 	Question	46	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	46	of 50
+## 	Question	47	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	47	of 50
+## 	Question	48	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	48	of 50
+## 	Question	49	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	49	of 50
+## 	Question	50	of 50
 			
 <br><hr><br>			
 - [x] -			
 			
-##	Question	50	of 50
-			
-<br><hr><br>			
-- [x] -			
-			
-<img width="1384" height="3626" alt="image" src="https://github.com/user-attachments/assets/9963934e-7b90-48d7-868c-ead4fff46ba7" />
 
 
 
