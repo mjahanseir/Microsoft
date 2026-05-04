@@ -1,10 +1,10 @@
 # 	GitHub Copilot Fundamentals #
 
 ## [Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot)
-### [GitHub Copilot Fundamentals Part 1 of 2](https://learn.microsoft.com/training/paths/copilot/)
 
+<h3><a href="https://learn.microsoft.com/training/paths/copilot/" target="_blank" >GitHub Copilot Fundamentals Part 1 of 2</a></h3>
 
-<a href="https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/" target="_blank" >1.1. Responsible AI with GitHub Copilot</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/" target="_blank" >1.1. Responsible AI with GitHub Copilot</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.1.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.1.2. Mitigate AI risks</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.1.3. Microsoft and GitHub's six principles of responsible AI</a><br>
@@ -12,7 +12,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/5-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.1.5. Summary</a><br>
 
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/" target="_blank" >1.2. Introduction to GitHub Copilot</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/" target="_blank" >1.2. Introduction to GitHub Copilot</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.2.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.2.2. GitHub Copilot, your AI pair programmer</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/3-interacting-with-copilot/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.2.3. Interact with Copilot</a><br>
@@ -22,7 +22,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.2.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/" target="_blank" > Introduction to prompt engineering with GitHub Copilot</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/" target="_blank" >1.3.  Introduction to prompt engineering with GitHub Copilot</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.3.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.3.2. Prompt engineering foundations and best practices</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.3.3. GitHub Copilot user prompt process flow</a><br>
@@ -32,7 +32,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.3.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/" target="_blank" >1.4. Introduction to Copilot Spaces</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/" target="_blank" >1.4. Introduction to Copilot Spaces</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.4.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/2-create-first-space/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.4.2. Creating your first space</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/3-share-discover-govern/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.4.3. Sharing, Discoverability, and Governance</a><br>
@@ -42,7 +42,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.4.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/" target="_blank" >1.5. Using advanced GitHub Copilot features</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/" target="_blank" >1.5. Using advanced GitHub Copilot features</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.5.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/2-advanced-github-copilot-features/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.5.2. Advanced GitHub Copilot features</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/3-exercise-setup/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/lab.png"> 1.5.3. Exercise - Set up GitHub Copilot to work with Visual Studio Code</a><br>
@@ -52,7 +52,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.5.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/" target="_blank" >1.6. GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/" target="_blank" >1.6. GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.6.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.6.2. Code completion with GitHub Copilot</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.6.3. GitHub Copilot Chat</a><br>
@@ -62,7 +62,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-across-environments/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.6.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/" target="_blank" >1.7. Management and customization considerations with GitHub Copilot</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/" target="_blank" >1.7. Management and customization considerations with GitHub Copilot</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.7.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.7.2. Explore GitHub Copilot plans and their associated management and customization features</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.7.3. Explore contractual protections in GitHub Copilot and disabling matching public code</a><br>
@@ -72,7 +72,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.7.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/" target="_blank" >1.8. Developer use cases for AI with GitHub Copilot</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/" target="_blank" >1.8. Developer use cases for AI with GitHub Copilot</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.8.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.8.2. Boost developer productivity with AI</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.8.3. Align with developer preferences</a><br>
@@ -81,7 +81,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/exam.png"> 1.8.6. Module assessment</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.8.7. Summary</a><br>
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/" target="_blank" >1.9. Develop unit tests using GitHub Copilot tools</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/" target="_blank" >1.9. Develop unit tests using GitHub Copilot tools</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.9.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.9.2. Examine the unit testing tools and environment</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.9.3. Create unit tests using the Generate Tests smart action</a><br>
@@ -92,13 +92,10 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot" target="_blank" >1.9.8. Summary</a><br>
  
 <br> 
-
-
-###  [GitHub Copilot Fundamentals Part 2 of 2](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/)
-
-
+<hr>
+<h3><a href="https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/" target="_blank" >GitHub Copilot Fundamentals Part 2 of 2</a></h3>
  
-<a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/" target="_blank" >2.1. Building applications with GitHub Copilot agent mode</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/" target="_blank" >2.1. Building applications with GitHub Copilot agent mode</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.1.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/2-what-is-agent-mode/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.1.2. What is GitHub Copilot Agent Mode?</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/3-explore-the-power/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.1.3. Explore the power of autonomous development assistance</a><br>
@@ -107,7 +104,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-agent-mode/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.1.6. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/" target="_blank" >2.2. Accelerate development with GitHub Copilot Cloud Agent</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/" target="_blank" >2.2. Accelerate development with GitHub Copilot Cloud Agent</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.2.1. Understanding and enabling the GitHub Copilot Cloud Agent</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.2.2. Security, risks, and limitations of the Copilot Cloud Agent</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.2.3. Assigning, tracking, and troubleshooting Copilot Cloud Agent tasks</a><br>
@@ -117,7 +114,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.2.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/mcp-server/" target="_blank" >2.3. Introduction to MCP Server</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/mcp-server/" target="_blank" >2.3. Introduction to MCP Server</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/mcp-server/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.3.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/mcp-server/2-simplify-workflow/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.3.2. Simplify your AI workflow with GitHub MCP Server</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/mcp-server/3-configure-connect/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.3.3. Configure, connect, and use GitHub MCP Server in VS Code</a><br>
@@ -127,7 +124,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/mcp-server/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.3.7. Summary</a><br>
  
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/" target="_blank" >2.4. Leveling up code reviews and pull requests with GitHub Copilot</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/" target="_blank" >2.4. Leveling up code reviews and pull requests with GitHub Copilot</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.4.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/2-github-copilot-review-process/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.4.2. What GitHub Copilot adds to the review process</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/3-copilot-reviewer-github/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.4.3. Using Copilot as a reviewer in GitHub.com</a><br>
@@ -137,7 +134,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/code-reviews-pull-requests-github-copilot/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.4.7. Summary</a><br>
 
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/" target="_blank" >2.5. Using GitHub Copilot with JavaScript</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/" target="_blank" >2.5. Using GitHub Copilot with JavaScript</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.5.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/2-what-is-github-copilot/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.5.2. What is GitHub Copilot</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/3-exercise-setup/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/lab.png"> 2.5.3. Exercise - Set up GitHub Copilot to work with Visual Studio Code</a><br>
@@ -147,7 +144,7 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.5.7. Summary</a><br>
 
 <br> 
-<a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/" target="_blank" >2.6. Using GitHub Copilot with Python</a><br>
+<h4><a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/" target="_blank" >2.6. Using GitHub Copilot with Python</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.6.1. Introduction</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/2-what-is-github-copilot/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.6.2. What is GitHub Copilot?</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/3-exercise-setup/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.6.3. Exercise - Set up GitHub Copilot to work with Visual Studio Code</a><br>
@@ -155,6 +152,8 @@
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/5-exercise-python-web-api/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/lab.png"> 2.6.5. Exercise - Update a Python web API with GitHub Copilot</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/exam.png"> 2.6.6. Module assessment</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.github-copilot-2" target="_blank" >2.6.7. Summary</a><br>
+
+
 
 
 
