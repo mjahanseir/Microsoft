@@ -176,3 +176,10 @@
  2. GitHub Copilot Fundamentals Part 2 of 2	- https://learn.microsoft.com/training/paths/gh-copilot-2/	 - 3 hr 19 min - 6 modules
 
 
+<h2><a href="https://www.youtube.com/playlist?list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS" target="_blank" >GH-300: GitHub Copilot</a></h2>
+<a href="https://www.youtube.com/watch?v=_HBCwxJmq7Y&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=1&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Course Preview | GH-300 | GitHub Copilot</a><br>
+<a href="https://www.youtube.com/watch?v=-1-ZeFMmlOM&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=2&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Introduction to GitHub Copilot | GH-300 | Episode 1</a><br>
+<a href="https://www.youtube.com/watch?v=eTRrKcIzlJs&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=3&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Exploring GitHub Copilot features | GH-300 | Episode 2</a><br>
+<a href="https://www.youtube.com/watch?v=PBzSxgiWN5c&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=4&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Developer use cases for generative AI with GitHub Copilot | GH-300 | Episode 3</a><br>
+<a href="https://www.youtube.com/watch?v=sTacWZj-Q_4&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=5&pp=iAQB0gcJCd4KAYcqIYzv" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Writing and using unit tests with GitHub Copilot | GH-300 | Episode 4</a><br>
+<a href="https://www.youtube.com/watch?v=glm-YdEadSM&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=6&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> GitHub Copilot advanced features | GH-300 | Episode 5</a><br>
