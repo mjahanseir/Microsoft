@@ -10,13 +10,15 @@
    ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/file.png) [Questions](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-questions.md) 
 
 
-- [x] (https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GH-300] : GitHub Copilot:
+- [x] [GH-300] : GitHub Copilot:
     ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/file.png) [Certification](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH300-Certification.md) | 
    ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/file.png) [Labs](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH300-Labs.md) |
    ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/file.png) [Questions](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH300-questions.md)   
+
+ 
+ 
  ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GH-100 : GitHub Administration]:
  
-<br><br>
 
  ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) [GH-200 : GitHub Actions](https://learn.microsoft.com/en-us/credentials/certifications/github-actions)
 
