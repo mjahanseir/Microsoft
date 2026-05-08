@@ -252,9 +252,61 @@ Apply best practices for high‑quality, grounded answers within model context l
 
 ```
 ####  1.5. Using advanced GitHub Copilot features
-  
-  <br><hr>
-  
+ 1. What is ghost text in GitHub Copilot?
+- Ghost text in GitHub Copilot are suggestions that appear in your text editor as you type.
+- Ghost text in GitHub Copilot are options used when typing to provide suggestions.
+- Ghost text in GitHub Copilot involves using prompts and natural language questions within your code or documentation.
+
+2. How do you access GitHub Copilot's inline chat?
+- Access the inline chat by clicking on the chat icon in the left sidebar of Visual Studio Code.
+- Use Ctrl+i on Windows or Command+i on a Mac to open the inline chat.
+- Access the inline chat by using Alt+i on Windows or Option+i on a Mac.
+
+3. What are slash commands used for in GitHub Copilot?
+- Slash commands are used to format your codebase according to best practices.
+- Slash commands are used to debug code and detect security vulnerabilities within your projects.
+- Slash commands are shortcuts to quickly solve common development tasks within the chat or inline pane.
+
+
+4. What are the benefits of using agents like '@terminal' when interacting with GitHub Copilot?
+- Agents in Visual Studio Code help you ask questions within a specific context, allowing for more precise and relevant answers from GitHub Copilot.
+- Agents help enforce a consistent code format based on best practices within Visual Studio Code for improved readability.
+- Agents provide extra security features for detecting vulnerabilities and intrusions within Visual Studio Code projects.
+
+
+5. What are the benefits of using implicit prompts with slash commands in inline chat for fixing code issues with GitHub Copilot?
+- Implicit prompts help enforce a consistent naming convention and syntax based on best practices within Visual Studio Code projects for improved readability.
+- Implicit prompts help get better responses from GitHub Copilot without writing longer prompts, making it easier to interact and fix code issues.
+- Implicit prompts help detect security vulnerabilities and potential malicious activities within Visual Studio Code projects for increased safety.
+
+   <br><hr>
+  1. 1
+2. 2
+3. 3
+4. 1
+5. 2
+
+```code
+Summary
+
+GitHub Copilot is a tool that offers many ways to interact with your project, and it helps you become a more efficient developer. Adding tests, fixing bugs, or generating automation allows you to improve the development lifecycle for your projects.
+
+Now that you have finished this module, you should be able to:
+
+ - Use GitHub Copilot features like chat, agents, inline chat, and slash commands, which offer more flexibility to accomplish coding tasks.
+ - Use GitHub Copilot Chat to provide context-aware assistance when working on your project and generating relevant output.
+
+
+Delete your Codespaces resources
+To avoid consuming all your monthly GitHub Codespaces time, it's important to delete all your resources after you upload your changes to your repository. Follow these steps to remove your resources:
+
+  1- Go to Codespaces on GitHub here.
+  2- Find your Codespace instance from the list, and select the three dots menu to display your options.
+  3- Select Delete to remove your Codespace instance.
+
+Note:
+If you don't commit your changes to your repository, you'll lose all your work. Therefore, it's important to commit and push your changes before deleting your Codespace instance.
+```
 ####  1.6. GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques
   
   <br><hr>
