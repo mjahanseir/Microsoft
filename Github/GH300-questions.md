@@ -71,9 +71,51 @@ Learn best practices for ensuring AI-generated code aligns with ethical standard
 Recognize the importance of transparency and accountability in AI systems for building trust and maintaining user confidence.
 ```
 ####  1.2. Introduction to GitHub Copilot
-  
+  1. What is GitHub Copilot?
+- GitHub Copilot is an AI pair programmer that you can use to get code suggestions.
+- GitHub Copilot is OpenAI Codex, a new AI system that OpenAI created.
+- GitHub Copilot is a JavaScript public repository and is one of the best-supported languages.
+- GitHub Copilot can write a comment that describes logic, and you can add your suggested code to implement the solution.
+
+2. What are the supported IDE extensions for GitHub Copilot?
+- VS Code and Visual Studio
+- GitHub.com, VS Code, Visual Studio, Neovim, and JetBrains
+- VS Code, Visual Studio, Neovim, and JetBrains
+
+3. What is the difference between GitHub Copilot Business and GitHub Copilot Enterprise?
+- GitHub Copilot Enterprise has code completions, whereas GitHub Copilot Business doesn't.
+- GitHub Copilot Enterprise has chat in IDE and mobile, whereas GitHub Copilot Business doesn't.
+- GitHub Copilot Enterprise has an extra layer of personalization. Organizations use their own codebase to train GitHub Copilot.
+- GitHub Copilot Enterprise has an extra layer of security, with IP indemnity and enterprise-grade security, safety, and privacy.
+
+4. Which plan includes all Pro features plus additional premium usage and priority infrastructure access?
+- GitHub Copilot Free
+- GitHub Copilot Pro
+- GitHub Copilot Pro+
+- GitHub Copilot Enterprise
+
   <br><hr>
-  
+  1. 1
+  2. 3
+  3. 3
+  4. 3
+ 
+     ```code
+Summary
+GitHub is working to personalize GitHub Copilot for every team, project, and repository that uses it. The goal is to improve the software development life cycle, from writing code to submitting pull requests and beyond.
+
+Together with Microsoft's knowledge model, GitHub is using the data and insights within organizations to strengthen the connection between all workers and developers. These insights help ideas move from code to reality without friction. At the same time, GitHub continues to innovate and update the core of GitHub Copilot, the AI pair programmer that started it all.
+
+GitHub Copilot helps developers work more efficiently and ship quality code.
+
+At the end of this module, you can:
+
+Explain GitHub Copilot features and available plans for individuals and organizations
+Set up and configure GitHub Copilot
+Develop using GitHub Copilot and Visual Studio Code (VS Code)
+References
+
+```
 ####  1.3. Introduction to prompt engineering with GitHub Copilot
   
   <br><hr>
