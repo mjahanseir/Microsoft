@@ -183,9 +183,74 @@ In this module, we unveiled the intricacies of optimizing GitHub Copilot through
 Prompt engineering principles, best practices, and how GitHub Copilot learns from your prompts to provide context-aware responses. The underlying flow of how GitHub Copilot processes user prompts to generate responses or code suggestions. The data flow for code suggestions and chat in GitHub Copilot. LLMs (Large Language Models) and their role in GitHub Copilot and prompting. How to craft effective prompts that optimize GitHub Copilot's performance, ensuring precision and relevance in every code suggestion. The intricate relationship between prompts and Copilot's responses. How Copilot handles data from prompts in different situations, including secure transmission and content filtering.
   ```
 ####  1.4. Introduction to Copilot Spaces
-  
+1. When is a GitHub Copilot Space the better choice than general or repo-wide chat?
+- When you need broad discovery across many repositories
+- When you want consistent, reproducible answers on a tightly scoped topic
+- When you want Copilot to automatically discover any relevant content in your org
+- When you have no specific task or domain in mind
+
+2. Which statement about Space ownership and description is true?
+- A Space must be organization-owned; personal Spaces aren't supported
+- The description changes Copilot's answers in the Space
+- You can choose personal or organization ownership (where available), and the description is for human readers
+- Ownership can't be changed once set, and descriptions affect answer quality
+
+
+3. Which action does NOT add usable context for Copilot in a Space?
+- Attaching files or folders from a GitHub repository
+- Pasting URLs of GitHub issues and pull requests
+- Uploading a local file (for example, a text document or spreadsheet)
+- @-mentioning a Copilot extension so it can run in Space chat
+
+
+4. How do Spaces handle security and access to linked items?
+- A Space grants temporary read access to all linked private repositories
+- A Space mirrors GitHub permissions and surfaces only what a viewer can already see
+- A Space creates a copy of private content that anyone with the link can access
+- A Space requires repo admins to approved list each viewer manually
+
+5. You need branch-specific guidance or a historical snapshot in a Space. What should you do?
+- Change the repository's default branch to lock Space answers to that branch
+- Rely on general chat to retrieve older versions automatically
+- Narrow references to relevant files and add a brief example, or attach a text file with the exact content
+- Paste the sensitive historical content into free-text notes for convenience
+
+6. Which prompting pattern best supports runnable, verifiable outputs in a Space?
+- Ask for a summary without constraints to keep the model creative
+- Confirm intent, add concrete constraints (formats, ranges, file paths), and request executable outputs with references
+- Use many broad instructions to widen the context as much as possible
+- Avoid referencing attached sources to prevent overfitting
+
+
+7. You notice size warnings and increasingly vague answers from your Space. What's the best next step?
+- Add more examples to increase context so the model has more to learn from
+- Reduce sources or split the Space into smaller, single-job Spaces
+- Start @-mentioning people to pull in their expertise
+- Turn off repository linking so the Space doesn't change
+
   <br><hr>
   
+1. 2
+2. 3
+3. 4
+4. 2
+5. 3
+6. 2
+7. 2
+
+
+
+```code
+Summary
+GitHub Copilot Spaces deliver significant business value by enabling teams to achieve faster, more accurate outcomes through context-grounded AI assistance. By curating a focused set of sources—such as code files, documentation, issues, and pull requests—Spaces reduce ambiguity and improve the predictability and quality of Copilot's responses. This targeted approach minimizes rework, accelerates decision-making, and ensures outputs align with organizational standards. Spaces also enhance collaboration and governance by leveraging GitHub's existing permission model, making it easier to share knowledge securely while maintaining compliance. Ultimately, Copilot Spaces help organizations scale expertise, reduce cognitive load, and improve productivity across development and operational workflows.
+
+You should now be able to:
+
+Explain what Spaces are and when to use them versus general Copilot Chat
+Create, configure, and iterate on a Space with targeted context and custom instructions
+Apply best practices for high‑quality, grounded answers within model context limits
+
+```
 ####  1.5. Using advanced GitHub Copilot features
   
   <br><hr>
