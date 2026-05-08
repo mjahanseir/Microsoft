@@ -100,7 +100,7 @@ Recognize the importance of transparency and accountability in AI systems for bu
   3. 3
   4. 3
  
-     ```code
+ ```code
 Summary
 GitHub is working to personalize GitHub Copilot for every team, project, and repository that uses it. The goal is to improve the software development life cycle, from writing code to submitting pull requests and beyond.
 
