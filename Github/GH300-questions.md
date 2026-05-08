@@ -117,9 +117,71 @@ References
 
 ```
 ####  1.3. Introduction to prompt engineering with GitHub Copilot
-  
+  1. What's GitHub Copilot?
+- A platform for code repositories.
+- A model powered by machine learning.
+- An assistant for coding, powered by OpenAI.
+- A service for web hosting.
+
+
+2. What role does prompting play in utilizing GitHub Copilot effectively?
+- It generates instant bug fixes.
+- It enhances the quality of code suggestions.
+- It automates the coding process entirely.
+- It implements real-time collaboration.
+
+
+3. Which of the following rules is a principle of the 4S Method of prompt engineering?
+- Summarize code objectives concisely.
+- Specify instructions explicitly and in detail.
+- Streamline processes for efficient code suggestions.
+- Simplify coding languages for universal understanding.
+
+
+4. How does GitHub Copilot handle personal data?
+- It saves all personal data for future references.
+- It shares personal data with other users for collaborative projects.
+- It encrypts personal data.
+- It actively filters out personal data to protect user privacy.
+
+5. What is LoRA in the context of fine-tuning Large Language Models (LLMs)?
+- A method that adds trainable elements to each layer of the pretrained model without a complete overhaul.
+- A technology optimizing communication between different coding languages.
+- A specialized software library enhancing Copilot's performance.
+- A new programming paradigm supported exclusively by Copilot.
+
+
+6. How does Copilot use the context to provide code suggestions?
+- It considers only the prompt text you provide.
+- It considers the file type but not the content of the file.
+- It considers the surrounding code, file type, and content of parallel open tabs in the code editor.
+- It randomly selects context from the internet.
+
+
+7. Which of these strategies helps to improve prompt effectiveness in GitHub Copilot?
+- Providing detailed contextual information with clarity.
+- Making the prompt as general as possible.
+- Keeping the prompt lengthy and detailed.
+- Avoiding examples in the prompt to not restrict Copilot's creativity.
+
   <br><hr>
-  
+
+1. 3
+2. 2
+3. 2
+4. 4
+5. 1
+6. 3
+7. 1
+
+
+
+  ```code
+Summary
+In this module, we unveiled the intricacies of optimizing GitHub Copilot through effective prompting. Harnessing the tool's maximum potential lies in the art and science of prompt engineering. Now, you're equipped with refined skills and insights to elevate your coding experience and output. With the completion of this module, you have learned:
+
+Prompt engineering principles, best practices, and how GitHub Copilot learns from your prompts to provide context-aware responses. The underlying flow of how GitHub Copilot processes user prompts to generate responses or code suggestions. The data flow for code suggestions and chat in GitHub Copilot. LLMs (Large Language Models) and their role in GitHub Copilot and prompting. How to craft effective prompts that optimize GitHub Copilot's performance, ensuring precision and relevance in every code suggestion. The intricate relationship between prompts and Copilot's responses. How Copilot handles data from prompts in different situations, including secure transmission and content filtering.
+  ```
 ####  1.4. Introduction to Copilot Spaces
   
   <br><hr>
