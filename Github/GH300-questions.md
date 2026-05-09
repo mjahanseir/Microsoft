@@ -308,9 +308,61 @@ Note:
 If you don't commit your changes to your repository, you'll lose all your work. Therefore, it's important to commit and push your changes before deleting your Codespace instance.
 ```
 ####  1.6. GitHub Copilot Across Environments: IDE, Chat, GitHub.com, and Command Line Techniques
-  
+  1. Which of the following choices isn't mentioned as one of the programming languages receiving strong support from GitHub Copilot?
+- Python
+- JavaScript
+- Rust
+- Ruby
+2. Which slash command in GitHub Copilot Chat is used to generate unit tests for selected code?
+- /generate
+- /test
+- /tests
+- /unittest
+3. What command would you use to get an explanation of a specific command using GitHub Copilot CLI?
+- gh copilot suggest
+- gh copilot explain
+- gh copilot clarify
+- gh copilot describe
+
+
+4. Which of the following is NOT a common use case for GitHub Copilot agent tasks on GitHub.com?
+- Generating pull request summaries
+- Explaining repository code and structure
+- Compiling and deploying applications
+- Suggesting code review comments
+
+
+5. When using Copilot Code Review on GitHub.com, what important billing consideration should you be aware of?
+- It's completely free with no usage limits
+- It consumes Premium Request Units (PRUs)
+- It only works with paid GitHub Enterprise accounts
+- It requires a separate subscription beyond GitHub Copilot
+
   <br><hr>
-  
+  1. 3
+  2. 3
+  3. 2
+  4. 3
+  5. 2
+
+
+```CODE
+Summary
+
+Congratulations on completing this module! You've gained valuable insights into the various ways of interacting with GitHub Copilot, enhancing your ability to leverage this powerful AI-assisted coding tool effectively. With the completion of this module, you now have the knowledge to:
+
+- Learn how to utilize GitHub Copilot's auto-suggestions and multiple suggestions pane for efficient code completion.
+- Understand how GitHub Copilot adapts to different coding styles and incorporates coding comments for improved suggestions.
+- Effectively use GitHub Copilot Chat for complex code generation, debugging assistance, and code explanations.
+- Improve Copilot Chat responses using scope referencing, slash commands, and Copilot agents.
+- Interact with GitHub Copilot through the command line interface, including getting command explanations and suggestions.
+- Configure GitHub Copilot CLI settings, including alias setup and data handling preferences.
+
+````
+
+
+
+
 ####  1.7. Management and customization considerations with GitHub Copilot
   
   <br><hr>
