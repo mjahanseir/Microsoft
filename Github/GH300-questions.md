@@ -397,9 +397,44 @@ Congratulations on completing this module! You've gained valuable insights into 
   - With this knowledge, you can select the right fit for your organization's needs.
   ```
 ####  1.8. Developer use cases for AI with GitHub Copilot
-  
+  1. How does GitHub Copilot assist developers in accelerating the learning of new programming languages or frameworks?
+- By automatically translating code between different programming languages.
+- By providing context-aware code snippets and inline documentation related to new functions and libraries.
+- By offering video tutorials and interactive coding sessions within the IDE.
+- By managing project dependencies and version control automatically.
+2. In what way does GitHub Copilot minimize context switching for developers?
+- It integrates multiple project management tools into the IDE.
+- It provides code suggestions and completions directly within the editor, reducing the need to search for solutions online.
+- It automates the entire coding process, eliminating the need for manual coding.
+- It schedules tasks and manages developer workflows automatically.
+3. Which feature of GitHub Copilot enhances the process of writing and maintaining code documentation?
+- Automated generation of UML diagrams from code.
+- Generating contextually relevant inline comments and function descriptions automatically.
+- Translating documentation into multiple languages in real-time.
+- Creating comprehensive project management reports based on code commits.
+4. What is one way GitHub Copilot automates routine coding tasks for developers?
+- By deploying applications to production environments automatically.
+- By generating boilerplate code for common functionalities, such as setting up a REST API.
+- By managing database migrations and schema changes automatically.
+- By conducting performance testing and optimization of code automatically.
+
   <br><hr>
-  
+  1. 2
+  2. 2
+  3. 2
+  4. 2
+
+``` code
+Summary
+
+GitHub Copilot offers numerous advantages for developers by streamlining development tasks, aligning with developer preferences, and enhancing various stages of the Software Development Life Cycle. GitHub Copilot accelerates learning curves and automates mundane activities offering developers a powerful tool to enhance their productivity, creativity, and overall coding experience. Throughout this module, we explored various aspects of GitHub Copilot's capabilities and its impact on the development process.
+
+Now that you're finished with this module, moving forward, developers should:
+- Continuously explore new ways to integrate GitHub Copilot into their workflows
+- Regularly assess the impact of AI-assisted coding on their development processes
+- Maintain a balance between applying AI assistance and fostering human creativity and problem-solving skills
+
+```
 ####  1.9. Develop unit tests using GitHub Copilot tools
   
   <br><hr>
