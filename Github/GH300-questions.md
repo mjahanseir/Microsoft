@@ -364,9 +364,38 @@ Congratulations on completing this module! You've gained valuable insights into 
 
 
 ####  1.7. Management and customization considerations with GitHub Copilot
-  
+  1. Which GitHub Copilot plans include enterprise-grade security and privacy features?
+- Pro
+- Business and Enterprise
+- Business
+- Enterprise
+2. What should you do if GitHub Copilot isn't providing code suggestions?
+  - Restart the computer
+  - Check the internet connection
+  - Disable the Copilot extension
+  - Change the programming language
+3. What is the purpose of the content exclusion feature in GitHub Copilot?
+- To enhance code completion accuracy
+- To prevent specific files or repositories from being used for code suggestions
+- To increase the speed of code suggestions
+- To provide legal protection against IP claims
+
   <br><hr>
-  
+  1. 2
+  2. 2
+  3. 2
+ 
+  ```code
+Summary
+
+Management and customization control are a vital part of using an AI pair programming tool like GitHub Copilot. In this module, we explored these topics:
+
+- GitHub Copilot plans and their associated management and customization features
+- Contractual protections in GitHub Copilot and disabling matching public code
+- Managing content exclusions in GitHub Copilot
+- Reviewing common problems with GitHub Copilot and their solutions
+- With this knowledge, you can select the right fit for your organization's needs.
+  ```
 ####  1.8. Developer use cases for AI with GitHub Copilot
   
   <br><hr>
