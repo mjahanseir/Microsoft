@@ -385,16 +385,16 @@ Congratulations on completing this module! You've gained valuable insights into 
   2. 2
   3. 2
  
-  ```code
-Summary
-
-Management and customization control are a vital part of using an AI pair programming tool like GitHub Copilot. In this module, we explored these topics:
-
-- GitHub Copilot plans and their associated management and customization features
-- Contractual protections in GitHub Copilot and disabling matching public code
-- Managing content exclusions in GitHub Copilot
-- Reviewing common problems with GitHub Copilot and their solutions
-- With this knowledge, you can select the right fit for your organization's needs.
+  ``` code
+  Summary
+  
+  Management and customization control are a vital part of using an AI pair programming tool like GitHub Copilot. In this module, we explored these topics:
+  
+  - GitHub Copilot plans and their associated management and customization features
+  - Contractual protections in GitHub Copilot and disabling matching public code
+  - Managing content exclusions in GitHub Copilot
+  - Reviewing common problems with GitHub Copilot and their solutions
+  - With this knowledge, you can select the right fit for your organization's needs.
   ```
 ####  1.8. Developer use cases for AI with GitHub Copilot
   
