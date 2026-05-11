@@ -499,12 +499,67 @@ In this module, you learned about the use of GitHub Copilot Chat and Visual Stud
 
 The main takeaways from this module are the efficient and effective creation and management of unit tests, ensuring the quality and reliability of the codebase. You learned how to create unit tests for a C# project using GitHub Copilot Chat in Visual Studio Code.
 ``` 
-  
+
+
+
+   <br><hr> <br>
+
+
+   
 ##  GitHub Copilot Fundamentals Part 2 of 2
   
 ####  2.1. Building applications with GitHub Copilot agent mode
-  
+  1. In what key way does GitHub Copilot Agent Mode differ from traditional AI-assisted coding tools?
+- It exclusively relies on user-provided step-by-step instructions to generate code.
+- It dynamically analyzes entire projects, autonomously performs multi-step tasks, and iteratively refines its outputs.
+- It primarily suggests code snippets based on the immediate context of a single open file.
+- It provides real-time inline suggestions but cannot autonomously refactor or execute code.
+
+2. Which approach describes how GitHub Copilot Agent Mode iteratively improves its generated solutions?
+- It suggests initial solutions, then requires manual developer intervention to run tests and debug.
+- It automatically identifies issues through testing, autonomously corrects errors, and repeats the cycle to refine the solution.
+- It only generates code once per task and relies on manual review to make improvements.
+- It delegates all code improvements entirely to external testing frameworks and does not autonomously address failures.
+
+3. You instruct GitHub Copilot Agent Mode to migrate a legacy JavaScript application to a modern framework. What actions would Agent Mode likely perform autonomously?
+- Provide inline code completions only for individual files without modifying dependencies or project structure.
+- Identify relevant files, update dependencies, refactor existing code across multiple files, and iteratively verify changes by running tests.
+- Generate new documentation explaining why the migration should occur, but leave the actual code implementation to the developer.
+- Prompt the developer for manual inputs at each step of code modification without autonomously running any tests.
+
+4. What is the role of project documentation files (such as README.md) when working with GitHub Copilot Agent Mode?
+- They serve exclusively as reference documents for developers and have no influence on Agent Mode's behavior.
+- They help Agent Mode understand the project's intended behavior, influencing how it autonomously executes tasks.
+- They restrict Agent Mode's access to code files, preventing unwanted modifications.
+- Agent Mode completely ignores documentation files and relies solely on the file structure and source code.
+
+5. What is an important limitation developers should consider when using GitHub Copilot Agent Mode?
+- It requires manual configuration after every code generation to be effective.
+- It may struggle with highly specialized domain knowledge or nuanced business logic that lacks clear patterns.
+- It only supports generating code snippets and cannot autonomously refactor or run tests.
+- It cannot analyze project structure and dependencies, relying solely on explicit developer-provided context.
+
   <br><hr>
+  1. 2
+  2. 2
+  3. 2
+  4. 2
+  5. 2
+ 
+  ``` code
+Summary
+
+From autonomously creating applications to intelligently refactoring and iterating on your codebase, GitHub Copilot Agent Mode enhances the software development workflow, empowering you to tackle complex tasks with unprecedented efficiency.
+
+Together with GitHub Codespaces and Visual Studio Code, Agent Mode uses your project's documentation, context, and insights to autonomously drive improvements, fix issues, and develop new features. GitHub continues to evolve Copilot’s capabilities, pushing the boundaries of AI-assisted development, enabling developers to focus on meaningful innovation and high-level problem-solving.
+
+Now that you completed this module, you should be able to:
+- Develop applications using VS Code IDE within GitHub Codespaces.
+- Prompt GitHub Copilot Agent Mode to autonomously build new applications.
+- Use documentation files to guide GitHub Copilot Agent Mode effectively.
+- Understand how GitHub Copilot Agent Mode iteratively fixes errors, refactors code, and develops new features across a project.
+- 
+  ```
   
 ####  2.2. Accelerate development with GitHub Copilot Cloud Agent
   
