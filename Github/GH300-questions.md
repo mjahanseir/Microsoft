@@ -436,11 +436,69 @@ Now that you're finished with this module, moving forward, developers should:
 
 ```
 ####  1.9. Develop unit tests using GitHub Copilot tools
-  
+  1. What should be done if GitHub Copilot's generated tests do not cover all code paths? 
+- Rely solely on Copilot's generated tests but increase code reviews.
+- Supplement the generated tests with additional manual tests.
+- Discard the generated tests and start from scratch.
+
+2. While setting up your testing environment, you realize that your GitHub Copilot suggestions match public code. What could be a reason for this situation? 
+- Your account is blocking suggestions that match public code.
+- You're using a personal GitHub Copilot subscription with defaults.
+- You haven't installed the C# Dev Kit extension.
+
+3. Which feature of GitHub Copilot contributes to improving the robustness of unit tests? 
+- Guaranteeing zero test failures.
+- Providing a graphical interface for test management.
+- Generating test cases for null values and unexpected input types.
+
+4. What is a critical advantage of using GitHub Copilot Chat when developing unit test cases for boundary conditions in C# projects? 
+- It helps identify missing test scenarios for boundary conditions, ensuring comprehensive test coverage.
+- It automatically fixes all bugs detected during testing.
+- It provides a complete replacement for all manual testing processes.
+
+5. Which Visual Studio Code extension is specifically designed to integrate GitHub Copilot for enhanced code generation and testing capabilities? 
+- Java Language Support
+- C# Dev Kit
+- GitHub Copilot
+
+6. How does GitHub Copilot Chat contribute to the process of developing unit tests for complex C# methods with multiple edge conditions? 
+- By automating the execution of all unit tests.
+- By eliminating the need for code reviews.
+- By suggesting comprehensive test cases that cover multiple edge conditions.
+
+7. What is a key benefit of using GitHub Copilot Chat for generating unit tests in a C# project with various edge cases? 
+- It guarantees 100% code coverage for all scenarios.
+- It provides a fully automated testing pipeline without needing manual intervention.
+- It accelerates the creation of test cases for edge conditions, saving development time.
+
+8. Which benefit does GitHub Copilot provide over manual unit test creation? 
+- More accurate predictions of code execution time.
+- Faster generation of comprehensive test suites.
+- Automatic selection of the best testing framework.
+
+9. Your organization requires you to use GitHub Copilot for unit test development in Visual Studio Code. Which initial step should you take to ensure your environment is correctly set up? 
+- Create a new JavaScript project in Visual Studio Code.
+- Install Java SDK and Python extension in Visual Studio Code.
+- Install the C# Dev Kit extension and GitHub Copilot in Visual Studio Code.
+
   <br><hr>
+1. 2
+2. 2
+3. 3
+4. 1
+5. 3
+6. 3
+7. 3
+8. 2
+9. 3
 
+``` code
+Summary
 
-  
+In this module, you learned about the use of GitHub Copilot Chat and Visual Studio Code for creating and managing unit tests. The content discussed how GitHub Copilot Chat aids in generating code snippets for test cases, suggesting possible inputs, outputs, assertions, and identifying edge cases and boundary conditions. You also learned how Visual Studio Code, with the C# Dev Kit extension, provides a rich set of features for managing unit tests, including a Test Explorer, running and debugging test cases, viewing test results, testing commands, and testing settings. The process involves creating a test project, generating unit test cases using GitHub Copilot Chat, and running and managing the tests in Visual Studio Code.
+
+The main takeaways from this module are the efficient and effective creation and management of unit tests, ensuring the quality and reliability of the codebase. You learned how to create unit tests for a C# project using GitHub Copilot Chat in Visual Studio Code.
+``` 
   
 ##  GitHub Copilot Fundamentals Part 2 of 2
   
