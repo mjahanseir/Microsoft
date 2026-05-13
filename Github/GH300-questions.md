@@ -686,10 +686,53 @@ Now that you've completed this module, you can:
 ```  
   
 ####  2.5. Using GitHub Copilot with JavaScript
-  
+  1. How does GitHub Copilot work?
+- GitHub Copilot uses the prompts that you write in natural language text, to provide suggestions based on what you type.
+- GitHub Copilot uses flashing lights to instruct you what to type.
+- GitHub Copilot accepts prompts written in radio language, and provides suggestions based on what you type.
+2. What are some features of GitHub Copilot Free?
+- It's a free unrestricted AI tool that works independent of code editors.
+- It provides several suggestions and chats per month directly in your IDE and on github.com.
+- It provides an option to enable slower responses, preserving your Copilot Pro quota.
+
+
+3. How can you accept GitHub Copilot's suggestions?
+- Press the Tab key.
+- Press F1 key.
+- Press F4 key.
+4. Identify which statement is valid and select the correct answer:
+- A prompt, which is our output, is a collection of songs that tells GitHub Copilot what to generate.
+- A prompt, which is our input, is a collection of instructions or guidelines that tell GitHub Copilot what to generate.
+- A prompt, which is a separate document, is a collection of instructions that tells GitHub Copilot what to generate.
+
+5. What does the quality of GitHub Copilot output depend on?
+- Your code editor.
+- How well your extensions were installed.
+- How well you crafted your prompt.
   <br><hr>
-  
-  
+  1. 1
+  2. 2
+  3. 1
+  4. 2
+  5. 3
+  ``` code
+Summary
+
+From creating a repository from a GitHub template to adding animations with live suggestions, GitHub Codespaces allows you to customize your coding experience and GitHub Copilot guides you in each step of the way, improving the software development lifecycle significantly.
+
+Now that you have finished this module, you should be able to:
+
+- Understand how GitHub Copilot can help you code by offering autocomplete-style suggestions.
+- Apply prompt engineering to various projects by using its good practices.
+- Use GitHub Copilot Chat to ask and receive coding-related questions.
+
+Delete your Codespaces resources
+To avoid consuming all your monthly GitHub Codespaces time, it's important to delete all your resources after you've uploaded your changes to your repository. Follow these steps to remove your resources as follows:
+
+- Go to this link https://github.com/codespaces
+- Find your Codespace instance from the list and select on the three dots menu to display your options.
+- Select “delete” to remove your Codespace instance.
+  ```
 ####  2.6. Using GitHub Copilot with Python
 
 
