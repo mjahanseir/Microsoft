@@ -583,13 +583,107 @@ Now that you've completed this module, you can:
 
 ```
 ####  2.3. Introduction to MCP Server
-  
+  1. What does MCP stand for in the context of GitHub MCP Server?
+- Model Collaboration Platform
+- Model Context Protocol
+- Multicloud Provider
+- Modular Code Process
+
+2. What is a primary benefit of using the GitHub MCP Server over local MCP servers?
+- Requires manual configuration for each project
+- Eliminates the need for Docker or config files
+- Only works on mobile devices
+- Lacks support for enterprise authentication
+
+3. Which authentication methods are supported by GitHub MCP Server in Visual Studio Code?
+- Only OAuth
+- Only Personal Access Token (PAT)
+- OAuth and PAT
+- Username and password
+
+4. Why would you use a local MCP server setup with Docker?
+- To avoid using PATs for authentication
+- To access resources or APIs restricted by enterprise policy
+- To enable OAuth authentication only
+- To disable all external integrations
+
+
+5. What is the purpose of Copilot's agent mode when combined with MCP Server?
+- To run security scans only
+- To allow Copilot to independently plan and execute multi-step workflows
+- To limit Copilot to single-step commands
+- To restrict Copilot to code summarization
+
+6. How do you ensure your Personal Access Token (PAT) is securely used in MCP Server configuration?
+- Hardcode the token in your source files
+- Enter the token via a secure input prompt
+- Share the token publicly in your repository
+- Save the token in plain text in your workspace
+
+
+7. Which troubleshooting step should you try first if MCP Server tools aren't working in VS Code?
+- Reinstall Docker
+- Confirm you're signed into your GitHub account in VS Code
+- Delete your PAT
+- Remove all server configurations
+
+
+8. What is an example of how MCP Server extends Copilot's capabilities in agent mode?
+- Copilot can only suggest code completions
+- Copilot can open issues, manage workflows, and execute tasks across platforms
+- Copilot can't interact with GitHub repositories
+- Copilot disables semantic search
+
+
   <br><hr>
+  1. 2
+  2. 2
+  3. 3
+  4. 2
+  5. 2
+  6. 2
+  7. 2
+  8. 2
+
+ ``` code
+Summary
+
+
+Now that you've finished this module, you should be able to:
+
+ - Explain what MCP and GitHub MCP Server are, and how they support AI-powered development workflows.
+ - Describe the benefits of using GitHub MCP Server to simplify and scale your projects.
+ - Set up GitHub MCP Server in Visual Studio Code using OAuth, a Personal Access Token (PAT), or Docker.
+ - Use Copilot Chat with MCP Server to automate tasks and boost productivity directly in your editor.
+ - Troubleshoot common setup issues with confidence.
+```
   
 ####  2.4. Leveling up code reviews and pull requests with GitHub Copilot
   
-  <br><hr>
-  
+``` code
+Summary
+
+Copilot is most effective when treated as a collaborator, not a replacement. Use it to accelerate routine checks and provide actionable suggestions, but rely on humans for architectural decisions and nuanced tradeoffs.
+
+Best practices:
+
+- Run Copilot reviews at the appropriate times in the development process in your IDE before pushing.
+- Use .github/copilot-instructions.md to align Copilot's feedback with team standards.
+- Treat Copilot's comments as accelerators, not mandates. Continue to use your release CI/CD pipelines, scans, and other best practices alongside Copilot reviews.
+- Always validate and test fixes before merging.
+
+With PRUs, you unlock premium-powered features that make Copilot an even stronger partner. By monitoring usage and aligning workflows, you ensure reviews stay fast, high-quality, and cost-effective.
+
+Now that you've completed this module, you can:
+
+- Explain how GitHub Copilot improves code reviews and PRs.
+- Use Copilot as a reviewer on GitHub and in your IDE.
+- Automate reviews with rulesets and custom instructions.
+- Apply Copilot's suggestions and peer review fixes.
+- Define PRUs, explain their benefits, and optimize their usage.
+- Measure Copilot's impact on velocity, quality, and satisfaction.
+- With these practices, your team can transform code reviews from bottlenecks into collaborative, high-value moments-scaling expertise and delivering software faster.
+```  
   
 ####  2.5. Using GitHub Copilot with JavaScript
   
