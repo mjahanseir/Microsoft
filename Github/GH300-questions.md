@@ -734,9 +734,35 @@ To avoid consuming all your monthly GitHub Codespaces time, it's important to de
 - Select “delete” to remove your Codespace instance.
   ```
 ####  2.6. Using GitHub Copilot with Python
+1. How does GitHub Copilot work?
+- GitHub Copilot uses prompts and natural language text that you type to provide coding suggestions.
+- GitHub Copilot uses highlights, that you select, and it provides suggestions based on what you highlight.
+- GitHub Copilot uses radio language, that you type, and it provides suggestions based on what you type.
+2. What are some GitHub Copilot Free features?
+- It's a free unrestricted AI tool that works independent of code editors.
+- It provides several suggestions and chats per month directly in your IDE and on github.com.
+- An option to enable slower responses, preserving your Copilot Pro quota.
+3. How can you accept GitHub Copilot's suggestions?
+- Press the Tab key.
+- Press the F1 key.
+- Press the F4 key.
 
+4. Identify which statement is valid and select the correct answer:
+- A prompt, which is our output, is a collection of songs that tells our copilot what to generate.
+- A prompt, which is our input, is a collection of instructions or guidelines that tell our copilot what to generate.
+- A prompt, which is our document, is a collection of laptops that tells our Copilot what to generate.
+5. What does the quality of the output from GitHub Copilot depend on?
+- Your code editor.
+- How well your extensions were installed.
+- How well you craft your prompt.
 
   <br><hr>
+1. 1
+2. 2
+3. 1
+4. 2
+5. 3
+
 
 
   
