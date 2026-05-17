@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft</title>
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/mjahanseir/mjahanseir.github.io/refs/heads/master/learn/computer/Microsoft/pic/microsoft.ico"
+        type="image/x-icon" />
+
+    <style>
+        /* ================= RESET ================= */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ================= NEW AZURE THEME ================= */
+        body {
+            font-family: "Segoe UI", system-ui;
+            min-height: 100vh;
+            overflow-x: hidden;
+            color: #dbeafe;
+
+            background:
+                radial-gradient(circle at 20% 30%, #0b1f33, transparent),
+                radial-gradient(circle at 80% 60%, #0a3d62, transparent),
+                linear-gradient(135deg, #020617, #0f172a);
+        }
+
+        /* ================= BACKGROUND GRID ================= */
+        .grid-bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+
+            background:
+                radial-gradient(circle at 30% 40%, #3b82f610 2px, transparent 3px),
+                radial-gradient(circle at 70% 60%, #60a5fa10 2px, transparent 3px);
+
+            animation: floatBg 20s linear infinite;
+        }
+
+        @keyframes floatBg {
+            100% {
+                transform: translateY(-200px);
+            }
+        }
+
+        /* ================= CANVAS ================= */
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            opacity: 0.9;
+        }
+
+        /* ================= WRAPPER ================= */
+        .wrapper {
+            position: relative;
+            z-index: 2;
+            width: 92%;
+            max-width: 1200px;
+            margin: 80px auto;
+            text-align: center;
+        }
+
+        /* ================= TITLE ================= */
+
+
+        /* ================= GRID ================= */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 30px;
+        }
+
+        /* ================= CARD ================= */
+        .card {
+            padding: 35px;
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, .05);
+            backdrop-filter: blur(10px);
+
+            border: 1px solid rgba(148, 163, 184, .2);
+
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.04);
+            border: 1px solid #3b82f6;
+            background: rgba(59, 130, 246, .15);
+            box-shadow: 0 20px 60px rgba(59, 130, 246, .25);
+        }
+
+        .icon {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        /* ================= TOP BUTTON ================= */
+        #myBtn {
+            display: none;
+            position: fixed;
+
+            width: 50px;
+            height: 50px;
+
+            bottom: 20px;
+            right: 5%;
+            z-index: 99;
+            font-size: 2rem;
+            font-weight: bold;
+            font-family: monospace;
+
+            justify-content: center;
+            /* horizontal center */
+            align-items: center;
+
+            border: none;
+            outline: none;
+            background-color: rgb(5, 92, 179);
+            color: white;
+            cursor: pointer;
+            padding: 0.6rem;
+            border-radius: 50%;
+            box-shadow: 0 1px 7px rgb(197, 194, 4);
+
+        }
+
+        #myBtn:hover {
+            background-color: #2d2c2c;
+        }
+
+        /* ================= COLLAPSIBLE ================= */
+        .collapsible {
+            /* color: white; */
+            cursor: pointer;
+            padding: 18px;
+        }
+
+        .collapsible:hover {
+            background-image: linear-gradient(hsla(0, 0%, 0%, .1) 100%, transparent 100%)
+        }
+
+        h4 {
+            background-color: #306998;
+            color: whitesmoke;
+            font-family: "Work Sans", sans-serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 18px;
+            background: rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(78, 77, 77, 0.5);
+            text-decoration: none;
+            color: inherit;
+            transition: .3s;
+            margin: 1rem 0;
+            box-shadow: 0 4px 5px rgba(13, 13, 13, 0.4)
+        }
+
+
+        h4:hover {
+            background: rgba(0, 234, 255, 0.1);
+        }
+
+        .content {
+            border-radius: 18px;
+            background: rgba(252, 252, 252, 1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            text-decoration: none;
+            color: inherit;
+            padding: 1rem;
+            transition: .3s;
+            text-align: justify;
+            font-family: "Times New Roman", Times, serif, Geneva, monospace;
+            color: #0f0f0f;
+            font-size: 1.2rem;
+            display: none;
+            overflow: hidden;
+        }
+
+        /* ================= FOOTER ================= */
+        .footer {
+
+            position: relative;
+            margin-top: 40px;
+
+            text-align: center;
+            opacity: 0.6;
+            font-size: 1rem;
+        }
+
+        body.light .footer {
+            color: #333;
+        }
+
+        .links {
+            color: rgb(151, 150, 150);
+            margin: 30px;
+            font-size: 14px;
+        }
+
+        .links a {
+            color: rgb(151, 150, 150);
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        h1 {
+            font-size: 6rem;
+            margin-bottom: 50px;
+            background: linear-gradient(90deg, #f1f3f3, #4f4f4f);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width:600px) {
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        a {
+            color: rgb(5, 92, 179);
+            text-decoration: none;
+            transition: color 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+        }
+
+        a:hover {
+            box-shadow: inset 1000px 0 0 0 rgb(5, 92, 179);
+            color: white;
+        }
+
+
+
+        .card {
+            color: rgb(245, 246, 247);
+            text-decoration: none;
+            transition: color 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+        }
+
+
+
+        .footer {
+
+            position: relative;
+            margin-top: 40px;
+
+            text-align: center;
+            opacity: 0.6;
+            font-size: 1rem;
+        }
+
+        body.light .footer {
+            color: #333;
+        }
+
+        .links {
+            color: rgb(151, 150, 150);
+            margin: 30px;
+            font-size: 14px;
+            bgcolor: rgba(255, 255, 255, 0.05);
+        }
+
+        .links a {
+            color: rgb(151, 150, 150);
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .links a:hover {
+            box-shadow: inset 1000px 0 0 0 rgba(9, 9, 9, 0.1);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> ˄ </button>
+    <div class="grid-bg"></div>
+    <canvas id="bg"></canvas>
+
+    <div class="wrapper">
+
+        <h1><img src="https://raw.githubusercontent.com/mjahanseir/mjahanseir.github.io/refs/heads/master/learn/pic/microsoft.png"
+                alt="Microsoft Logo" width="65" height="65">Microsoft</h1>
+        <br>
+        <div class="grid">
+
+            <a href="#github" class="card">
+                <div class="icon">🌱</div>
+                <div class="title">GitHub</div>
+                <div class="subtitle">Microsoft GitHub</div>
+            </a>
+
+            <a href="#docker" class="card">
+                <div class="icon">🐳</div>
+                <div class="title">Docker</div>
+                <div class="subtitle">Docker Course</div>
+            </a>
+
+            <a href="#linux" class="card">
+                <div class="icon">💻</div>
+                <div class="title">Linux</div>
+                <div class="subtitle">Linux Course</div>
+            </a>
+
+
+
+            <a href="#devop" class="card">
+                <div class="icon">⚙️</div>
+                <div class="title">DevOps</div>
+                <div class="subtitle">DevOps Course</div>
+            </a>
+
+
+
+        </div>
+
+
+        <!--------------------------------------------------    Github          ------------------------------------>
+
+        <h4 id="github" class="collapsible"> Github</h4>
+        <div class="content">
+
+            <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/README.md" target="_blank">Github.md</a>
+            &nbsp; | &nbsp;
+            <a href="https://docs.google.com/spreadsheets/d/1DrfCeLZ7gZcMkwcY1nhLMbTpuD13-Vdl33S7I9axMHE/edit"
+                target="_blank"> Github.xlxs📗</a>
+
+            <br> <br>
+
+            [GH-900] GitHub Foundations: <br> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Certification.md"
+                target="_blank">Certification.md </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Labs.md"
+                target="_blank">Labs.md
+            </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-questions.md"
+                target="_blank">Questions.md </a>
+            <br> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/"
+                target="_blank"></a>
+            Certification🪟</a>
+            &nbsp; | &nbsp; <a href="https://learn.microsoft.com/en-us/training/courses/gh-900t00"
+                target="_blank">gh-900t00🪟</a>
+            &nbsp; | &nbsp; <a href="https://aka.ms/GH900-StudyGuide" target="_blank">StudyGuide🪟</a>
+            &nbsp; | &nbsp; <a href="https://www.youtube.com/playlist?list=PLahhVEj9XNTf5iQVK_80RdvTju7ov6RYy"
+                target="_blank">MS-Youtube▶</a>
+            &nbsp; | &nbsp; <a href="https://www.youtube.com/playlist?list=PLt4zoIx-WdZVJ-09X5UbHpHoHpldes9aT"
+                target="_blank">My-Youtube▶</a>
+            &nbsp; | &nbsp; <a
+                href="https://docs.google.com/document/d/1k_3l6nsyegPYVQ7yzb9a3oVfjMdxp_AAFBQ9ZWJuIlA/edit"
+                target="_blank">GH-900.docx📘</a>
+
+
+
+
+            <hr> <br>
+            [GH-300] GitHub Copilot: <br> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH300-Certification.md"
+                target="_blank">Certification.md </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH300-Labs.md"
+                target="_blank">Labs.md
+            </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH300-questions.md"
+                target="_blank">Questions.md </a>
+
+
+
+            <br> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://learn.microsoft.com/en-us/credentials/certifications/github-copilot"
+                target="_blank">Certification🪟</a>
+            &nbsp; | &nbsp; <a href="https://learn.microsoft.com/en-us/training/courses/gh-300t00"
+                target="_blank">gh-300t00🪟</a>
+            &nbsp; | &nbsp; <a href="https://aka.ms/GH300-StudyGuide" target="_blank">StudyGuide🪟</a>
+            &nbsp; | &nbsp; <a href="https://www.youtube.com/playlist?list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS"
+                target="_blank">MS-Youtube▶</a>
+            &nbsp; | &nbsp; <a href="https://www.youtube.com/playlist?list=PLt4zoIx-WdZVJ-09X5UbHpHoHpldes9aT"
+                target="_blank">My-Youtube▶</a>
+            &nbsp; | &nbsp; <a
+                href="https://docs.google.com/document/d/1muRcLzJwPF88RXl5LfD8_mRbIwAGXb7DoMWj8BR_5uw/edit"
+                target="_blank">GH-300.docx📘</a>
+
+            <hr> <br>
+
+            [GH-100] GitHub Administration
+            <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH100-Certification.md"
+                target="_blank">Certification.md </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH100-Labs.md"
+                target="_blank">Labs.md
+            </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH100-questions.md"
+                target="_blank">Questions.md </a>
+
+            <br>
+            [GH-200] GitHub Actions
+            <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH200-Certification.md"
+                target="_blank">Certification.md </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH200-Labs.md"
+                target="_blank">Labs.md
+            </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH200-questions.md"
+                target="_blank">Questions.md </a>
+            <br>
+            [GH-500] GitHub Advanced Security
+            <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH500-Certification.md"
+                target="_blank">Certification.md </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH500-Labs.md"
+                target="_blank">Labs.md
+            </a>
+            &nbsp; | &nbsp; <a href="https://github.com/mjahanseir/Microsoft/blob/main/Github/GH500-questions.md"
+                target="_blank">Questions.md </a>
+
+
+        </div>
+
+        <!-- ---------------------------------         ----------------------------------------- -->
+        <h4 id="docker" class="collapsible"> Git & Docker</h4>
+        <div class="content">
+            [SuperSimpleDev] Git and GitHub - Zero Experience to Professional:
+            <a href="https://youtu.be/Ea40KqZ69Qg" target="_blank"> Part 1▶</a></a>
+            <a href="https://youtu.be/yaRqTz7-uWI" target="_blank"> Part 2▶ </a></a>
+            <br>
+            Git Jadi:
+            <a target="_blank" href="https://www.youtube.com/playlist?list=PLt4zoIx-WdZXucHaiNHt8TVjPXhwKC3ve">Playlist
+                ▶ </a>
+            <a href="https://docs.google.com/spreadsheets/d/1DrfCeLZ7gZcMkwcY1nhLMbTpuD13-Vdl33S7I9axMHE/edit"
+                target="_blank">Git.xlxs📗</a>
+            <br>
+
+            [Sarvin-Git]<a href="https://youtu.be/hlQL2X-gDjk" target="_blank"> آموزش گیت و گیت هاب ▶</a>
+            <a href="https://docs.google.com/spreadsheets/d/1DrfCeLZ7gZcMkwcY1nhLMbTpuD13-Vdl33S7I9axMHE/edit"
+                target="_blank">Git.xlxs📗</a>
+            <br>
+            [Sadri-GitHub]<a href="https://youtu.be/njBvx_CN6lI" target="_blank"> گیت هاب ▶</a>
+            <a href="https://docs.google.com/spreadsheets/d/1DrfCeLZ7gZcMkwcY1nhLMbTpuD13-Vdl33S7I9axMHE/edit"
+                target="_blank">Git.xlxs📗</a>
+            <br>
+            <a href="https://docs.google.com/document/d/1JLb7wGdjEll43jkY2R-W5_5R6N8hlh33I9aTKDCXpzA/edit"
+                Target="_blank">[Git-En]📘</a>
+            <a href="https://docs.google.com/document/d/1y3U5hwlVk1MEocuZgDtX45RB68r0hxj9TSNFl11bZmU/edit"
+                Target="_blank">[Git-Fa]📘</a>
+
+            <br>
+
+            <a href="https://docs.google.com/document/d/1SAKdM1uirFxiOtuj2d4AjDcc29LxhAvsGkXBQVbVPqE/edit"
+                Target="_blank">[Docker-Fa]📘</a>
+            <a href="https://docs.google.com/document/d/1NoM_rhmBSF31LGoYwWqN8lZ4jb5MHyQMd9htxpVadUY/edit"
+                Target="_blank">[Docker-Fa]📘</a>
+        </div>
+        <!-- ---------------------------------         ----------------------------------------- -->
+        <h4 id="linux" class="collapsible"> Linux </h4>
+        <div class="content">
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1qJ1tQC_6y0z_wnE0Lfnu1QXU-WrO_OtVnrAgbff8D80/edit">
+                [Linux-En]📘
+            </a>
+
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1WqB90b0_HVrz-ZEXV_uzoWdwFvEBmoucbAaTDEJZowI/edit">
+                [Linux-Fa]📘
+            </a>
+            <a target="_blank" href="https://github.com/mjahanseir/mjahanseir.github.io/blob/master/learn/md/linux.md">
+                Linux.md </a>
+
+            <br>
+            [Sarvin-Linux]<a target="_blank"
+                href="https://docs.google.com/document/d/1P-0mEFZxa_qFQxrBPj8eKC9USab5dhK_Pp219YoscFc/edit">
+                List📘 </a>
+            <a target="_blank" href="https://www.youtube.com/playlist?list=PLt4zoIx-WdZVFNAHqZ2ewVrytbn88H5m8">
+                Youtube▶</a>
+            <br>
+
+        </div>
+        <!-- ---------------------------------         ----------------------------------------- -->
+        <h4 id="devops" class="collapsible"> DevOps</h4>
+        <div class="content">
+            <a target="_blank"
+                href="https://docs.google.com/spreadsheets/d/14eIB3mxQS_yZtSjPJSSLmDsssJQ9Z7j6c6TS9iR3d94/edit">DevOps.xlxs📗</a>
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1ap-dUqmQ6tfVA80fV41pShuHQ8m7q74te0TsdjWaiw4/edit">DevOps.docx
+                📘</a>
+
+            <br>
+
+            [Devops] PlayList <a target="_blank"
+                href="https://www.youtube.com/playlist?list=PLt4zoIx-WdZUgxEg3D_cHAJ7756o-5TTk"> Youtube ▶</a>
+
+            <br>
+
+            [Devops-Mosh] Roadmap <a target="_blank"
+                href="https://mjahanseir.github.io/learn/documents/[DevOps-Mosh]%20Roadmap.pdf">pdf📕</a>
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1ap-dUqmQ6tfVA80fV41pShuHQ8m7q74te0TsdjWaiw4/edit?tab=t.fdyoobwrs0zh">Word
+                📘</a>
+
+            <br>
+            <hr><br>
+
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1mz0Qqm9cjysT36ok2jesTGLPP9sjpbZLnDWhrXhnn78/edit">[Devops-En]📘</a>
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1CtjTz2IUhH85G6yROeQT5bzERvgoiAS6rrBG55sJat8/edit">[Devops-Fa]📘</a>
+
+
+            <br><br>
+
+            فریبرز فلاح زاده<a target="_blank"
+                href="https://docs.google.com/document/d/1N5iO-lrKAQQAm9AOO6oBvv6GaKLQEu46_CdOkKk-ICI/edit">List
+                📘 </a>
+
+
+
+        </div>
+
+
+
+        <div class="links">
+            <a target="_blank" href="https://mjahanseir.github.io/learn/index.html"> Learn🚀</a>
+
+            <a target="_blank" href="https://mjahanseir.github.io/learn/devops.html"> DEVOPS⚙️</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/data.html"> Data📊</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/powerplatform.html"> Power Platform🧩</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/microsoft.html"> Microsoft🪟</a>
+
+            <a target="_blank" href="https://mjahanseir.github.io/learn/dev.html">Software Developer👨‍💻</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/python.html">Python🐍</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/Java.html">Java☕</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/JavaScript.html">JavaScript🟨</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/cs.html">C##️⃣</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/database.html">Database🗄️</a>
+            <a target="_blank" href="https://mjahanseir.github.io/learn/Mosh.html">Mosh🎓</a>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div>
+
+            © 2026 Learning Microsoft with ❤️
+
+
+        </div>
+        <script>
+
+            /* ================= INSANE AI NETWORK ================= */
+
+            const canvas = document.getElementById("bg");
+            const ctx = canvas.getContext("2d");
+
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            resize();
+            window.onresize = resize;
+
+            let dots = [];
+            for (let i = 0; i < 140; i++) {
+                dots.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.6,
+                    vy: (Math.random() - 0.5) * 0.6,
+                    size: Math.random() * 2 + 1
+                });
+            }
+
+            let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+
+            window.addEventListener("mousemove", e => {
+                mouse.x = e.clientX;
+                mouse.y = e.clientY;
+            });
+
+            function draw() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                dots.forEach(d => {
+
+                    let dxm = d.x - mouse.x;
+                    let dym = d.y - mouse.y;
+                    let dist = Math.sqrt(dxm * dxm + dym * dym);
+
+                    if (dist < 160) {
+                        d.vx += dxm * 0.00005;
+                        d.vy += dym * 0.00005;
+                    }
+
+                    d.x += d.vx;
+                    d.y += d.vy;
+
+                    if (d.x < 0 || d.x > canvas.width) d.vx *= -1;
+                    if (d.y < 0 || d.y > canvas.height) d.vy *= -1;
+
+                    ctx.shadowBlur = 20;
+                    ctx.shadowColor = "#00eaff";
+                    ctx.fillStyle = "#00eaff";
+
+                    ctx.beginPath();
+                    ctx.arc(d.x, d.y, d.size, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    ctx.shadowBlur = 0;
+                });
+
+                /* connections */
+                for (let i = 0; i < dots.length; i++) {
+                    for (let j = i + 1; j < dots.length; j++) {
+
+                        let dx = dots[i].x - dots[j].x;
+                        let dy = dots[i].y - dots[j].y;
+                        let dist = Math.sqrt(dx * dx + dy * dy);
+
+                        if (dist < 140) {
+
+                            let op = 1 - dist / 140;
+
+                            ctx.strokeStyle = `rgba(0,234,255,${op * .3})`;
+
+                            ctx.beginPath();
+                            ctx.moveTo(dots[i].x, dots[i].y);
+                            ctx.lineTo(dots[j].x, dots[j].y);
+                            ctx.stroke();
+
+                            /* moving data */
+                            let t = Date.now() * 0.004 + i;
+                            let progress = (t % 1000) / 1000;
+
+                            let px = dots[i].x + (dots[j].x - dots[i].x) * progress;
+                            let py = dots[i].y + (dots[j].y - dots[i].y) * progress;
+
+                            ctx.fillStyle = "#ffffff";
+                            ctx.beginPath();
+                            ctx.arc(px, py, 2, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+                    }
+                }
+
+                requestAnimationFrame(draw);
+            }
+            draw();
+
+            /* ================= INTERACTIONS ================= */
+
+            document.querySelectorAll(".collapsible").forEach(btn => {
+                btn.onclick = () => {
+                    let c = btn.nextElementSibling;
+                    c.style.display = c.style.display === "block" ? "none" : "block";
+                };
+            });
+
+            // start   ------------------------------------------ jQuery for top floating menu  ----------------------------------
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (
+                    document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20
+                ) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            //  end 
+
+            function topFunction() {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+
+        </script>
+
+</body>
+
+</html>
