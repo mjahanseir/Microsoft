@@ -1,9 +1,8 @@
 # ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/microsoft.png) GitHub 
  - [GitHub-Collections] [Learn.Microsoft.com](https://learn.microsoft.com/en-us/collections/j2g2u3t6oygznm?)
 
-<hr>
-<br>
-   
+<hr>   
+
 ### GitHub Roadmap ###
 - [x] [GH-900] GitHub Foundations : 
    ![](https://github.com/mjahanseir/Microsoft/blob/main/pic/file.png) [Certification](https://github.com/mjahanseir/Microsoft/blob/main/Github/GH900-Certification.md) | 
