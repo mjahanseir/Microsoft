@@ -12,7 +12,7 @@
 <h4><a href="https://learn.microsoft.com/en-us/training/paths/github-actions-2/ " target="_blank" >Automate your workflow with GitHub Actions Part 2 of 2</a></h4>
 <a href="https://learn.microsoft.com/en-us/training/modules/github-actions-packages/ " target="_blank" >Leverage GitHub Actions to publish to GitHub Packages</a><br>
 <a href="https://learn.microsoft.com/en-us/training/modules/create-custom-github-actions/ " target="_blank" >Create and publish custom GitHub actions</a><br>
-<a href="https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/Manage GitHub Actions in the enterprise</a><br>
+<a href="https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/" target="_blank" > Manage GitHub Actions in the enterprise</a><br>
 
 <br>
 <br>
