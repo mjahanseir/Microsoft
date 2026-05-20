@@ -2,6 +2,17 @@
 
 ## [Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-actions)
 
+<h3><a href="https://learn.microsoft.com/en-us/training/courses/gh-200t00 " target="_blank" >[GH-200] Automate your workflow with GitHub Actions</a></h3>
+<h4><a href="https://learn.microsoft.com/en-us/training/paths/github-actions/ " target="_blank" >Automate your workflow with GitHub Actions Part 1 of 2</a></h4>
+<a href="https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/ " target="_blank" >Automate development tasks by using GitHub Actions</a><br>
+<a href="https://learn.microsoft.com/en-us/training/modules/github-actions-ci/ " target="_blank" >Build continuous integration workflows by using GitHub Actions</a><br>
+<a href="https://learn.microsoft.com/en-us/training/modules/github-actions-cd/ " target="_blank" >Build and deploy applications to Azure by using GitHub Actions</a><br>
+<a href="https://learn.microsoft.com/en-us/training/modules/automate-github-using-github-script/ " target="_blank" >Automate GitHub by using GitHub Script</a><br>
+
+<h4><a href="https://learn.microsoft.com/en-us/training/paths/github-actions-2/ " target="_blank" >Automate your workflow with GitHub Actions Part 2 of 2</a></h4>
+<a href="https://learn.microsoft.com/en-us/training/modules/github-actions-packages/ " target="_blank" >Leverage GitHub Actions to publish to GitHub Packages</a><br>
+<a href="https://learn.microsoft.com/en-us/training/modules/create-custom-github-actions/ " target="_blank" >Create and publish custom GitHub actions</a><br>
+<a href="https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/Manage GitHub Actions in the enterprise</a><br>
 
 
 
