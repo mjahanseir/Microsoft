@@ -186,7 +186,7 @@
 
 
 
-<h2>LevelUp for Microsoft - GH-300- GitHub Copilot<h2>
+<h2>LevelUp for Microsoft - GH-300- GitHub Copilot</h2>
 <a href="https://youtu.be/fwlnPbpv-aM" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day 1: Getting Started: GitHub Copilot </a><br>
 <a href="https://youtu.be/BfVVRbFFOUA" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day2-Deep Dive GitHub Copilot </a><br>
 <a href="https://youtu.be/rRuRgCQWA4s" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day3-Githup SKUs </a><br>
