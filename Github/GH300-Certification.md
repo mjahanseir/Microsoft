@@ -183,3 +183,16 @@
 <a href="https://www.youtube.com/watch?v=PBzSxgiWN5c&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=4&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Developer use cases for generative AI with GitHub Copilot | GH-300 | Episode 3</a><br>
 <a href="https://www.youtube.com/watch?v=sTacWZj-Q_4&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=5&pp=iAQB0gcJCd4KAYcqIYzv" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Writing and using unit tests with GitHub Copilot | GH-300 | Episode 4</a><br>
 <a href="https://www.youtube.com/watch?v=glm-YdEadSM&list=PLahhVEj9XNTd8lE7clFGR1el35zaBmJbS&index=6&pp=iAQB" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> GitHub Copilot advanced features | GH-300 | Episode 5</a><br>
+
+
+
+<h2>LevelUp for Microsoft - GH-300- GitHub Copilot<h2>
+<a href="https://youtu.be/fwlnPbpv-aM" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day 1: Getting Started: GitHub Copilot </a><br>
+<a href="https://youtu.be/BfVVRbFFOUA" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day2-Deep Dive GitHub Copilot </a><br>
+<a href="https://youtu.be/rRuRgCQWA4s" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day3-Githup SKUs </a><br>
+<a href="https://youtu.be/-F9SERCmUCI" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png"> Day4-GitHub Copilot Agent Mode  </a><br>
+<a href="https://youtu.be/e-L61HtpG2o" target="_blank" ><img src="https://github.com/mjahanseir/Microsoft/blob/main/pic/youtube.png">  Day5-GH-300 Exam Preparation </a><br>
+
+
+
+
